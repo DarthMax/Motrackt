@@ -1,0 +1,14 @@
+.hero-unit
+  %h1
+    Welcome!
+  %p
+    Find your Bike.
+  - unless current_user
+    .form-inline.well
+      %strong
+        SignIn
+      = form_tag '/login', :method => :post do
+        = text_field_tag 'user[name]', nil, :class => "input-medium", :placeholder => "Username"
+        = password_field_tag 'user[password]', nil, :class => "input-medium", :placeholder => "Password"
+        %button{:type => "submit", :class => "btn"}
+          Sign in

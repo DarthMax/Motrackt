@@ -1,0 +1,59 @@
+- model_class = Track
+.page-header
+  %h2
+    =@track.name ? @track.name : "Untitled Track"
+    %small=l @track.created_at, :format => :short
+
+.row
+  .span8
+    #map
+
+  .span4
+    #detail_group.accordion
+      .accordion-group
+        .accordion-heading
+          %strong
+            Description
+        .accordion-body
+          #description.accordion-inner
+            =@track.description
+
+      .accordion-group
+        .accordion-heading
+          %strong
+            Distance
+        .accordion-body
+          #distance.accordion-inner
+            =@track.distance
+
+      .accordion-group
+        .accordion-heading
+          %strong
+            Average-Speed
+        .accordion-body
+          #av-speed.accordion-inner
+            =@track.speed
+
+      .accordion-group
+        .accordion-heading
+          %strong#details-header.accordion-toggle.icon-chevron-up{"data-toggle" => "collapse", "data-target" => "#details"}
+            Details
+        #details.accordion-body.collapse.in
+          .accordion-inner
+            %dl
+              -@track.positions.each do |pos|
+                %dt= l pos.time,:format => :short
+                %dl= "Longitude: #{pos.longitude}, Latitude: #{pos.latitude}"
+
+=javascript_include_tag "https://maps.google.com/maps/api/js?sensor=false"
+
+%script
+  $(document).ready(function() {
+  var list= [
+  -@track.positions.each do |pos|
+    ="new google.maps.LatLng(#{pos.latitude},#{pos.longitude}),"
+  ];
+  console.log(list);
+  draw_map();
+  draw_track(list);
+  });
