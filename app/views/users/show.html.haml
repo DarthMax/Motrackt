@@ -1,0 +1,14 @@
+.page-header
+  %h2
+    =current_user.name
+
+%h3
+  Last Tracks
+=render :partial => "tracks/track_list", :locals => {:tracks => @tracks}
+=link_to "Schow all Tracks", track_path
+
+
+%h3
+  Devices
+=render :partial => "tracks/track_list", :locals => {:tracks => @tracks}
+=link_to "Schow all Tracks", track_path
