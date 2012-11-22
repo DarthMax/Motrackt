@@ -5,14 +5,26 @@ class ApplicationController < ActionController::Base
 
   def require_login
     if session[:user].nil?
+      user = User.authenticate(:access_token => params[:access_token]) if params[:access_token]
+      if user
+        session[:user] = user.id
+        return true
+      end
+
       if request.url == root_url
         redirect_to root_path
+
       else
         session[:before_login_url] = request.url
-        redirect_to root_path, alert: "Please log in to continue"
+
+        respond_to do |format|
+          format.html {redirect_to root_path, :alert => "Please log in to continue"}
+          format.json {head :unauthorized}
+        end
       end
 
       return false
+
     else
       return true
     end

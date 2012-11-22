@@ -3,7 +3,8 @@ require 'digest/sha2'
 class User < ActiveRecord::Base
 
   has_many :vehicles, dependent: :destroy
-  has_many :tracks, through: :vehicles
+  has_many :tracks, :dependent => :destroy
+  has_many :positions, :dependent => :destroy
 
   validates :name, presence: true, uniqueness: true, length: { minimum: 4 }
   validates :email, presence: true, uniqueness: true, format: { with: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i, message: "is not a valid email" }
@@ -21,21 +22,40 @@ class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation
   attr_accessor :password, :password_encrypted
 
+  before_create :generate_api_key
+
   scope :managed_by, lambda { |user|
     where( id: user.id )
   }
 
-  # check if a user exists and if the given password matches this user
-  def self.authenticate name, password
-    user = User.find_by_name( name )
-    if user.nil?
-      return nil
-    end
+  # check if a user exists and if the given password matches this user or if access_token matches a user
+  def self.authenticate args={}
+    if args[:access_token]
+      user=User.find_by_access_token(args[:access_token])
 
-    if User.encrypt( password, user.salt ) == user.hashed_password
+      if user.nil?
+        return nil
+      end
+
       return user
+
+    elsif args[:name] and args[:password]
+      name=args[:name]
+      password=args[:password]
+
+
+      user = User.find_by_name( name )
+      if user.nil?
+        return nil
+      end
+
+      if User.encrypt( password, user.salt ) == user.hashed_password
+        return user
+      else
+        return nil
+      end
     else
-      return nil
+      raise ArgumentError("Need to pass at least api_key or name and password")
     end
   end
 
@@ -57,6 +77,12 @@ class User < ActiveRecord::Base
       self.salt ||= Digest::SHA512.base64digest( Time.now.to_s )
       self.hashed_password = User.encrypt( @password, self.salt )
     end
+  end
+
+  def generate_access_token
+    begin
+      self.access_token = SecureRandom.hex
+    end while self.class.exists?(access_token: access_token)
   end
 
 end

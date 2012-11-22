@@ -5,7 +5,7 @@ class SessionController < ApplicationController
   # POST /sessions
   def create
     # User#authenticate returns nil if the is no user or the password does not match
-    user = User.authenticate( params[:user][:name], params[:user][:password] )
+    user = User.authenticate(user: params[:user][:name], password: params[:user][:password])
 
     if user.nil?
       # login failed

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120802191952) do
+ActiveRecord::Schema.define(:version => 20121122201630) do
 
   create_table "positions", :force => true do |t|
     t.float    "longitude"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(:version => 20120802191952) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.datetime "time"
+    t.integer  "user_id"
   end
 
   create_table "tracks", :force => true do |t|
@@ -30,6 +31,7 @@ ActiveRecord::Schema.define(:version => 20120802191952) do
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
     t.integer  "vehicle_id"
+    t.integer  "user_id"
   end
 
   create_table "users", :force => true do |t|
@@ -40,6 +42,7 @@ ActiveRecord::Schema.define(:version => 20120802191952) do
     t.datetime "updated_at",      :null => false
     t.string   "salt"
     t.string   "hashed_password"
+    t.string   "access_token"
   end
 
   create_table "vehicles", :force => true do |t|

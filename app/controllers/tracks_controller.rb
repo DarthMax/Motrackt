@@ -28,7 +28,7 @@ class TracksController < ApplicationController
     @track = current_user.tracks.new
 
     respond_to do |format|
-      format.html # new.html.erb
+      format.html # new.html.haml
       format.json { render json: @track }
     end
   end

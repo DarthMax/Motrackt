@@ -3,7 +3,7 @@ Motrackt::Application.routes.draw do
 
   resources :users
 
-  resources :positions
+  resources :positions, :only => [:create, :destroy, :new]
 
   resources :tracks
 

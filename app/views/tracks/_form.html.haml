@@ -11,10 +11,6 @@
     = f.label :vehicle, :class => 'control-label'
     .controls
       = f.select :vehicle_id, current_user.vehicles.map {|vehicle| [vehicle.name, vehicle.id]}, :class => 'select'
-  .control-group
-    = f.label :distance, :class => 'control-label'
-    .controls
-      = f.text_field :distance, :class => 'text_field'
   .form-actions
     = f.submit nil, :class => 'btn btn-primary'
     = link_to t('.cancel', :default => t("helpers.links.cancel")), tracks_path, :class => 'btn'

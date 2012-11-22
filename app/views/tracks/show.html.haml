@@ -2,7 +2,10 @@
 .page-header
   %h2
     =@track.name ? @track.name : "Untitled Track"
-    %small=l @track.created_at, :format => :short
+    %small
+      =l @track.created_at, :format => :short
+      =link_to "Edit", edit_track_path, :method => :get, :class => "btn btn-mini"
+
 
 .row
   .span8
@@ -24,7 +27,8 @@
             Distance
         .accordion-body
           #distance.accordion-inner
-            =@track.distance
+            =number_with_precision @track.distance
+            km
 
       .accordion-group
         .accordion-heading
@@ -32,7 +36,8 @@
             Average-Speed
         .accordion-body
           #av-speed.accordion-inner
-            =@track.speed
+            =number_with_precision @track.speed
+            km/h
 
       .accordion-group
         .accordion-heading
