@@ -1,9 +1,9 @@
 Motrackt::Application.routes.draw do
   resources :vehicles
 
-  resources :users
+  resources :users, :except => [:index]
 
-  resources :positions, :only => [:create, :destroy, :new]
+  resources :positions, :only => [:create, :destroy]
 
   resources :tracks
 

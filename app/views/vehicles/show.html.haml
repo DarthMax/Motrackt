@@ -1,18 +1,20 @@
-- model_class = Vehicle
-.page-header
-  %h2
-    Last known position of
-    =@vehicle.name
-
 .row
   .span12
-    #map
+    - model_class = Vehicle
+    .page-header
+      %h2
+        Last known position of
+        =@vehicle.name
 
-=javascript_include_tag "https://maps.google.com/maps/api/js?sensor=false"
+    .row
+      .span12
+        #map
 
-%script
-  $(document).ready(function() {
-  draw_map();
-  ="initialize_bike_position(#{@position.latitude},#{@position.longitude});"
-  initialize_user_position();
-  });
+    =javascript_include_tag "https://maps.google.com/maps/api/js?sensor=false"
+
+    %script
+      $(document).ready(function() {
+      draw_map();
+      ="initialize_bike_position(#{@position.latitude},#{@position.longitude},#{@vehicle.id});"
+      initialize_user_position();
+      });

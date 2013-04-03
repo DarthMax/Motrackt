@@ -1,0 +1,11 @@
+defaults: &defaults
+  registration_open: true
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

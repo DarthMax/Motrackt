@@ -1,12 +1,14 @@
 %table.table.table-striped
   %thead
     %tr
+      %th= Vehicle.human_attribute_name(:id)
       %th= Vehicle.human_attribute_name(:name)
       %th= Vehicle.human_attribute_name(:created_at)
       %th=t '.actions', :default => t("helpers.actions")
   %tbody
     - vehicles.each do |vehicle|
       %tr
+        %td= link_to vehicle.id, vehicle_path(vehicle)
         %td= link_to vehicle.name, vehicle_path(vehicle)
         %td=l vehicle.created_at, :format => :short
         %td

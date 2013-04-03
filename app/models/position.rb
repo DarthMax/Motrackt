@@ -1,5 +1,5 @@
 class Position < ActiveRecord::Base
-  attr_accessible :latitude, :longitude,:time, :track_id
+  attr_accessible :latitude, :longitude, :time, :track_id, :speed, :height, :angle, :created_at
 
   default_scope :order => "time ASC"
 
@@ -27,7 +27,7 @@ class Position < ActiveRecord::Base
 
 
   def update_track
-    self.track.calculate_distance_and_speed
+    self.track.calculate_distance
   end
 
 

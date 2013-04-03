@@ -1,38 +1,15 @@
 class PositionsController < ApplicationController
 
-  def new
-    @position = current_user.positions.new
-
-    respond_to do |format|
-      format.html
-    end
-  end
-
-
   # POST /positions
   # POST /positions.json
   def create
     @position = current_user.positions.new(params[:position])
-
-    lease_time = params[:max_track_delay_time].to_i.minutes.ago || 30.minutes.ago
-    track=current_user.tracks.last
-
-    if track
-      track= track.older_then(lease_time)? track : current_user.tracks.new
-    else
-      track= current_user.tracks.new
-    end
-
-
-    @position.track= track
-
+    @position.track= get_track
 
     respond_to do |format|
       if @position.save
-        format.html { redirect_to tracks_path, notice: 'Position was successfully created.' }
-        format.json { render json: @position, status: :created, location: @position }
+        format.json { render json: @position, status: :created, position: @position }
       else
-        format.html { render action: "new" }
         format.json { render json: @position.errors, status: :unprocessable_entity }
       end
     end
@@ -49,5 +26,22 @@ class PositionsController < ApplicationController
       format.html { redirect_to positions_url }
       format.json { head :no_content }
     end
+  end
+
+
+  private
+
+  def get_track
+    max_delay_time= params[:max_track_delay_time]? params[:max_track_delay_time].try(:to_i) : 30
+    lease_time = max_delay_time.minutes.ago
+
+    track=current_user.tracks.last
+
+    unless track or track.try(:newer_then,lease_time)
+      track= current_user.tracks.new
+      track.vehicle = Vehicle.find_by_id params[:vehicle_id] if Vehicle.exists? params[:vehicle_id]
+    end
+
+    track
   end
 end

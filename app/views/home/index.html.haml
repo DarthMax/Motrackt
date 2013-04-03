@@ -1,14 +1,20 @@
-.hero-unit
-  %h1
-    Welcome!
-  %p
-    Find your Bike.
-  - unless current_user
-    .form-inline.well
-      %strong
-        SignIn
-      = form_tag '/login', :method => :post do
-        = text_field_tag 'user[name]', nil, :class => "input-medium", :placeholder => "Username"
-        = password_field_tag 'user[password]', nil, :class => "input-medium", :placeholder => "Password"
-        %button{:type => "submit", :class => "btn"}
-          Sign in
+.row
+  .span12
+    .hero-unit
+      %h1
+        Welcome!
+      %p
+        Find your vehicle.
+      - unless current_user
+        .form-inline.well
+          %strong
+            Sign In
+            -if APP_CONFIG['registration_open']
+              |
+              =link_to "Sign up", new_user_path
+          = form_tag '/login', :method => :post do
+            = text_field_tag 'user[email]', nil, :class => "input-medium", :placeholder => "Email"
+            = password_field_tag 'user[password]', nil, :class => "input-medium", :placeholder => "Password"
+            %button{:type => "submit", :class => "btn"}
+              Sign in
+

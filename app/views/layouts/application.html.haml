@@ -40,9 +40,10 @@
               %ul.nav.pull-right
                 %li.dropdown
                   %a.dropdown-toggle{:href=> "#", "data-toggle" => "dropdown"}
-                    ="User: #{current_user.name}"
+                    ="User: #{current_user.email}"
                     %b.caret
                   %ul.dropdown-menu
+                    %li= link_to 'Account', current_user
                     %li= link_to "Logout", logout_path
 
     .container
@@ -50,7 +51,10 @@
       .content
         .row
           .span12
+            = bootstrap_flash
             = yield
-    
-      %footer
-        %p &copy; Company 2012
+
+      .navbar.navbar-fixed-bottom
+        %footer.text-center
+          %p &copy; Max Kießling
+          =link_to "Motrackt on Github", "https://github.com/DarthMax/Motrackt"

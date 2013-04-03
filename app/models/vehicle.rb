@@ -7,4 +7,19 @@ class Vehicle < ActiveRecord::Base
 
   validates :name, :presence => true, :uniqueness => true,  length: { minimum: 4 }
 
+
+
+  def as_json(args)
+    last_position=self.tracks.last.positions.last
+
+    {
+      vehicle: {
+        name: self.name,
+        last_position: {
+            latitude: last_position.latitude,
+            longitude: last_position.longitude
+        }
+      }
+    }
+  end
 end

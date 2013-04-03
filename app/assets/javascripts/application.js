@@ -63,7 +63,7 @@ function initialize_user_position() {
 }
 
 
-function initialize_bike_position(lat,lng) {
+function initialize_bike_position(lat,lng,vehicle_id) {
     var latlng = new google.maps.LatLng(lat,lng);
     marker_bike=new google.maps.Marker({
         map: map,
@@ -73,24 +73,18 @@ function initialize_bike_position(lat,lng) {
 
     map.setCenter(latlng);
 
-    if (typeof(WebSocket) != 'undefined') {
-        var ws = new WebSocket("ws://localhost:8080");
-        ws.onmessage = function(evt) {
-            var latlng_object;
-            if (latlng_object=$.parseJSON(evt.data)) {
-                var latlng = new google.maps.LatLng(latlng_object["lat"],latlng_object["lng"]);
+    update_position(vehicle_id);
+}
+
+function update_position(vehicle_id) {
+    $.getJSON(vehicle_id+".json", function(data) {
+            var position;
+            if(position=data.vehicle.last_position) {
+                var latlng = new google.maps.LatLng(position.latitude,position.longitude);
                 marker_bike.setPosition(latlng);
                 map.setCenter(latlng);
             }
-        };
-
-        ws.onclose = function() { console.log("socket closed"); };
-
-        ws.onopen = function() {
-            console.log("connected...");
-        };
-    }
-    else {
-        alert("Your Browser does not support Websockets!");
-    }
+        }
+    );
+    window.setTimeout(function(){update_position(vehicle_id)},20000);
 }

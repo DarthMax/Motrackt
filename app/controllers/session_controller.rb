@@ -2,14 +2,15 @@ class SessionController < ApplicationController
 
   skip_filter :require_login
 
-  # POST /sessions
+  # POST /login
   def create
     # User#authenticate returns nil if the is no user or the password does not match
-    user = User.authenticate(user: params[:user][:name], password: params[:user][:password])
+    user = User.authenticate(email: params[:user][:email], password: params[:user][:password])
 
     if user.nil?
       # login failed
-      render action: root_url, alert: "Wrong username or password"
+      puts "hallo"
+      redirect_to root_url, alert: "Wrong username or password"
     else
       # successful login
       session[:user] = user.id

@@ -1,5 +1,5 @@
 class Track < ActiveRecord::Base
-  attr_accessible :description, :distance, :name, :vehicle_id
+  attr_accessible :description, :name, :vehicle_id
 
   has_many :positions, :dependent => :destroy
   belongs_to :vehicle
@@ -7,7 +7,7 @@ class Track < ActiveRecord::Base
 
 
 
-  def older_then(time)
+  def newer_then(time)
     updated_at < time
   end
 
@@ -15,25 +15,18 @@ class Track < ActiveRecord::Base
     read_attribute(:name) || "Unnamed Track"
   end
 
+  def speed
+    positions.map(&:speed).sum/positions.count.to_f
+  end
 
-
-  def calculate_distance_and_speed
-    return if self.positions.count < 2
+  def calculate_distance
+    return 0 if positions.count < 2
     sum=0
     positions.order(:created_at).each_cons(2) do |pos1,pos2|
       sum += lon_lat_to_distance(pos1,pos2)
     end
 
     self.distance = sum
-
-    time=0
-    positions.order(:created_at).each_cons(2) do |pos1,pos2|
-      time += pos2.created_at.to_i - pos1.created_at.to_i
-    end
-
-    time = time/3600.0
-
-    self.speed = self.distance/time
 
     self.save!
   end

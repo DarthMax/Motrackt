@@ -6,6 +6,7 @@ class ApplicationController < ActionController::Base
   def require_login
     if session[:user].nil?
       user = User.authenticate(:access_token => params[:access_token]) if params[:access_token]
+
       if user
         session[:user] = user.id
         return true

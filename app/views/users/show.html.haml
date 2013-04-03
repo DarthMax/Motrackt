@@ -1,14 +1,10 @@
-.page-header
-  %h2
-    =current_user.name
+.row
+  .span12
+    .page-header
+      %h2
+        =current_user.email
+        %small= link_to "Edit", edit_user_path, :method => :get, :class => "btn btn-mini"
 
-%h3
-  Last Tracks
-=render :partial => "tracks/track_list", :locals => {:tracks => @tracks}
-=link_to "Schow all Tracks", track_path
-
-
-%h3
-  Devices
-=render :partial => "tracks/track_list", :locals => {:tracks => @tracks}
-=link_to "Schow all Tracks", track_path
+    %dl.dl-horizontal
+      %dt= "API key"
+      %dd= current_user.access_token

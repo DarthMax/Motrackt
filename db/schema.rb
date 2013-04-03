@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121122201630) do
+ActiveRecord::Schema.define(:version => 20130331185757) do
 
   create_table "positions", :force => true do |t|
     t.float    "longitude"
@@ -21,10 +21,12 @@ ActiveRecord::Schema.define(:version => 20121122201630) do
     t.datetime "updated_at", :null => false
     t.datetime "time"
     t.integer  "user_id"
+    t.float    "speed"
+    t.float    "height"
+    t.float    "angle"
   end
 
   create_table "tracks", :force => true do |t|
-    t.float    "speed"
     t.string   "name"
     t.text     "description"
     t.float    "distance"
@@ -35,7 +37,6 @@ ActiveRecord::Schema.define(:version => 20121122201630) do
   end
 
   create_table "users", :force => true do |t|
-    t.string   "name"
     t.string   "email"
     t.datetime "last_login"
     t.datetime "created_at",      :null => false

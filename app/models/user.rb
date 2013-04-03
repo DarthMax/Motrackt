@@ -6,7 +6,6 @@ class User < ActiveRecord::Base
   has_many :tracks, :dependent => :destroy
   has_many :positions, :dependent => :destroy
 
-  validates :name, presence: true, uniqueness: true, length: { minimum: 4 }
   validates :email, presence: true, uniqueness: true, format: { with: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i, message: "is not a valid email" }
 
   # validates the password
@@ -19,10 +18,10 @@ class User < ActiveRecord::Base
 
 
 
-  attr_accessible :name, :email, :password, :password_confirmation
+  attr_accessible :email, :password, :password_confirmation
   attr_accessor :password, :password_encrypted
 
-  before_create :generate_api_key
+  before_create :generate_access_token
 
   scope :managed_by, lambda { |user|
     where( id: user.id )
@@ -39,12 +38,12 @@ class User < ActiveRecord::Base
 
       return user
 
-    elsif args[:name] and args[:password]
-      name=args[:name]
+    elsif args[:email] and args[:password]
+      email=args[:email]
       password=args[:password]
 
 
-      user = User.find_by_name( name )
+      user = User.find_by_email( email )
       if user.nil?
         return nil
       end
@@ -55,7 +54,7 @@ class User < ActiveRecord::Base
         return nil
       end
     else
-      raise ArgumentError("Need to pass at least api_key or name and password")
+      #raise ArgumentError("Need to pass at least api_key or name and password")
     end
   end
 
