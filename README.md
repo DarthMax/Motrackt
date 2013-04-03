@@ -1,4 +1,4 @@
-== Motrackt
+# Motrackt
 
 Motrackt is a simple web application to track all your vehicles via gps.
 You can combine position information to tracks, collect meta data and track your vehicle.
@@ -11,7 +11,7 @@ To install Motrackt first clone the repository.
 $ git clone git://github.com/DarthMax/Motrackt.git
 ```
 
-If you haven't done so already install *bundler*
+If you haven't done so already install *bundler*:
 
 ```
 $ gem install bundler
@@ -24,7 +24,7 @@ $ cd motrackt
 $ bundler install
 ```
 
-You will have to configure '/config/database.yml` to your database settings. For example for mysql
+You will have to configure '/config/database.yml` to your database settings. For example *mysql*:
 
 ```yaml
 production:
@@ -42,7 +42,7 @@ $ rake db:setup
 $ rake db:migrate
 ```
 
-Precompile the assets with
+Precompile the assets with:
 
 ```
 $ bundle exec rake assets:precompile
@@ -54,13 +54,13 @@ Now run `$rake secret` and copy the result to `/app/config/initializers/secret_t
  Motrackt::Application.config.secret_token = '[String goes here]'
 ```
 
-You can start you application with
+You can start you application with:
 
 ```
 $ rails server -b 0.0.0.0 -p 3000 -e production
 ```
 
-and visit `http://localhost:3000`
+and visit `http://localhost:3000`.
 
 ### Disable user registration
 
