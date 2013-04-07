@@ -3,6 +3,10 @@ class ApplicationController < ActionController::Base
 
   before_filter :require_login
 
+  rescue_from ActiveRecord::RecordNotFound do
+    redirect_to root_url, :alert => "The record you are looking for could not be found or you don't have the permissions to access it!"
+  end
+
   def require_login
     if session[:user].nil?
       user = User.authenticate(:access_token => params[:access_token]) if params[:access_token]
