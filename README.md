@@ -48,13 +48,13 @@ Precompile the assets with:
 $ bundle exec rake assets:precompile
 ```
 
-Now run `$rake secret` and copy the result to `/app/config/initializers/secret_token.rb`
+Now run `$rake secret` and copy the result to `/config/initializers/secret_token.rb`
 
 ```ruby
  Motrackt::Application.config.secret_token = '[String goes here]'
 ```
 
-You can start you application with:
+You can start your application with:
 
 ```
 $ rails server -b 0.0.0.0 -p 3000 -e production
