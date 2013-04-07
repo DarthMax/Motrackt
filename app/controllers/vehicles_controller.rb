@@ -2,7 +2,7 @@ class VehiclesController < ApplicationController
   # GET /vehicles
   # GET /vehicles.json
   def index
-    @vehicles = Vehicle.all
+    @vehicles = current_user.vehicles
 
     respond_to do |format|
       format.html # index.html.erb
@@ -13,7 +13,7 @@ class VehiclesController < ApplicationController
   # GET /vehicles/1
   # GET /vehicles/1.json
   def show
-    @vehicle = Vehicle.find(params[:id])
+    @vehicle = current_user.vehicles.find!(params[:id])
 
     if @vehicle.tracks.empty?
       redirect_to(vehicles_url, :notice => "No position data found")
@@ -59,7 +59,7 @@ class VehiclesController < ApplicationController
   # DELETE /vehicles/1
   # DELETE /vehicles/1.json
   def destroy
-    @vehicle = Vehicle.find(params[:id])
+    @vehicle = current_user.vehicles.find!(params[:id])
     @vehicle.destroy
 
     respond_to do |format|
