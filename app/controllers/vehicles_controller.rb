@@ -46,8 +46,8 @@ class VehiclesController < ApplicationController
 
     respond_to do |format|
       if @vehicle.save
-        format.html { redirect_to vehicle_path, notice: 'Vehicle was successfully created.' }
-        format.json { render json: vehicle_path, status: :created, location: @vehicle }
+        format.html { redirect_to vehicles_path, notice: 'Vehicle was successfully created.' }
+        format.json { render json: vehicles_path, status: :created, location: @vehicle }
       else
         format.html { render action: "new" }
         format.json { render json: @vehicle.errors, status: :unprocessable_entity }

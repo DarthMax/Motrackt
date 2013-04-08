@@ -1,5 +1,5 @@
 Motrackt::Application.routes.draw do
-  resources :vehicles
+  resources :vehicles, :except => [:update, :edit]
 
   resources :users, :except => [:index]
 
