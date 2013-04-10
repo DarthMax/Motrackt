@@ -35,7 +35,7 @@ class Position < ActiveRecord::Base
 
   def longitude= longitude
     if longitude.class==String
-      if match= /\d+\.\d+([NSns])$/.match(longitude)
+      if match= /\d+\.\d+([EWew])$/.match(longitude)
         longitude.delete! match[1]
         longitude=longitude.to_f
 
