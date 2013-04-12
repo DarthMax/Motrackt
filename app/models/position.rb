@@ -1,5 +1,5 @@
 class Position < ActiveRecord::Base
-  attr_accessible :latitude, :longitude, :time, :track_id, :speed, :height, :angle
+  attr_accessible :latitude,:latitude_nmea, :longitude_nmea, :longitude, :time, :track_id, :speed, :height, :angle
 
   default_scope :order => "time ASC"
 
@@ -20,27 +20,33 @@ class Position < ActiveRecord::Base
   after_save :update_track
 
 
-  def latitude= latitude
+  def latitude_nmea= latitude
     if latitude.class==String
+      multiplicand=1
       if match= /\d+\.\d+([NSns])$/.match(latitude)
         latitude.delete! match[1]
-        latitude=latitude.to_f
 
-        latitude *= -1 if match[1].downcase=='s'
+        multiplicand= -1 if match[1].downcase=='s'
       end
+
+      degrees=latitude.slice!(0..1).to_f+ latitude.to_f/60
+      latitude=degrees*multiplicand
     end
 
     write_attribute(:latitude,latitude)
   end
 
-  def longitude= longitude
+  def longitude_nmea= longitude
     if longitude.class==String
+      multiplicand=1
       if match= /\d+\.\d+([EWew])$/.match(longitude)
         longitude.delete! match[1]
-        longitude=longitude.to_f
 
-        longitude *= -1 if match[1].downcase=='w'
+        multiplicand= -1 if match[1].downcase=='w'
       end
+
+      degrees=longitude.slice!(0..2).to_f + longitude.to_f/60
+      longitude=degrees*multiplicand
     end
 
     write_attribute(:longitude,longitude)
