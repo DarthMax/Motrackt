@@ -1,7 +1,7 @@
 class Track < ActiveRecord::Base
   attr_accessible :description, :name, :vehicle_id
 
-  has_many :positions, :dependent => :destroy
+  has_many :positions, :dependent => :delete_all
   belongs_to :vehicle
   belongs_to :user
 
