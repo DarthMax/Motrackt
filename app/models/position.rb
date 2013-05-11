@@ -52,6 +52,10 @@ class Position < ActiveRecord::Base
     write_attribute(:longitude,longitude)
   end
 
+  def speed=(speed)
+    write_attribute :speed, speed*1.852
+  end
+
 
   private
 
