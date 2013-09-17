@@ -1,53 +1,50 @@
 .row
-  .span12
+  .col-md-12
     - model_class = Track
     .page-header
       %h2
         =@track.name ? @track.name : "Untitled Track"
         %small
           =l @track.created_at, :format => :short
-          =link_to "Edit", edit_track_path, :method => :get, :class => "btn btn-mini"
+          =link_to "Edit", edit_track_path, :method => :get, :class => "btn btn-primary btn-xs"
 
 
     .row
-      .span8
+      .col-md-8
         #map
 
-      .span4
-        #detail_group.accordion
-          .accordion-group
-            .accordion-heading
+      .col-md-4
+        #detail_group
+          .panel.panel-primary
+            .panel-heading
               %strong
                 Description
-            .accordion-body
-              #description.accordion-inner
-                =@track.description
+            .panel-body
+              =@track.description
 
-          .accordion-group
-            .accordion-heading
+          .panel.panel-primary
+            .panel-heading
               %strong
                 Distance
-            .accordion-body
-              #distance.accordion-inner
-                =number_with_precision @track.distance
-                km
+            .panel-body
+              =number_with_precision @track.distance
+              km
 
-          .accordion-group
-            .accordion-heading
+          .panel.panel-primary
+            .panel-heading
               %strong
                 Average-Speed
-            .accordion-body
-              #av-speed.accordion-inner
-                =@track.speed
-                km/h
+            .panel-body
+              =@track.speed
+              km/h
 
           -#
-            .accordion-group
-              .accordion-heading
-                %strong#details-header.accordion-toggle.icon-chevron-up{"data-toggle" => "collapse", "data-target" => "#details"}
+            .panel.panel-primary
+              .panel-heading
+                %strong#details-header.panel-toggle.icon-chevron-up{"data-toggle" => "collapse", "data-target" => "#details"}
                   Details
-              #details.accordion-body.collapse.in
-                .accordion-inner
+              #details.panel-body.collapse.in
+                .panel-inner
                   -@track.positions.each_with_index do |pos,i|
                     %dl
                       %dt= l pos.time,:format => :short

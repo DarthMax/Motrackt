@@ -7,18 +7,19 @@
 
 
 = form_for @user, :html => { :class => 'form-horizontal' } do |f|
-  .control-group
-    = f.label :email, :class => 'control-label'
-    .controls
-      = f.text_field :email, :class => 'text_field'
-  .control-group
-    = f.label :password, :class => 'control-label'
-    .controls
-      = f.password_field :password, :class => 'password-field'
-  .control-group
-    = f.label :password_confirmation, :class => 'control-label'
-    .controls
-      = f.password_field :password_confirmation, :class => 'password-field'
-  .form-actions
-    = f.submit nil, :class => 'btn btn-primary'
-    = link_to t('.cancel', :default => t("helpers.links.cancel")), root_url, :class => 'btn'
+  .form-group
+    = f.label :email, :class => 'col-lg-2 control-label'
+    .col-lg-10
+      = f.text_field :email, :class => 'text_field form-control'
+  .form-group
+    = f.label :password, :class => 'col-lg-2 control-label'
+    .col-lg-10
+      = f.password_field :password, :class => 'password-field form-control'
+  .form-group
+    = f.label :password_confirmation, :class => 'col-lg-2 control-label'
+    .col-lg-10
+      = f.password_field :password_confirmation, :class => 'password-field form-control'
+  .form-group
+    .col-lg-offset-2.col-lg-10
+      = f.submit nil, :class => 'btn btn-primary'
+      = link_to "Cancel", root_url, :class => 'btn btn-warning'

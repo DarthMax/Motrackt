@@ -12,14 +12,15 @@
  *= require_directory ./session
  */
 
-@gridColumnWidth: 70px;
-@gridGutterWidth: 30px;
-@gridRowWidth: (12 * @gridColumnWidth) + (@gridGutterWidth * 11);
-@import "twitter/bootstrap/bootstrap";
-@import "twitter/bootstrap/responsive";
+$gridColumnWidth: 70px;
+$gridGutterWidth: 30px;
+$gridRowWidth: (12 * $gridColumnWidth) + ($gridGutterWidth * 11);
+
+@import "bootstrap";
+
 
 body{
-  background-color: @grayLighter;
+  background-color: $gray-lighter;
 }
 
 .container {
@@ -29,12 +30,26 @@ body{
 .box{
   max-width: 480px;
   position: relative;
-  .border-radius(5px);
-  .box-shadow(5px 5px 5px @grayLight);
+  @include border-top-radius(5px);
+  //@include box-shadow(5px 5px 5px $gray-light);
   margin: auto;
   padding: 20px;
   background: white;
 }
+
+.alert {
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  height: 60px;
+  z-index:100;
+  bottom: 0px;
+  width: 100%;
+  padding-top:20px;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
 
 @media (max-width: 767px) {
   .container {

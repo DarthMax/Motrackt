@@ -1,18 +1,19 @@
-%table.table.table-striped
-  %thead
-    %tr
-      %th= Track.human_attribute_name(:name)
-      %th= "Vehicle"
-      %th= Track.human_attribute_name(:description)
-      %th= Track.human_attribute_name(:created_at)
-      %th=t '.actions', :default => t("helpers.actions")
-  %tbody
-    - tracks.each do |track|
+.table-responsive
+  %table.table.table-striped
+    %thead
       %tr
-        %td= link_to track.name, track_path(track)
-        %td= track.vehicle ? track.vehicle.name : ""
-        %td= truncate track.description, :length => 40
-        %td=l track.created_at, :format => :short
-        %td
-          = link_to t('.edit', :default => t("helpers.links.edit")), edit_track_path(track), :class => 'btn btn-mini'
-          = link_to t('.destroy', :default => t("helpers.links.destroy")), track_path(track), :method => :delete, :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')), :class => 'btn btn-mini btn-danger'
+        %th= Track.human_attribute_name(:name)
+        %th= "Vehicle"
+        %th= Track.human_attribute_name(:description)
+        %th= Track.human_attribute_name(:created_at)
+        %th=t '.actions', :default => t("helpers.actions")
+    %tbody
+      - tracks.each do |track|
+        %tr
+          %td= link_to track.name, track_path(track)
+          %td= track.vehicle ? track.vehicle.name : ""
+          %td= truncate track.description, :length => 40
+          %td=l track.created_at, :format => :short
+          %td
+            = link_to "Edit", edit_track_path(track), :class => 'btn btn-primary'
+            = link_to "Delete", track_path(track), :method => :delete, :confirm => 'Are you sure?', :class => 'btn btn-danger'

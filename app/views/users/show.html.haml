@@ -1,9 +1,9 @@
 .row
-  .span12
+  .col-md-12
     .page-header
       %h2
         =current_user.email
-        %small= link_to "Edit", edit_user_path, :method => :get, :class => "btn btn-mini"
+        %small= link_to "Edit", edit_user_path, :method => :get, :class => "btn btn-primary"
 
     %dl.dl-horizontal
       %dt= "API key"

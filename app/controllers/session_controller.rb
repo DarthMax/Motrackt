@@ -15,8 +15,7 @@ class SessionController < ApplicationController
 
     if user.nil?
       # login failed
-      puts "hallo"
-      redirect_to root_url, alert: "Wrong username or password"
+      redirect_to login_url, alert: "Wrong username or password"
     else
       # successful login
       session[:user] = user.id
@@ -35,7 +34,7 @@ class SessionController < ApplicationController
     # close the session
     reset_session
 
-    redirect_to root_url, notice: "Successfully logged out"
+    redirect_to login_url, notice: "Successfully logged out"
   end
 
 end

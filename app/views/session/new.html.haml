@@ -2,17 +2,17 @@
   %fieldset
     %legend= "Login"
 
-    .control-group
-      =f.label :email, "Email", :class => "control-label"
-      .controls
-        =f.text_field :email, :autofocus => true
+    .form-group
+      =f.label :email, "Email", :class => "col-lg-2 control-label"
+      .col-lg-10
+        =f.text_field :email, :autofocus => true, :class => "form-control"
 
-    .control-group
-      =f.label :password, :class => "control-label"
-      .controls
-        =f.password_field :password
+    .form-group
+      =f.label :password, "Password", :class => "col-lg-2 control-label"
+      .col-lg-10
+        =f.password_field :password, :class => "form-control"
 
-    .control-group
-      .controls
+    .form-group
+      .col-lg-offset-2.col-lg-10
         =f.submit "Login", :class => "btn btn-primary btn-large"
         =link_to "Sign up", new_user_path if APP_CONFIG['registration_open']

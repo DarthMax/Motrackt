@@ -1,5 +1,5 @@
 .row
-  .span12
+  .col-md-12
     - model_class = Vehicle
     .page-header
       %h2
@@ -7,7 +7,7 @@
         =@vehicle.name
 
     .row
-      .span12
+      .col-md-12
         #map
 
     =javascript_include_tag "https://maps.google.com/maps/api/js?sensor=false"
