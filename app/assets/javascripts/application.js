@@ -35,17 +35,61 @@ function draw_map() {
 }
 
 
-function draw_track(path) {
+function draw_track(positions) {
+    path = [];
+    $.each(positions,function(index,position){
+        var latLon = new google.maps.LatLng(position.lat,position.lon);
+        path.push(latLon);
+
+        var marker = new google.maps.Marker({
+            position: latLon,
+            map: map,
+            title: position.lat + " " + position.lon,
+            position_data: position
+        });
+        marker.position_data = position;
+        google.maps.event.addListener(marker,'click',show_position_data)
+    });
+
     var track = new google.maps.Polyline({
         path: path,
         strokeColor: "#FF0000",
         strokeOpacity: 1.0,
         strokeWeight: 2
     });
-
     map.setCenter(path[0]);
-
     track.setMap(map);
+}
+
+
+function show_position_data() {
+    var info_window = get_info_window();
+    var position = this.position_data;
+    info_window.setContent(
+        '<h5>' + position.time + '</h5>'
+        + '<dl>'
+            + '<dt> Coordinates </dt>'
+            + '<dd> Longitude: ' + position.lon + '</dd>'
+            + '<dd> Latitude: ' + position.lat + '</dd>'
+            + '<dt> Speed </dt>'
+            + '<dd>' + position.speed + 'km/h</dd>'
+            + '<dt> Height </dt>'
+            + '<dd>' + position.height + 'm</dd>'
+        + '</dl>'
+    );
+    info_window.open(map,this);
+}
+
+function get_info_window() {
+    if(window.info_window != undefined) {
+        return window.info_window;
+    }
+    window.info_window = new google.maps.InfoWindow({
+        content: "",
+        maxWidth: 200
+    });
+
+    return window.info_window;
 }
 
 

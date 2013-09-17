@@ -1,0 +1,18 @@
+=form_for(User.new, :url => session_path, :html => { :method => :post, :class => "form-horizontal" }) do |f|
+  %fieldset
+    %legend= "Login"
+
+    .control-group
+      =f.label :email, "Email", :class => "control-label"
+      .controls
+        =f.text_field :email, :autofocus => true
+
+    .control-group
+      =f.label :password, :class => "control-label"
+      .controls
+        =f.password_field :password
+
+    .control-group
+      .controls
+        =f.submit "Login", :class => "btn btn-primary btn-large"
+        =link_to "Sign up", new_user_path if APP_CONFIG['registration_open']

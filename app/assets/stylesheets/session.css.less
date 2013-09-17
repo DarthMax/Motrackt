@@ -1,0 +1,43 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_directory ./session
+ */
+
+@gridColumnWidth: 70px;
+@gridGutterWidth: 30px;
+@gridRowWidth: (12 * @gridColumnWidth) + (@gridGutterWidth * 11);
+@import "twitter/bootstrap/bootstrap";
+@import "twitter/bootstrap/responsive";
+
+body{
+  background-color: @grayLighter;
+}
+
+.container {
+  padding-top: 60px;
+}
+
+.box{
+  max-width: 480px;
+  position: relative;
+  .border-radius(5px);
+  .box-shadow(5px 5px 5px @grayLight);
+  margin: auto;
+  padding: 20px;
+  background: white;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-top: 10px;
+  }
+}
