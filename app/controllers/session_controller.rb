@@ -2,6 +2,12 @@ class SessionController < ApplicationController
 
   skip_filter :require_login
 
+  layout "sessions_layout"
+
+  def new
+
+  end
+
   # POST /login
   def create
     # User#authenticate returns nil if the is no user or the password does not match

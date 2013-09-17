@@ -17,13 +17,13 @@ class ApplicationController < ActionController::Base
       end
 
       if request.url == root_url
-        redirect_to root_path
+        redirect_to login_url
 
       else
         session[:before_login_url] = request.url
 
         respond_to do |format|
-          format.html {redirect_to root_path, :alert => "Please log in to continue"}
+          format.html {redirect_to login_url, :alert => "Please log in to continue"}
           format.json {head :unauthorized}
         end
       end

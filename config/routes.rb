@@ -10,7 +10,8 @@ Motrackt::Application.routes.draw do
   resources :home, :except => [:show, :new, :update, :create]
 
   controller :session do
-    post "login" => "session#create"
+    get "login" => "session#new"
+    post "session" => "session#create"
     delete "logout" => "session#destroy"
     get "logout" => "session#destroy"
   end
