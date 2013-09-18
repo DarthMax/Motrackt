@@ -35,7 +35,7 @@
               %strong
                 Average-Speed
             .panel-body
-              =@track.speed
+              =number_with_precision @track.speed, :precision => 2
               km/h
 
           -#
