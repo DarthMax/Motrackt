@@ -6,17 +6,12 @@ class Track < ActiveRecord::Base
   belongs_to :user
 
 
-
-  def newer_then(time)
-    updated_at < time
-  end
-
   def name
     read_attribute(:name) || "Unnamed Track"
   end
 
   def speed
-    positions.map(&:speed).sum/positions.count.to_f
+    positions.sum(&:speed)/positions.count.to_f
   end
 
   def calculate_distance
