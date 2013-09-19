@@ -16,6 +16,7 @@
 //= require_tree .
 
 var map;
+var markers = [];
 
 var marker_user;
 var marker_bike;
@@ -48,7 +49,8 @@ function draw_track(positions) {
             position_data: position
         });
         marker.position_data = position;
-        google.maps.event.addListener(marker,'click',show_position_data)
+        google.maps.event.addListener(marker,'click',show_position_data);
+        markers.push(marker);
     });
 
     var track = new google.maps.Polyline({
@@ -90,6 +92,13 @@ function get_info_window() {
     });
 
     return window.info_window;
+}
+
+function toggle_marker () {
+    var visibility = !(markers[0].getVisible());
+    $.each(markers,function(i,marker){
+        marker.setVisible(visibility);
+    });
 }
 
 

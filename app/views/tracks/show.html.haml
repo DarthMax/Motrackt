@@ -12,9 +12,10 @@
           =link_to "Edit", edit_track_path, :method => :get, :class => "btn btn-primary btn-xs"
 
 
-    .row
+    .row{:style => "margin-bottom:20px"}
       .col-md-12
-        #map{:style => "margin-bottom:20px"}
+        #map
+        =link_to_function "Toggle way points", "toggle_marker()", :class => "btn btn-primary"
 
     .row
       .col-md-12
