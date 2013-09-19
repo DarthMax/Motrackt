@@ -5,7 +5,11 @@ Motrackt::Application.routes.draw do
 
   resources :positions, :only => [:create, :destroy]
 
-  resources :tracks
+  resources :tracks do
+    member do
+      get :chart_data
+    end
+  end
 
   resources :home, :except => [:show, :new, :update, :create]
 

@@ -81,4 +81,11 @@ class TracksController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def chart_data
+    @track=current_user.tracks.find(params[:id])
+    respond_to do |format|
+      format.json {render :json => @track.height_data}
+    end
+  end
 end

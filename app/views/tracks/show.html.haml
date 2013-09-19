@@ -8,35 +8,55 @@
           =l @track.created_at, :format => :short
           =link_to "Edit", edit_track_path, :method => :get, :class => "btn btn-primary btn-xs"
 
+    .row
+      .col-md-12
+        #map{:style => "margin-bottom:20px"}
 
     .row
-      .col-md-8
-        #map
+      .col-md-12
+        .panel.panel-primary
+          .panel-heading
+            %strong
+              Description
+          .panel-body
+            =@track.description
+
+    .row
+      .col-md-4
+        .panel.panel-primary
+          .panel-heading
+            %strong
+              Distance
+          .panel-body
+            =number_with_precision @track.distance
+            km
 
       .col-md-4
-        #detail_group
-          .panel.panel-primary
-            .panel-heading
-              %strong
-                Description
-            .panel-body
-              =@track.description
+        .panel.panel-primary
+          .panel-heading
+            %strong
+              Average-Speed
+          .panel-body
+            =number_with_precision @track.avg_speed, :precision => 2
+            km/h
 
-          .panel.panel-primary
-            .panel-heading
-              %strong
-                Distance
-            .panel-body
-              =number_with_precision @track.distance
-              km
+      .col-md-4
+        .panel.panel-primary
+          .panel-heading
+            %strong
+              Height difference
+          .panel-body
+            =number_with_precision @track.height_difference, :precision => 2
+            m
 
-          .panel.panel-primary
-            .panel-heading
-              %strong
-                Average-Speed
-            .panel-body
-              =number_with_precision @track.speed, :precision => 2
-              km/h
+    .row
+      .col-md-12
+        %h4.text-center
+          %em{:style => "color:#97BBCD"} Height
+          and
+          %em{:style => "color:#BB9696"} speed
+          graph
+        %canvas#track_height_chart
 
           -#
             .panel.panel-primary
@@ -67,4 +87,5 @@
         ="list.push({lat:#{pos.latitude},lon:#{pos.longitude},id:#{pos.id},speed:#{pos.speed},height:#{pos.height},time:'#{l pos.time,:format => :short}'});"
       draw_map();
       draw_track(list);
+      ="initTrackChart(#{@track.id});"
       });
