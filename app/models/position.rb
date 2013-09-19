@@ -65,7 +65,7 @@ class Position < ActiveRecord::Base
 
 
   def update_track
-    self.track.calculate_distance
+    self.track.update_meta_data
   end
 
 

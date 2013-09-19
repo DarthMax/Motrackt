@@ -10,20 +10,35 @@ class Track < ActiveRecord::Base
     read_attribute(:name) || "Unnamed Track"
   end
 
-  def speed
-    positions.sum(&:speed)/positions.count.to_f
+  def update_meta_data
+    calculate_distance
+    calculate_avg_speed
+    calculate_height_difference
+    self.save!
   end
 
-  def calculate_distance
-    return 0 if positions.count < 2
-    sum=0
-    positions.order(:created_at).each_cons(2) do |pos1,pos2|
-      sum += lon_lat_to_distance(pos1,pos2)
-    end
+  def height_data
+    dataset_height = {
+        :fillColor => "rgba(151,187,205,0.5)",
+        :strokeColor => "rgba(151,187,205,1)",
+        :pointColor => "rgba(151,187,205,1)",
+        :pointStrokeColor => "#fff",
+        :data => positions.map(&:height)
+    }
 
-    self.distance = sum
+    dataset_speed = {
+        :fillColor => "rgba(205,155,155,0.5)",
+        :strokeColor => "rgba(187,150,150,1)",
+        :pointColor => "rgba(187,150,150,1)",
+        :pointStrokeColor => "#fff",
+        :data => positions.map(&:speed)
+    }
 
-    self.save!
+
+    {
+        :labels => positions.map {|p| p.time.strftime("%H:%M")},
+        :datasets => [dataset_height,dataset_speed]
+    }
   end
 
 
@@ -46,6 +61,28 @@ class Track < ActiveRecord::Base
 
   def to_rad(deg)
     deg * Math::PI / 180
+  end
+
+  def calculate_distance
+    return 0 if positions.count < 2
+    sum=0
+    positions.order(:created_at).each_cons(2) do |pos1,pos2|
+      sum += lon_lat_to_distance(pos1,pos2)
+    end
+    self.distance = sum
+  end
+
+  def calculate_avg_speed
+    self.avg_speed = positions.sum(&:speed)/positions.count.to_f
+  end
+
+  def calculate_height_difference
+    return 0 if positions.count < 2
+    sum=0
+    positions.order(:created_at).each_cons(2) do |pos1,pos2|
+      sum += (pos1.height-pos2.height).abs
+    end
+    self.height_difference = sum
   end
 
 end
