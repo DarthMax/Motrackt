@@ -57,6 +57,17 @@ class Position < ActiveRecord::Base
   end
 
 
+  def as_gpx
+    GPX::TrackPoint.new(
+        :lon => longitude,
+        :lat => latitude,
+        :time => time,
+        :elevation => height,
+        :speed => speed
+    )
+  end
+
+
   private
 
   def add_time
