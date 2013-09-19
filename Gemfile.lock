@@ -52,6 +52,7 @@ GEM
     eventmachine (1.0.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    gpx (0.6)
     haml (4.0.2)
       tilt
     haml-rails (0.4)
@@ -68,6 +69,7 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.7.7)
     libv8 (3.11.8.17)
+    libxml-ruby (2.7.0)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -132,8 +134,10 @@ DEPENDENCIES
   bootstrap-sass!
   coffee-rails (~> 3.2.1)
   em-websocket
+  gpx
   haml-rails
   jquery-rails
+  libxml-ruby
   rails (= 3.2.12)
   sass-rails (~> 3.2.3)
   sqlite3

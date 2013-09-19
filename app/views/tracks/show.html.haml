@@ -6,7 +6,11 @@
         =@track.name ? @track.name : "Untitled Track"
         %small
           =l @track.created_at, :format => :short
+          =link_to track_path(@track, :format => :gpx), :class => "btn btn-success btn-xs" do
+            %span.glyphicon.glyphicon-save
+            Export
           =link_to "Edit", edit_track_path, :method => :get, :class => "btn btn-primary btn-xs"
+
 
     .row
       .col-md-12

@@ -19,6 +19,7 @@ class TracksController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @track }
+      format.gpx { render text: @track.as_gpx}
     end
   end
 

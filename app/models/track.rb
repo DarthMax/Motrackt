@@ -41,6 +41,27 @@ class Track < ActiveRecord::Base
     }
   end
 
+  def as_gpx
+    file = GPX::GPXFile.new
+    track = GPX::Track.new
+    track.name = self.name
+    segment = GPX::Segment.new
+
+    self.positions.each do |pos|
+      segment.points << GPX::TrackPoint.new(
+          :lon => pos.longitude,
+          :lat => pos.latitude,
+          :time => pos.time,
+          :elevation => pos.height,
+          :speed => pos.speed
+      )
+    end
+    track.segments << segment
+    file.tracks << track
+
+    file
+  end
+
 
   private
 
