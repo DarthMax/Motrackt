@@ -36,12 +36,14 @@ class Track < ActiveRecord::Base
   end
 
   def as_chart_data
+    pos=positions.reverse
+
     dataset_height = {
     :fillColor => "rgba(151,187,205,0.5)",
     :strokeColor => "rgba(151,187,205,1)",
     :pointColor => "rgba(151,187,205,1)",
     :pointStrokeColor => "#fff",
-    :data => positions.map(&:height)
+    :data => pos.map(&:height)
     }
 
     dataset_speed = {
@@ -49,12 +51,12 @@ class Track < ActiveRecord::Base
     :strokeColor => "rgba(187,150,150,1)",
     :pointColor => "rgba(187,150,150,1)",
     :pointStrokeColor => "#fff",
-    :data => positions.map(&:speed)
+    :data => pos.map(&:speed)
     }
 
 
     {
-    :labels => positions.map {|p| p.time.strftime("%H:%M")},
+    :labels => pos.map {|p| p.time.strftime("%H:%M")},
     :datasets => [dataset_height,dataset_speed]
     }
   end
