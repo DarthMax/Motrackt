@@ -2,6 +2,7 @@
   %table.table.table-striped
     %thead
       %tr
+        %th
         %th= Track.human_attribute_name(:name)
         %th= "Vehicle"
         %th= Track.human_attribute_name(:description)
@@ -10,6 +11,7 @@
     %tbody
       - tracks.each do |track|
         %tr
+          %td= check_box_tag "track_ids[]",track.id,{}
           %td= link_to track.name, track_path(track)
           %td= track.vehicle ? track.vehicle.name : ""
           %td= truncate track.description, :length => 40

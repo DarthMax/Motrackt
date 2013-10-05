@@ -5,6 +5,24 @@ class Track < ActiveRecord::Base
   belongs_to :vehicle
   belongs_to :user
 
+  #############################
+  ## ClassMethods
+  #############################
+
+  def self.merge(tracks)
+    tracks.sort_by!(&:created_at)
+    destination = tracks.delete_at(0)
+    if Position.update_all({:track_id => destination.id},{:track_id => tracks.map(&:id)})
+      destination.update_meta_data
+      Track.destroy(tracks)
+      return destination
+    end
+    nil
+  end
+
+  #############################
+  ## InstanceMethods
+  #############################
 
   def name
     read_attribute(:name) || "Unnamed Track"
@@ -17,29 +35,31 @@ class Track < ActiveRecord::Base
     self.save!
   end
 
-  def height_data
+  def as_chart_data
     dataset_height = {
-        :fillColor => "rgba(151,187,205,0.5)",
-        :strokeColor => "rgba(151,187,205,1)",
-        :pointColor => "rgba(151,187,205,1)",
-        :pointStrokeColor => "#fff",
-        :data => positions.map(&:height)
+    :fillColor => "rgba(151,187,205,0.5)",
+    :strokeColor => "rgba(151,187,205,1)",
+    :pointColor => "rgba(151,187,205,1)",
+    :pointStrokeColor => "#fff",
+    :data => positions.map(&:height)
     }
 
     dataset_speed = {
-        :fillColor => "rgba(205,155,155,0.5)",
-        :strokeColor => "rgba(187,150,150,1)",
-        :pointColor => "rgba(187,150,150,1)",
-        :pointStrokeColor => "#fff",
-        :data => positions.map(&:speed)
+    :fillColor => "rgba(205,155,155,0.5)",
+    :strokeColor => "rgba(187,150,150,1)",
+    :pointColor => "rgba(187,150,150,1)",
+    :pointStrokeColor => "#fff",
+    :data => positions.map(&:speed)
     }
 
 
     {
-        :labels => positions.map {|p| p.time.strftime("%H:%M")},
-        :datasets => [dataset_height,dataset_speed]
+    :labels => positions.map {|p| p.time.strftime("%H:%M")},
+    :datasets => [dataset_height,dataset_speed]
     }
   end
+
+
 
   def as_gpx
     file = GPX::GPXFile.new

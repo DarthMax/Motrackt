@@ -83,10 +83,35 @@ class TracksController < ApplicationController
     end
   end
 
+  # GET /tracks/1/chart_data.json
+  # Returns the data need to draw a tracks height/speed graph
   def chart_data
     @track=current_user.tracks.find(params[:id])
     respond_to do |format|
-      format.json {render :json => @track.height_data}
+      format.json {render :json => @track.as_chart_data}
+    end
+  end
+
+  # Post /tracks/merge
+  # Merges the given tracks to one
+  def merge
+    p params
+    tracks = current_user.tracks.find(params[:track_ids])
+
+    if tracks.count < 2
+      respond_to do |format|
+        format.html { redirect_to tracks_url, :alert => "Please select at least 2 tracks to merge!" }
+      end
+    end
+
+    if @track=Track.merge(tracks)
+      respond_to do |format|
+        format.html { redirect_to track_url(@track), :notice => "Tracks merged successfully" }
+      end
+    else
+      respond_to do |format|
+        format.html { redirect_to tracks_url, :alert => "Could not merge tracks!" }
+      end
     end
   end
 end

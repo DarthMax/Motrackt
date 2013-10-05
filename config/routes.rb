@@ -6,6 +6,9 @@ Motrackt::Application.routes.draw do
   resources :positions, :only => [:create, :destroy]
 
   resources :tracks do
+    collection do
+      post :merge
+    end
     member do
       get :chart_data
     end

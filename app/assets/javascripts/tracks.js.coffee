@@ -1,16 +1,3 @@
-$(document).ready () ->
-  $('#details').collapse()
-
-  $('#details').on 'shown', () ->
-    $('#details-header').removeClass("icon-chevron-up")
-    $('#details-header').addClass("icon-chevron-down")
-
-  $('#details').on 'hidden', () ->
-    $('#details-header').removeClass("icon-chevron-down")
-    $('#details-header').addClass("icon-chevron-up")
-
-
-
 setupTrackChart = (chart_data) ->
   canvas = $("#track_height_chart")
   newWidth = canvas.parent().width()
@@ -27,6 +14,22 @@ window.initTrackChart = (id) ->
       setupTrackChart(chart_data)
 
 
+
+# If a Track in the Tracklist is selected/deselected toggle the tools buttons
+$(document).on "click", "input[name='track_ids[]']", () ->
+  selected_tracks = $("input[name='track_ids[]']:checked").size()
+
+  if selected_tracks >= 2 then $("#merge_link").removeClass("disabled")
+  if selected_tracks < 2 then  $("#merge_link").addClass("disabled")
+
+
+# If the "Merge Tracks" Button is clicked check if there are at least 2 tracks selected and submit the form in case
+$(document).on "click", "#merge_link", () ->
+  selected_tracks = ($(box).val() for box in $("input[name='track_ids[]']:checked"))
+  if selected_tracks.length >=2
+    $("#track_form").attr("action","/tracks/merge").submit()
+  else
+    alert("Please select at least 2 Tracks to merge!")
 
 
 
