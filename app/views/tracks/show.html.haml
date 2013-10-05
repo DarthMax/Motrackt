@@ -9,7 +9,12 @@
           =link_to track_path(@track, :format => :gpx), :class => "btn btn-success btn-xs" do
             %span.glyphicon.glyphicon-save
             Export
-          =link_to "Edit", edit_track_path, :method => :get, :class => "btn btn-primary btn-xs"
+          =link_to edit_track_path, :method => :get, :class => "btn btn-primary btn-xs" do
+            %span.glyphicon.glyphicon-pencil
+            Edit
+          =link_to track_path(@track), :method => :delete, :confirm => 'Are you sure?', :class => "btn btn-danger btn-xs" do
+            %span.glyphicon.glyphicon-trash
+            Delete
 
 
     .row{:style => "margin-bottom:20px"}

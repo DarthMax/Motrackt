@@ -17,5 +17,9 @@
           %td= truncate track.description, :length => 40
           %td=l track.created_at, :format => :short
           %td
-            = link_to "Edit", edit_track_path(track), :class => 'btn btn-primary btn-xs'
-            = link_to "Delete", track_path(track), :method => :delete, :confirm => 'Are you sure?', :class => 'btn btn-danger btn-xs'
+            = link_to edit_track_path(track), :class => 'btn btn-primary btn-xs' do
+              %span.glyphicon.glyphicon-pencil
+              Edit
+            = link_to track_path(track), :method => :delete, :confirm => 'Are you sure?', :class => 'btn btn-danger btn-xs' do
+              %span.glyphicon.glyphicon-trash
+              Delete
