@@ -1,7 +1,7 @@
 class Position < ActiveRecord::Base
   attr_accessible :latitude,:latitude_nmea, :longitude_nmea, :longitude, :time, :track_id, :speed, :height, :angle
 
-  default_scope :order => "time ASC"
+  default_scope :order => "created_at desc"
 
   belongs_to :track, :touch => true, :dependent => :destroy
   belongs_to :user
