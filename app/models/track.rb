@@ -56,7 +56,7 @@ class Track < ActiveRecord::Base
 
 
     {
-    :labels => pos.map {|p| p.time.strftime("%H:%M")},
+    :labels => pos.map {|p| ""},
     :datasets => [dataset_height,dataset_speed]
     }
   end
