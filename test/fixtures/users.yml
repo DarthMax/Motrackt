@@ -1,11 +1,19 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
-
-one:
-  name: MyString
-  email: MyString
-  last_login: 2012-07-30 16:03:21
-
-two:
-  name: MyString
-  email: MyString
-  last_login: 2012-07-30 16:03:21
+---
+users_001:
+  id: 1
+  email: test@example.com
+  last_login: 2013-10-05 13:11:30.000000000 Z
+  created_at: 2013-04-07 20:49:54.000000000 Z
+  updated_at: 2013-10-05 13:11:30.000000000 Z
+  salt: 1Je6o8nqEdP52DH61oR09eXuz8BbcsEKQAHQTWynNRV4Qc6rE4tSGVBQ33gdYSpxui/TnGl6IldKk5unZVEdVQ==
+  hashed_password: MQWloYk+lib0Y+8Dfm60BE6muVAeY6UoAXe6NBxBkH5GdEVhdXsbVJlHdLYwshAUcCy9EekAMdt0EZm/wvqYQw==
+  access_token: 6658393668f5c5bd449eb86e6da2e99e
+users_002:
+  id: 2
+  email: user@example.com
+  last_login: 2013-04-17 19:44:18.000000000 Z
+  created_at: 2013-04-07 20:52:08.000000000 Z
+  updated_at: 2013-04-17 19:44:18.000000000 Z
+  salt: 1Je6o8nqEdP52DH61oR09eXuz8BbcsEKQAHQTWynNRV4Qc6rE4tSGVBQ33gdYSpxui/TnGl6IldKk5unZVEdVQ==
+  hashed_password: MQWloYk+lib0Y+8Dfm60BE6muVAeY6UoAXe6NBxBkH5GdEVhdXsbVJlHdLYwshAUcCy9EekAMdt0EZm/wvqYQw==
+  access_token: 85548aacf92a2520082e8819b160c675

@@ -1,11 +1,4909 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
-
-one:
-  longitude: 1.5
-  latitude: 1.5
-  track_id: 1
-
-two:
-  longitude: 1.5
-  latitude: 1.5
-  track_id: 1
+---
+positions_008:
+  id: 11058
+  longitude: 13.7143
+  latitude: 50.9842
+  track_id: 212
+  created_at: 2013-10-05 14:38:58.000000000 Z
+  updated_at: 2013-10-05 14:38:58.000000000 Z
+  time: 2013-10-05 14:38:46.000000000 Z
+  user_id: 1
+  speed: 60.9308
+  height: 276.5
+  angle: 347.3
+positions_009:
+  id: 11059
+  longitude: 13.715
+  latitude: 50.9878
+  track_id: 212
+  created_at: 2013-10-05 14:39:20.000000000 Z
+  updated_at: 2013-10-05 14:39:20.000000000 Z
+  time: 2013-10-05 14:39:11.000000000 Z
+  user_id: 1
+  speed: 64.0792
+  height: 354.5
+  angle: 359.2
+positions_010:
+  id: 11060
+  longitude: 13.7149
+  latitude: 50.99
+  track_id: 212
+  created_at: 2013-10-05 14:39:26.000000000 Z
+  updated_at: 2013-10-05 14:39:26.000000000 Z
+  time: 2013-10-05 14:39:23.000000000 Z
+  user_id: 1
+  speed: 72.5984
+  height: 354.0
+  angle: 4.3
+positions_011:
+  id: 11061
+  longitude: 13.7154
+  latitude: 50.991
+  track_id: 212
+  created_at: 2013-10-05 14:39:31.000000000 Z
+  updated_at: 2013-10-05 14:39:31.000000000 Z
+  time: 2013-10-05 14:39:29.000000000 Z
+  user_id: 1
+  speed: 77.4136
+  height: 349.5
+  angle: 22.2
+positions_012:
+  id: 11062
+  longitude: 13.7164
+  latitude: 50.9921
+  track_id: 212
+  created_at: 2013-10-05 14:39:39.000000000 Z
+  updated_at: 2013-10-05 14:39:39.000000000 Z
+  time: 2013-10-05 14:39:36.000000000 Z
+  user_id: 1
+  speed: 69.45
+  height: 340.0
+  angle: 32.3
+positions_013:
+  id: 11063
+  longitude: 13.7172
+  latitude: 50.9929
+  track_id: 212
+  created_at: 2013-10-05 14:39:45.000000000 Z
+  updated_at: 2013-10-05 14:39:45.000000000 Z
+  time: 2013-10-05 14:39:42.000000000 Z
+  user_id: 1
+  speed: 52.2264
+  height: 342.0
+  angle: 26.9
+positions_014:
+  id: 11064
+  longitude: 13.7176
+  latitude: 50.9935
+  track_id: 212
+  created_at: 2013-10-05 14:39:51.000000000 Z
+  updated_at: 2013-10-05 14:39:51.000000000 Z
+  time: 2013-10-05 14:39:48.000000000 Z
+  user_id: 1
+  speed: 39.2624
+  height: 343.0
+  angle: 21.5
+positions_015:
+  id: 11065
+  longitude: 13.7179
+  latitude: 50.9941
+  track_id: 212
+  created_at: 2013-10-05 14:39:57.000000000 Z
+  updated_at: 2013-10-05 14:39:57.000000000 Z
+  time: 2013-10-05 14:39:54.000000000 Z
+  user_id: 1
+  speed: 45.374
+  height: 342.5
+  angle: 13.4
+positions_016:
+  id: 11066
+  longitude: 13.718
+  latitude: 50.9948
+  track_id: 212
+  created_at: 2013-10-05 14:40:03.000000000 Z
+  updated_at: 2013-10-05 14:40:03.000000000 Z
+  time: 2013-10-05 14:40:00.000000000 Z
+  user_id: 1
+  speed: 47.4112
+  height: 341.0
+  angle: 10.0
+positions_017:
+  id: 11067
+  longitude: 13.7183
+  latitude: 50.9956
+  track_id: 212
+  created_at: 2013-10-05 14:40:09.000000000 Z
+  updated_at: 2013-10-05 14:40:09.000000000 Z
+  time: 2013-10-05 14:40:06.000000000 Z
+  user_id: 1
+  speed: 52.5968
+  height: 337.0
+  angle: 11.2
+positions_018:
+  id: 11068
+  longitude: 13.7185
+  latitude: 50.9964
+  track_id: 212
+  created_at: 2013-10-05 14:40:15.000000000 Z
+  updated_at: 2013-10-05 14:40:15.000000000 Z
+  time: 2013-10-05 14:40:12.000000000 Z
+  user_id: 1
+  speed: 53.8932
+  height: 338.0
+  angle: 8.6
+positions_019:
+  id: 11069
+  longitude: 13.7187
+  latitude: 50.9971
+  track_id: 212
+  created_at: 2013-10-05 14:40:21.000000000 Z
+  updated_at: 2013-10-05 14:40:21.000000000 Z
+  time: 2013-10-05 14:40:18.000000000 Z
+  user_id: 1
+  speed: 48.7076
+  height: 333.0
+  angle: 16.6
+positions_020:
+  id: 11070
+  longitude: 13.719
+  latitude: 50.9977
+  track_id: 212
+  created_at: 2013-10-05 14:40:26.000000000 Z
+  updated_at: 2013-10-05 14:40:26.000000000 Z
+  time: 2013-10-05 14:40:24.000000000 Z
+  user_id: 1
+  speed: 32.5952
+  height: 333.0
+  angle: 22.6
+positions_021:
+  id: 11071
+  longitude: 13.7192
+  latitude: 50.998
+  track_id: 212
+  created_at: 2013-10-05 14:40:32.000000000 Z
+  updated_at: 2013-10-05 14:40:32.000000000 Z
+  time: 2013-10-05 14:40:30.000000000 Z
+  user_id: 1
+  speed: 26.6688
+  height: 335.5
+  angle: 32.5
+positions_022:
+  id: 11072
+  longitude: 13.7198
+  latitude: 50.9985
+  track_id: 212
+  created_at: 2013-10-05 14:40:38.000000000 Z
+  updated_at: 2013-10-05 14:40:38.000000000 Z
+  time: 2013-10-05 14:40:36.000000000 Z
+  user_id: 1
+  speed: 50.7448
+  height: 336.5
+  angle: 36.8
+positions_023:
+  id: 11073
+  longitude: 13.7205
+  latitude: 50.999
+  track_id: 212
+  created_at: 2013-10-05 14:40:44.000000000 Z
+  updated_at: 2013-10-05 14:40:44.000000000 Z
+  time: 2013-10-05 14:40:41.000000000 Z
+  user_id: 1
+  speed: 64.82
+  height: 334.0
+  angle: 39.1
+positions_024:
+  id: 11074
+  longitude: 13.7216
+  latitude: 50.9998
+  track_id: 212
+  created_at: 2013-10-05 14:40:50.000000000 Z
+  updated_at: 2013-10-05 14:40:50.000000000 Z
+  time: 2013-10-05 14:40:47.000000000 Z
+  user_id: 1
+  speed: 72.0428
+  height: 330.5
+  angle: 39.7
+positions_025:
+  id: 11075
+  longitude: 13.7228
+  latitude: 51.0008
+  track_id: 212
+  created_at: 2013-10-05 14:40:56.000000000 Z
+  updated_at: 2013-10-05 14:40:56.000000000 Z
+  time: 2013-10-05 14:40:54.000000000 Z
+  user_id: 1
+  speed: 74.6356
+  height: 327.5
+  angle: 34.7
+positions_026:
+  id: 11076
+  longitude: 13.7237
+  latitude: 51.0018
+  track_id: 212
+  created_at: 2013-10-05 14:41:02.000000000 Z
+  updated_at: 2013-10-05 14:41:02.000000000 Z
+  time: 2013-10-05 14:41:00.000000000 Z
+  user_id: 1
+  speed: 74.08
+  height: 324.5
+  angle: 32.0
+positions_027:
+  id: 11077
+  longitude: 13.7247
+  latitude: 51.0027
+  track_id: 212
+  created_at: 2013-10-05 14:41:08.000000000 Z
+  updated_at: 2013-10-05 14:41:08.000000000 Z
+  time: 2013-10-05 14:41:06.000000000 Z
+  user_id: 1
+  speed: 70.7464
+  height: 319.0
+  angle: 33.7
+positions_028:
+  id: 11078
+  longitude: 13.7258
+  latitude: 51.0034
+  track_id: 212
+  created_at: 2013-10-05 14:41:14.000000000 Z
+  updated_at: 2013-10-05 14:41:14.000000000 Z
+  time: 2013-10-05 14:41:11.000000000 Z
+  user_id: 1
+  speed: 66.3016
+  height: 318.0
+  angle: 55.2
+positions_029:
+  id: 11079
+  longitude: 13.7268
+  latitude: 51.0038
+  track_id: 212
+  created_at: 2013-10-05 14:41:20.000000000 Z
+  updated_at: 2013-10-05 14:41:20.000000000 Z
+  time: 2013-10-05 14:41:16.000000000 Z
+  user_id: 1
+  speed: 62.968
+  height: 312.5
+  angle: 58.6
+positions_030:
+  id: 11080
+  longitude: 13.7281
+  latitude: 51.0044
+  track_id: 212
+  created_at: 2013-10-05 14:41:26.000000000 Z
+  updated_at: 2013-10-05 14:41:26.000000000 Z
+  time: 2013-10-05 14:41:22.000000000 Z
+  user_id: 1
+  speed: 64.82
+  height: 309.0
+  angle: 47.7
+positions_031:
+  id: 11081
+  longitude: 13.7291
+  latitude: 51.0051
+  track_id: 212
+  created_at: 2013-10-05 14:41:33.000000000 Z
+  updated_at: 2013-10-05 14:41:33.000000000 Z
+  time: 2013-10-05 14:41:28.000000000 Z
+  user_id: 1
+  speed: 61.3012
+  height: 305.0
+  angle: 33.1
+positions_032:
+  id: 11082
+  longitude: 13.7297
+  latitude: 51.006
+  track_id: 212
+  created_at: 2013-10-05 14:41:40.000000000 Z
+  updated_at: 2013-10-05 14:41:40.000000000 Z
+  time: 2013-10-05 14:41:35.000000000 Z
+  user_id: 1
+  speed: 43.8924
+  height: 303.5
+  angle: 15.4
+positions_033:
+  id: 11083
+  longitude: 13.7299
+  latitude: 51.0064
+  track_id: 212
+  created_at: 2013-10-05 14:41:46.000000000 Z
+  updated_at: 2013-10-05 14:41:46.000000000 Z
+  time: 2013-10-05 14:41:42.000000000 Z
+  user_id: 1
+  speed: 11.8528
+  height: 304.5
+  angle: 4.8
+positions_034:
+  id: 11084
+  longitude: 13.7299
+  latitude: 51.0065
+  track_id: 212
+  created_at: 2013-10-05 14:41:52.000000000 Z
+  updated_at: 2013-10-05 14:41:52.000000000 Z
+  time: 2013-10-05 14:41:49.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 300.5
+  angle: 0.0
+positions_035:
+  id: 11085
+  longitude: 13.7299
+  latitude: 51.0064
+  track_id: 212
+  created_at: 2013-10-05 14:41:58.000000000 Z
+  updated_at: 2013-10-05 14:41:58.000000000 Z
+  time: 2013-10-05 14:41:55.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 295.0
+  angle: 0.0
+positions_036:
+  id: 11086
+  longitude: 13.7299
+  latitude: 51.0064
+  track_id: 212
+  created_at: 2013-10-05 14:42:04.000000000 Z
+  updated_at: 2013-10-05 14:42:04.000000000 Z
+  time: 2013-10-05 14:42:01.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 293.5
+  angle: 0.0
+positions_037:
+  id: 11087
+  longitude: 13.7299
+  latitude: 51.0064
+  track_id: 212
+  created_at: 2013-10-05 14:42:10.000000000 Z
+  updated_at: 2013-10-05 14:42:10.000000000 Z
+  time: 2013-10-05 14:42:07.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 293.5
+  angle: 0.0
+positions_038:
+  id: 11088
+  longitude: 13.7299
+  latitude: 51.0064
+  track_id: 212
+  created_at: 2013-10-05 14:42:17.000000000 Z
+  updated_at: 2013-10-05 14:42:17.000000000 Z
+  time: 2013-10-05 14:42:14.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 293.5
+  angle: 0.0
+positions_039:
+  id: 11089
+  longitude: 13.7302
+  latitude: 51.0077
+  track_id: 212
+  created_at: 2013-10-05 14:42:23.000000000 Z
+  updated_at: 2013-10-05 14:42:23.000000000 Z
+  time: 2013-10-05 14:42:19.000000000 Z
+  user_id: 1
+  speed: 55.56
+  height: 294.0
+  angle: 2.4
+positions_040:
+  id: 11090
+  longitude: 13.7304
+  latitude: 51.0093
+  track_id: 212
+  created_at: 2013-10-05 14:42:29.000000000 Z
+  updated_at: 2013-10-05 14:42:29.000000000 Z
+  time: 2013-10-05 14:42:26.000000000 Z
+  user_id: 1
+  speed: 20.9276
+  height: 296.0
+  angle: 342.2
+positions_041:
+  id: 11091
+  longitude: 13.7303
+  latitude: 51.0095
+  track_id: 212
+  created_at: 2013-10-05 14:42:34.000000000 Z
+  updated_at: 2013-10-05 14:42:34.000000000 Z
+  time: 2013-10-05 14:42:31.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 293.0
+  angle: 0.0
+positions_042:
+  id: 11092
+  longitude: 13.7302
+  latitude: 51.0096
+  track_id: 212
+  created_at: 2013-10-05 14:42:40.000000000 Z
+  updated_at: 2013-10-05 14:42:40.000000000 Z
+  time: 2013-10-05 14:42:37.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 287.5
+  angle: 0.0
+positions_043:
+  id: 11093
+  longitude: 13.7302
+  latitude: 51.0096
+  track_id: 212
+  created_at: 2013-10-05 14:42:50.000000000 Z
+  updated_at: 2013-10-05 14:42:50.000000000 Z
+  time: 2013-10-05 14:42:43.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 283.5
+  angle: 0.0
+positions_044:
+  id: 11094
+  longitude: 13.7294
+  latitude: 51.0103
+  track_id: 212
+  created_at: 2013-10-05 14:42:57.000000000 Z
+  updated_at: 2013-10-05 14:42:57.000000000 Z
+  time: 2013-10-05 14:42:53.000000000 Z
+  user_id: 1
+  speed: 46.6704
+  height: 280.0
+  angle: 311.9
+positions_045:
+  id: 11095
+  longitude: 13.7281
+  latitude: 51.0107
+  track_id: 212
+  created_at: 2013-10-05 14:43:03.000000000 Z
+  updated_at: 2013-10-05 14:43:03.000000000 Z
+  time: 2013-10-05 14:42:59.000000000 Z
+  user_id: 1
+  speed: 62.5976
+  height: 280.0
+  angle: 291.7
+positions_046:
+  id: 11096
+  longitude: 13.7262
+  latitude: 51.0109
+  track_id: 212
+  created_at: 2013-10-05 14:43:09.000000000 Z
+  updated_at: 2013-10-05 14:43:09.000000000 Z
+  time: 2013-10-05 14:43:06.000000000 Z
+  user_id: 1
+  speed: 73.154
+  height: 280.0
+  angle: 284.1
+positions_047:
+  id: 11097
+  longitude: 13.7247
+  latitude: 51.0115
+  track_id: 212
+  created_at: 2013-10-05 14:43:15.000000000 Z
+  updated_at: 2013-10-05 14:43:15.000000000 Z
+  time: 2013-10-05 14:43:12.000000000 Z
+  user_id: 1
+  speed: 74.8208
+  height: 279.0
+  angle: 308.7
+positions_048:
+  id: 11098
+  longitude: 13.7238
+  latitude: 51.0124
+  track_id: 212
+  created_at: 2013-10-05 14:43:21.000000000 Z
+  updated_at: 2013-10-05 14:43:21.000000000 Z
+  time: 2013-10-05 14:43:18.000000000 Z
+  user_id: 1
+  speed: 71.4872
+  height: 279.5
+  angle: 330.9
+positions_049:
+  id: 11099
+  longitude: 13.7228
+  latitude: 51.0133
+  track_id: 212
+  created_at: 2013-10-05 14:43:27.000000000 Z
+  updated_at: 2013-10-05 14:43:27.000000000 Z
+  time: 2013-10-05 14:43:24.000000000 Z
+  user_id: 1
+  speed: 70.5612
+  height: 280.0
+  angle: 329.0
+positions_050:
+  id: 11100
+  longitude: 13.7221
+  latitude: 51.0144
+  track_id: 212
+  created_at: 2013-10-05 14:43:33.000000000 Z
+  updated_at: 2013-10-05 14:43:33.000000000 Z
+  time: 2013-10-05 14:43:30.000000000 Z
+  user_id: 1
+  speed: 76.3024
+  height: 280.5
+  angle: 340.0
+positions_051:
+  id: 11101
+  longitude: 13.7225
+  latitude: 51.0152
+  track_id: 212
+  created_at: 2013-10-05 14:43:39.000000000 Z
+  updated_at: 2013-10-05 14:43:39.000000000 Z
+  time: 2013-10-05 14:43:36.000000000 Z
+  user_id: 1
+  speed: 56.486
+  height: 281.0
+  angle: 4.7
+positions_052:
+  id: 11102
+  longitude: 13.7241
+  latitude: 51.0157
+  track_id: 212
+  created_at: 2013-10-05 14:43:46.000000000 Z
+  updated_at: 2013-10-05 14:43:46.000000000 Z
+  time: 2013-10-05 14:43:42.000000000 Z
+  user_id: 1
+  speed: 50.93
+  height: 281.5
+  angle: 51.3
+positions_053:
+  id: 11103
+  longitude: 13.7255
+  latitude: 51.0158
+  track_id: 212
+  created_at: 2013-10-05 14:43:53.000000000 Z
+  updated_at: 2013-10-05 14:43:53.000000000 Z
+  time: 2013-10-05 14:43:48.000000000 Z
+  user_id: 1
+  speed: 55.9304
+  height: 281.0
+  angle: 74.7
+positions_054:
+  id: 11104
+  longitude: 13.7277
+  latitude: 51.0162
+  track_id: 212
+  created_at: 2013-10-05 14:43:59.000000000 Z
+  updated_at: 2013-10-05 14:43:59.000000000 Z
+  time: 2013-10-05 14:43:56.000000000 Z
+  user_id: 1
+  speed: 58.1528
+  height: 281.0
+  angle: 59.0
+positions_055:
+  id: 11105
+  longitude: 13.7288
+  latitude: 51.0167
+  track_id: 212
+  created_at: 2013-10-05 14:44:05.000000000 Z
+  updated_at: 2013-10-05 14:44:05.000000000 Z
+  time: 2013-10-05 14:44:02.000000000 Z
+  user_id: 1
+  speed: 56.1156
+  height: 280.5
+  angle: 40.0
+positions_056:
+  id: 11106
+  longitude: 13.7294
+  latitude: 51.0177
+  track_id: 212
+  created_at: 2013-10-05 14:44:11.000000000 Z
+  updated_at: 2013-10-05 14:44:11.000000000 Z
+  time: 2013-10-05 14:44:08.000000000 Z
+  user_id: 1
+  speed: 63.894
+  height: 279.0
+  angle: 15.1
+positions_057:
+  id: 11107
+  longitude: 13.7293
+  latitude: 51.0188
+  track_id: 212
+  created_at: 2013-10-05 14:44:18.000000000 Z
+  updated_at: 2013-10-05 14:44:18.000000000 Z
+  time: 2013-10-05 14:44:14.000000000 Z
+  user_id: 1
+  speed: 71.8576
+  height: 280.0
+  angle: 356.0
+positions_058:
+  id: 11108
+  longitude: 13.7293
+  latitude: 51.0202
+  track_id: 212
+  created_at: 2013-10-05 14:44:24.000000000 Z
+  updated_at: 2013-10-05 14:44:24.000000000 Z
+  time: 2013-10-05 14:44:21.000000000 Z
+  user_id: 1
+  speed: 75.1912
+  height: 280.0
+  angle: 0.4
+positions_059:
+  id: 11109
+  longitude: 13.7299
+  latitude: 51.021
+  track_id: 212
+  created_at: 2013-10-05 14:44:30.000000000 Z
+  updated_at: 2013-10-05 14:44:30.000000000 Z
+  time: 2013-10-05 14:44:27.000000000 Z
+  user_id: 1
+  speed: 58.8936
+  height: 280.5
+  angle: 17.1
+positions_060:
+  id: 11110
+  longitude: 13.7303
+  latitude: 51.0218
+  track_id: 212
+  created_at: 2013-10-05 14:44:37.000000000 Z
+  updated_at: 2013-10-05 14:44:37.000000000 Z
+  time: 2013-10-05 14:44:33.000000000 Z
+  user_id: 1
+  speed: 56.8564
+  height: 280.0
+  angle: 14.6
+positions_061:
+  id: 11111
+  longitude: 13.7305
+  latitude: 51.0227
+  track_id: 212
+  created_at: 2013-10-05 14:44:43.000000000 Z
+  updated_at: 2013-10-05 14:44:43.000000000 Z
+  time: 2013-10-05 14:44:39.000000000 Z
+  user_id: 1
+  speed: 57.2268
+  height: 279.5
+  angle: 9.8
+positions_062:
+  id: 11112
+  longitude: 13.7306
+  latitude: 51.0235
+  track_id: 212
+  created_at: 2013-10-05 14:44:49.000000000 Z
+  updated_at: 2013-10-05 14:44:49.000000000 Z
+  time: 2013-10-05 14:44:45.000000000 Z
+  user_id: 1
+  speed: 48.7076
+  height: 279.0
+  angle: 7.3
+positions_063:
+  id: 11113
+  longitude: 13.7306
+  latitude: 51.0241
+  track_id: 212
+  created_at: 2013-10-05 14:44:55.000000000 Z
+  updated_at: 2013-10-05 14:44:55.000000000 Z
+  time: 2013-10-05 14:44:52.000000000 Z
+  user_id: 1
+  speed: 27.0392
+  height: 275.5
+  angle: 9.8
+positions_064:
+  id: 11114
+  longitude: 13.7308
+  latitude: 51.0243
+  track_id: 212
+  created_at: 2013-10-05 14:45:02.000000000 Z
+  updated_at: 2013-10-05 14:45:02.000000000 Z
+  time: 2013-10-05 14:44:59.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 270.5
+  angle: 0.0
+positions_065:
+  id: 11115
+  longitude: 13.7308
+  latitude: 51.0243
+  track_id: 212
+  created_at: 2013-10-05 14:45:08.000000000 Z
+  updated_at: 2013-10-05 14:45:08.000000000 Z
+  time: 2013-10-05 14:45:05.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 268.0
+  angle: 0.0
+positions_066:
+  id: 11116
+  longitude: 13.7308
+  latitude: 51.0243
+  track_id: 212
+  created_at: 2013-10-05 14:45:14.000000000 Z
+  updated_at: 2013-10-05 14:45:14.000000000 Z
+  time: 2013-10-05 14:45:11.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 265.5
+  angle: 0.0
+positions_067:
+  id: 11117
+  longitude: 13.7309
+  latitude: 51.0243
+  track_id: 212
+  created_at: 2013-10-05 14:45:20.000000000 Z
+  updated_at: 2013-10-05 14:45:20.000000000 Z
+  time: 2013-10-05 14:45:16.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 264.0
+  angle: 0.0
+positions_068:
+  id: 11118
+  longitude: 13.7309
+  latitude: 51.0243
+  track_id: 212
+  created_at: 2013-10-05 14:45:26.000000000 Z
+  updated_at: 2013-10-05 14:45:26.000000000 Z
+  time: 2013-10-05 14:45:23.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 261.5
+  angle: 0.0
+positions_069:
+  id: 11119
+  longitude: 13.7309
+  latitude: 51.0243
+  track_id: 212
+  created_at: 2013-10-05 14:45:32.000000000 Z
+  updated_at: 2013-10-05 14:45:32.000000000 Z
+  time: 2013-10-05 14:45:29.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 260.5
+  angle: 0.0
+positions_070:
+  id: 11120
+  longitude: 13.7309
+  latitude: 51.0243
+  track_id: 212
+  created_at: 2013-10-05 14:45:39.000000000 Z
+  updated_at: 2013-10-05 14:45:39.000000000 Z
+  time: 2013-10-05 14:45:35.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 260.0
+  angle: 0.0
+positions_071:
+  id: 11121
+  longitude: 13.7309
+  latitude: 51.0244
+  track_id: 212
+  created_at: 2013-10-05 14:45:45.000000000 Z
+  updated_at: 2013-10-05 14:45:45.000000000 Z
+  time: 2013-10-05 14:45:41.000000000 Z
+  user_id: 1
+  speed: 4.63
+  height: 261.0
+  angle: 4.8
+positions_072:
+  id: 11122
+  longitude: 13.7315
+  latitude: 51.0248
+  track_id: 212
+  created_at: 2013-10-05 14:45:51.000000000 Z
+  updated_at: 2013-10-05 14:45:51.000000000 Z
+  time: 2013-10-05 14:45:47.000000000 Z
+  user_id: 1
+  speed: 30.0024
+  height: 260.0
+  angle: 24.8
+positions_073:
+  id: 11123
+  longitude: 13.7317
+  latitude: 51.0256
+  track_id: 212
+  created_at: 2013-10-05 14:45:57.000000000 Z
+  updated_at: 2013-10-05 14:45:57.000000000 Z
+  time: 2013-10-05 14:45:53.000000000 Z
+  user_id: 1
+  speed: 45.0036
+  height: 258.5
+  angle: 352.8
+positions_074:
+  id: 11124
+  longitude: 13.7316
+  latitude: 51.0266
+  track_id: 212
+  created_at: 2013-10-05 14:46:03.000000000 Z
+  updated_at: 2013-10-05 14:46:03.000000000 Z
+  time: 2013-10-05 14:46:00.000000000 Z
+  user_id: 1
+  speed: 54.8192
+  height: 256.0
+  angle: 356.3
+positions_075:
+  id: 11125
+  longitude: 13.7315
+  latitude: 51.0274
+  track_id: 212
+  created_at: 2013-10-05 14:46:09.000000000 Z
+  updated_at: 2013-10-05 14:46:09.000000000 Z
+  time: 2013-10-05 14:46:06.000000000 Z
+  user_id: 1
+  speed: 53.1524
+  height: 255.0
+  angle: 349.3
+positions_076:
+  id: 11126
+  longitude: 13.7312
+  latitude: 51.0283
+  track_id: 212
+  created_at: 2013-10-05 14:46:15.000000000 Z
+  updated_at: 2013-10-05 14:46:15.000000000 Z
+  time: 2013-10-05 14:46:12.000000000 Z
+  user_id: 1
+  speed: 57.7824
+  height: 251.0
+  angle: 350.9
+positions_077:
+  id: 11127
+  longitude: 13.7311
+  latitude: 51.0291
+  track_id: 212
+  created_at: 2013-10-05 14:46:21.000000000 Z
+  updated_at: 2013-10-05 14:46:21.000000000 Z
+  time: 2013-10-05 14:46:18.000000000 Z
+  user_id: 1
+  speed: 44.8184
+  height: 249.5
+  angle: 352.6
+positions_078:
+  id: 11128
+  longitude: 13.731
+  latitude: 51.0294
+  track_id: 212
+  created_at: 2013-10-05 14:46:27.000000000 Z
+  updated_at: 2013-10-05 14:46:27.000000000 Z
+  time: 2013-10-05 14:46:24.000000000 Z
+  user_id: 1
+  speed: 17.594
+  height: 248.5
+  angle: 342.0
+positions_079:
+  id: 11129
+  longitude: 13.731
+  latitude: 51.0296
+  track_id: 212
+  created_at: 2013-10-05 14:46:34.000000000 Z
+  updated_at: 2013-10-05 14:46:34.000000000 Z
+  time: 2013-10-05 14:46:30.000000000 Z
+  user_id: 1
+  speed: 2.0372
+  height: 247.5
+  angle: 347.1
+positions_080:
+  id: 11130
+  longitude: 13.731
+  latitude: 51.0296
+  track_id: 212
+  created_at: 2013-10-05 14:46:40.000000000 Z
+  updated_at: 2013-10-05 14:46:40.000000000 Z
+  time: 2013-10-05 14:46:36.000000000 Z
+  user_id: 1
+  speed: 12.4084
+  height: 248.0
+  angle: 332.4
+positions_081:
+  id: 11131
+  longitude: 13.7307
+  latitude: 51.0301
+  track_id: 212
+  created_at: 2013-10-05 14:46:46.000000000 Z
+  updated_at: 2013-10-05 14:46:46.000000000 Z
+  time: 2013-10-05 14:46:42.000000000 Z
+  user_id: 1
+  speed: 36.8548
+  height: 248.0
+  angle: 330.7
+positions_082:
+  id: 11132
+  longitude: 13.7299
+  latitude: 51.0306
+  track_id: 212
+  created_at: 2013-10-05 14:46:51.000000000 Z
+  updated_at: 2013-10-05 14:46:51.000000000 Z
+  time: 2013-10-05 14:46:48.000000000 Z
+  user_id: 1
+  speed: 48.3372
+  height: 247.0
+  angle: 306.7
+positions_083:
+  id: 11133
+  longitude: 13.7289
+  latitude: 51.031
+  track_id: 212
+  created_at: 2013-10-05 14:46:57.000000000 Z
+  updated_at: 2013-10-05 14:46:57.000000000 Z
+  time: 2013-10-05 14:46:54.000000000 Z
+  user_id: 1
+  speed: 47.5964
+  height: 246.5
+  angle: 303.9
+positions_084:
+  id: 11134
+  longitude: 13.7283
+  latitude: 51.0313
+  track_id: 212
+  created_at: 2013-10-05 14:47:04.000000000 Z
+  updated_at: 2013-10-05 14:47:04.000000000 Z
+  time: 2013-10-05 14:47:00.000000000 Z
+  user_id: 1
+  speed: 25.1872
+  height: 246.0
+  angle: 306.2
+positions_085:
+  id: 11135
+  longitude: 13.7279
+  latitude: 51.0315
+  track_id: 212
+  created_at: 2013-10-05 14:47:10.000000000 Z
+  updated_at: 2013-10-05 14:47:10.000000000 Z
+  time: 2013-10-05 14:47:06.000000000 Z
+  user_id: 1
+  speed: 10.9268
+  height: 246.0
+  angle: 299.7
+positions_086:
+  id: 11136
+  longitude: 13.7278
+  latitude: 51.0315
+  track_id: 212
+  created_at: 2013-10-05 14:47:16.000000000 Z
+  updated_at: 2013-10-05 14:47:16.000000000 Z
+  time: 2013-10-05 14:47:12.000000000 Z
+  user_id: 1
+  speed: 4.63
+  height: 246.0
+  angle: 319.3
+positions_087:
+  id: 11137
+  longitude: 13.7274
+  latitude: 51.0317
+  track_id: 212
+  created_at: 2013-10-05 14:47:22.000000000 Z
+  updated_at: 2013-10-05 14:47:22.000000000 Z
+  time: 2013-10-05 14:47:18.000000000 Z
+  user_id: 1
+  speed: 26.2984
+  height: 245.5
+  angle: 304.2
+positions_088:
+  id: 11138
+  longitude: 13.7265
+  latitude: 51.0321
+  track_id: 212
+  created_at: 2013-10-05 14:47:33.000000000 Z
+  updated_at: 2013-10-05 14:47:33.000000000 Z
+  time: 2013-10-05 14:47:25.000000000 Z
+  user_id: 1
+  speed: 45.0036
+  height: 244.5
+  angle: 305.3
+positions_089:
+  id: 11139
+  longitude: 13.7246
+  latitude: 51.0329
+  track_id: 212
+  created_at: 2013-10-05 14:47:40.000000000 Z
+  updated_at: 2013-10-05 14:47:40.000000000 Z
+  time: 2013-10-05 14:47:36.000000000 Z
+  user_id: 1
+  speed: 50.1892
+  height: 244.0
+  angle: 304.4
+positions_090:
+  id: 11140
+  longitude: 13.7238
+  latitude: 51.0333
+  track_id: 212
+  created_at: 2013-10-05 14:47:46.000000000 Z
+  updated_at: 2013-10-05 14:47:46.000000000 Z
+  time: 2013-10-05 14:47:42.000000000 Z
+  user_id: 1
+  speed: 42.9664
+  height: 244.0
+  angle: 305.0
+positions_091:
+  id: 11141
+  longitude: 13.723
+  latitude: 51.0337
+  track_id: 212
+  created_at: 2013-10-05 14:47:52.000000000 Z
+  updated_at: 2013-10-05 14:47:52.000000000 Z
+  time: 2013-10-05 14:47:48.000000000 Z
+  user_id: 1
+  speed: 41.8552
+  height: 244.0
+  angle: 305.3
+positions_092:
+  id: 11142
+  longitude: 13.7221
+  latitude: 51.0341
+  track_id: 212
+  created_at: 2013-10-05 14:47:58.000000000 Z
+  updated_at: 2013-10-05 14:47:58.000000000 Z
+  time: 2013-10-05 14:47:55.000000000 Z
+  user_id: 1
+  speed: 39.0772
+  height: 243.5
+  angle: 297.6
+positions_093:
+  id: 11143
+  longitude: 13.7211
+  latitude: 51.0344
+  track_id: 212
+  created_at: 2013-10-05 14:48:04.000000000 Z
+  updated_at: 2013-10-05 14:48:04.000000000 Z
+  time: 2013-10-05 14:48:01.000000000 Z
+  user_id: 1
+  speed: 46.4852
+  height: 242.5
+  angle: 301.3
+positions_094:
+  id: 11144
+  longitude: 13.7201
+  latitude: 51.0348
+  track_id: 212
+  created_at: 2013-10-05 14:48:10.000000000 Z
+  updated_at: 2013-10-05 14:48:10.000000000 Z
+  time: 2013-10-05 14:48:07.000000000 Z
+  user_id: 1
+  speed: 55.9304
+  height: 242.5
+  angle: 303.5
+positions_095:
+  id: 11145
+  longitude: 13.719
+  latitude: 51.0353
+  track_id: 212
+  created_at: 2013-10-05 14:48:16.000000000 Z
+  updated_at: 2013-10-05 14:48:16.000000000 Z
+  time: 2013-10-05 14:48:13.000000000 Z
+  user_id: 1
+  speed: 56.8564
+  height: 242.5
+  angle: 305.2
+positions_096:
+  id: 11146
+  longitude: 13.7179
+  latitude: 51.0359
+  track_id: 212
+  created_at: 2013-10-05 14:48:22.000000000 Z
+  updated_at: 2013-10-05 14:48:22.000000000 Z
+  time: 2013-10-05 14:48:19.000000000 Z
+  user_id: 1
+  speed: 57.0416
+  height: 243.0
+  angle: 306.5
+positions_097:
+  id: 11147
+  longitude: 13.7171
+  latitude: 51.0363
+  track_id: 212
+  created_at: 2013-10-05 14:48:28.000000000 Z
+  updated_at: 2013-10-05 14:48:28.000000000 Z
+  time: 2013-10-05 14:48:25.000000000 Z
+  user_id: 1
+  speed: 37.966
+  height: 243.0
+  angle: 305.3
+positions_098:
+  id: 11148
+  longitude: 13.7161
+  latitude: 51.0367
+  track_id: 212
+  created_at: 2013-10-05 14:48:35.000000000 Z
+  updated_at: 2013-10-05 14:48:35.000000000 Z
+  time: 2013-10-05 14:48:31.000000000 Z
+  user_id: 1
+  speed: 55.56
+  height: 243.0
+  angle: 306.1
+positions_099:
+  id: 11149
+  longitude: 13.7147
+  latitude: 51.0374
+  track_id: 212
+  created_at: 2013-10-05 14:48:41.000000000 Z
+  updated_at: 2013-10-05 14:48:41.000000000 Z
+  time: 2013-10-05 14:48:38.000000000 Z
+  user_id: 1
+  speed: 66.672
+  height: 242.5
+  angle: 311.3
+positions_100:
+  id: 11150
+  longitude: 13.7137
+  latitude: 51.0382
+  track_id: 212
+  created_at: 2013-10-05 14:48:47.000000000 Z
+  updated_at: 2013-10-05 14:48:47.000000000 Z
+  time: 2013-10-05 14:48:44.000000000 Z
+  user_id: 1
+  speed: 71.302
+  height: 241.5
+  angle: 321.3
+positions_101:
+  id: 11151
+  longitude: 13.7125
+  latitude: 51.0392
+  track_id: 212
+  created_at: 2013-10-05 14:48:53.000000000 Z
+  updated_at: 2013-10-05 14:48:53.000000000 Z
+  time: 2013-10-05 14:48:50.000000000 Z
+  user_id: 1
+  speed: 75.5616
+  height: 241.5
+  angle: 319.2
+positions_102:
+  id: 11152
+  longitude: 13.7112
+  latitude: 51.0399
+  track_id: 212
+  created_at: 2013-10-05 14:48:59.000000000 Z
+  updated_at: 2013-10-05 14:48:59.000000000 Z
+  time: 2013-10-05 14:48:56.000000000 Z
+  user_id: 1
+  speed: 67.7832
+  height: 240.5
+  angle: 309.4
+positions_103:
+  id: 11153
+  longitude: 13.71
+  latitude: 51.0404
+  track_id: 212
+  created_at: 2013-10-05 14:49:05.000000000 Z
+  updated_at: 2013-10-05 14:49:05.000000000 Z
+  time: 2013-10-05 14:49:02.000000000 Z
+  user_id: 1
+  speed: 63.3384
+  height: 240.0
+  angle: 305.8
+positions_104:
+  id: 11154
+  longitude: 13.7087
+  latitude: 51.0409
+  track_id: 212
+  created_at: 2013-10-05 14:49:12.000000000 Z
+  updated_at: 2013-10-05 14:49:12.000000000 Z
+  time: 2013-10-05 14:49:08.000000000 Z
+  user_id: 1
+  speed: 61.116
+  height: 240.5
+  angle: 301.8
+positions_105:
+  id: 11155
+  longitude: 13.7074
+  latitude: 51.0414
+  track_id: 212
+  created_at: 2013-10-05 14:49:18.000000000 Z
+  updated_at: 2013-10-05 14:49:18.000000000 Z
+  time: 2013-10-05 14:49:14.000000000 Z
+  user_id: 1
+  speed: 65.9312
+  height: 240.0
+  angle: 299.4
+positions_106:
+  id: 11156
+  longitude: 13.7063
+  latitude: 51.042
+  track_id: 212
+  created_at: 2013-10-05 14:49:24.000000000 Z
+  updated_at: 2013-10-05 14:49:24.000000000 Z
+  time: 2013-10-05 14:49:20.000000000 Z
+  user_id: 1
+  speed: 60.3752
+  height: 240.0
+  angle: 312.8
+positions_107:
+  id: 11157
+  longitude: 13.7054
+  latitude: 51.0429
+  track_id: 212
+  created_at: 2013-10-05 14:49:30.000000000 Z
+  updated_at: 2013-10-05 14:49:30.000000000 Z
+  time: 2013-10-05 14:49:27.000000000 Z
+  user_id: 1
+  speed: 60.3752
+  height: 240.0
+  angle: 335.1
+positions_108:
+  id: 11158
+  longitude: 13.7049
+  latitude: 51.0437
+  track_id: 212
+  created_at: 2013-10-05 14:49:36.000000000 Z
+  updated_at: 2013-10-05 14:49:36.000000000 Z
+  time: 2013-10-05 14:49:33.000000000 Z
+  user_id: 1
+  speed: 55.3748
+  height: 240.0
+  angle: 346.2
+positions_109:
+  id: 11159
+  longitude: 13.7051
+  latitude: 51.0444
+  track_id: 212
+  created_at: 2013-10-05 14:49:42.000000000 Z
+  updated_at: 2013-10-05 14:49:42.000000000 Z
+  time: 2013-10-05 14:49:38.000000000 Z
+  user_id: 1
+  speed: 51.6708
+  height: 235.5
+  angle: 16.0
+positions_110:
+  id: 11160
+  longitude: 13.7056
+  latitude: 51.0455
+  track_id: 212
+  created_at: 2013-10-05 14:49:48.000000000 Z
+  updated_at: 2013-10-05 14:49:48.000000000 Z
+  time: 2013-10-05 14:49:45.000000000 Z
+  user_id: 1
+  speed: 58.5232
+  height: 233.5
+  angle: 11.4
+positions_111:
+  id: 11161
+  longitude: 13.7054
+  latitude: 51.0463
+  track_id: 212
+  created_at: 2013-10-05 14:49:54.000000000 Z
+  updated_at: 2013-10-05 14:49:54.000000000 Z
+  time: 2013-10-05 14:49:51.000000000 Z
+  user_id: 1
+  speed: 54.8192
+  height: 232.5
+  angle: 349.0
+positions_112:
+  id: 11162
+  longitude: 13.7053
+  latitude: 51.0469
+  track_id: 212
+  created_at: 2013-10-05 14:50:00.000000000 Z
+  updated_at: 2013-10-05 14:50:00.000000000 Z
+  time: 2013-10-05 14:49:55.000000000 Z
+  user_id: 1
+  speed: 52.9672
+  height: 231.5
+  angle: 350.3
+positions_113:
+  id: 11163
+  longitude: 13.7053
+  latitude: 51.0479
+  track_id: 212
+  created_at: 2013-10-05 14:50:06.000000000 Z
+  updated_at: 2013-10-05 14:50:06.000000000 Z
+  time: 2013-10-05 14:50:03.000000000 Z
+  user_id: 1
+  speed: 50.93
+  height: 229.0
+  angle: 0.9
+positions_114:
+  id: 11164
+  longitude: 13.705
+  latitude: 51.0488
+  track_id: 212
+  created_at: 2013-10-05 14:50:12.000000000 Z
+  updated_at: 2013-10-05 14:50:12.000000000 Z
+  time: 2013-10-05 14:50:09.000000000 Z
+  user_id: 1
+  speed: 59.264
+  height: 228.0
+  angle: 347.5
+positions_115:
+  id: 11165
+  longitude: 13.7048
+  latitude: 51.0496
+  track_id: 212
+  created_at: 2013-10-05 14:50:20.000000000 Z
+  updated_at: 2013-10-05 14:50:20.000000000 Z
+  time: 2013-10-05 14:50:15.000000000 Z
+  user_id: 1
+  speed: 51.1152
+  height: 228.0
+  angle: 347.9
+positions_116:
+  id: 11166
+  longitude: 13.7046
+  latitude: 51.0503
+  track_id: 212
+  created_at: 2013-10-05 14:50:26.000000000 Z
+  updated_at: 2013-10-05 14:50:26.000000000 Z
+  time: 2013-10-05 14:50:23.000000000 Z
+  user_id: 1
+  speed: 32.41
+  height: 227.5
+  angle: 337.9
+positions_117:
+  id: 11167
+  longitude: 13.7046
+  latitude: 51.0505
+  track_id: 212
+  created_at: 2013-10-05 14:50:32.000000000 Z
+  updated_at: 2013-10-05 14:50:32.000000000 Z
+  time: 2013-10-05 14:50:29.000000000 Z
+  user_id: 1
+  speed: 21.1128
+  height: 226.5
+  angle: 333.3
+positions_118:
+  id: 11168
+  longitude: 13.7044
+  latitude: 51.0508
+  track_id: 212
+  created_at: 2013-10-05 14:50:39.000000000 Z
+  updated_at: 2013-10-05 14:50:39.000000000 Z
+  time: 2013-10-05 14:50:35.000000000 Z
+  user_id: 1
+  speed: 29.4468
+  height: 225.5
+  angle: 337.1
+positions_119:
+  id: 11169
+  longitude: 13.7039
+  latitude: 51.0513
+  track_id: 212
+  created_at: 2013-10-05 14:50:46.000000000 Z
+  updated_at: 2013-10-05 14:50:46.000000000 Z
+  time: 2013-10-05 14:50:42.000000000 Z
+  user_id: 1
+  speed: 37.2252
+  height: 224.5
+  angle: 324.9
+positions_120:
+  id: 11170
+  longitude: 13.7032
+  latitude: 51.0518
+  track_id: 212
+  created_at: 2013-10-05 14:50:55.000000000 Z
+  updated_at: 2013-10-05 14:50:55.000000000 Z
+  time: 2013-10-05 14:50:48.000000000 Z
+  user_id: 1
+  speed: 49.8188
+  height: 225.0
+  angle: 311.0
+positions_121:
+  id: 11171
+  longitude: 13.7014
+  latitude: 51.0522
+  track_id: 212
+  created_at: 2013-10-05 14:51:02.000000000 Z
+  updated_at: 2013-10-05 14:51:02.000000000 Z
+  time: 2013-10-05 14:50:58.000000000 Z
+  user_id: 1
+  speed: 49.078
+  height: 224.0
+  angle: 289.2
+positions_122:
+  id: 11172
+  longitude: 13.7003
+  latitude: 51.0524
+  track_id: 212
+  created_at: 2013-10-05 14:51:08.000000000 Z
+  updated_at: 2013-10-05 14:51:08.000000000 Z
+  time: 2013-10-05 14:51:04.000000000 Z
+  user_id: 1
+  speed: 49.078
+  height: 223.5
+  angle: 285.2
+positions_123:
+  id: 11173
+  longitude: 13.6989
+  latitude: 51.0526
+  track_id: 212
+  created_at: 2013-10-05 14:51:14.000000000 Z
+  updated_at: 2013-10-05 14:51:14.000000000 Z
+  time: 2013-10-05 14:51:11.000000000 Z
+  user_id: 1
+  speed: 50.3744
+  height: 223.5
+  angle: 284.0
+positions_124:
+  id: 11174
+  longitude: 13.6978
+  latitude: 51.0528
+  track_id: 212
+  created_at: 2013-10-05 14:51:21.000000000 Z
+  updated_at: 2013-10-05 14:51:21.000000000 Z
+  time: 2013-10-05 14:51:17.000000000 Z
+  user_id: 1
+  speed: 47.4112
+  height: 223.0
+  angle: 284.3
+positions_125:
+  id: 11175
+  longitude: 13.6965
+  latitude: 51.053
+  track_id: 212
+  created_at: 2013-10-05 14:51:27.000000000 Z
+  updated_at: 2013-10-05 14:51:27.000000000 Z
+  time: 2013-10-05 14:51:24.000000000 Z
+  user_id: 1
+  speed: 48.3372
+  height: 222.5
+  angle: 283.2
+positions_126:
+  id: 11176
+  longitude: 13.6953
+  latitude: 51.0532
+  track_id: 212
+  created_at: 2013-10-05 14:51:33.000000000 Z
+  updated_at: 2013-10-05 14:51:33.000000000 Z
+  time: 2013-10-05 14:51:30.000000000 Z
+  user_id: 1
+  speed: 53.1524
+  height: 222.0
+  angle: 284.3
+positions_127:
+  id: 11177
+  longitude: 13.6941
+  latitude: 51.0534
+  track_id: 212
+  created_at: 2013-10-05 14:51:40.000000000 Z
+  updated_at: 2013-10-05 14:51:40.000000000 Z
+  time: 2013-10-05 14:51:36.000000000 Z
+  user_id: 1
+  speed: 52.4116
+  height: 221.5
+  angle: 283.5
+positions_128:
+  id: 11178
+  longitude: 13.6927
+  latitude: 51.0537
+  track_id: 212
+  created_at: 2013-10-05 14:51:47.000000000 Z
+  updated_at: 2013-10-05 14:51:47.000000000 Z
+  time: 2013-10-05 14:51:43.000000000 Z
+  user_id: 1
+  speed: 50.3744
+  height: 221.5
+  angle: 289.3
+positions_129:
+  id: 11179
+  longitude: 13.6915
+  latitude: 51.054
+  track_id: 212
+  created_at: 2013-10-05 14:51:53.000000000 Z
+  updated_at: 2013-10-05 14:51:53.000000000 Z
+  time: 2013-10-05 14:51:49.000000000 Z
+  user_id: 1
+  speed: 52.0412
+  height: 219.5
+  angle: 293.0
+positions_130:
+  id: 11180
+  longitude: 13.691
+  latitude: 51.0548
+  track_id: 212
+  created_at: 2013-10-05 14:51:59.000000000 Z
+  updated_at: 2013-10-05 14:51:59.000000000 Z
+  time: 2013-10-05 14:51:55.000000000 Z
+  user_id: 1
+  speed: 50.004
+  height: 219.5
+  angle: 326.9
+positions_131:
+  id: 11181
+  longitude: 13.6906
+  latitude: 51.0558
+  track_id: 212
+  created_at: 2013-10-05 14:52:05.000000000 Z
+  updated_at: 2013-10-05 14:52:05.000000000 Z
+  time: 2013-10-05 14:52:02.000000000 Z
+  user_id: 1
+  speed: 53.5228
+  height: 220.0
+  angle: 341.5
+positions_132:
+  id: 11182
+  longitude: 13.6902
+  latitude: 51.0564
+  track_id: 212
+  created_at: 2013-10-05 14:52:11.000000000 Z
+  updated_at: 2013-10-05 14:52:11.000000000 Z
+  time: 2013-10-05 14:52:08.000000000 Z
+  user_id: 1
+  speed: 45.9296
+  height: 220.0
+  angle: 341.3
+positions_133:
+  id: 11183
+  longitude: 13.69
+  latitude: 51.0569
+  track_id: 212
+  created_at: 2013-10-05 14:52:17.000000000 Z
+  updated_at: 2013-10-05 14:52:17.000000000 Z
+  time: 2013-10-05 14:52:13.000000000 Z
+  user_id: 1
+  speed: 39.4476
+  height: 220.0
+  angle: 343.2
+positions_134:
+  id: 11184
+  longitude: 13.6896
+  latitude: 51.0571
+  track_id: 212
+  created_at: 2013-10-05 14:52:23.000000000 Z
+  updated_at: 2013-10-05 14:52:23.000000000 Z
+  time: 2013-10-05 14:52:20.000000000 Z
+  user_id: 1
+  speed: 16.668
+  height: 219.5
+  angle: 333.3
+positions_135:
+  id: 11185
+  longitude: 13.6895
+  latitude: 51.0573
+  track_id: 212
+  created_at: 2013-10-05 14:52:29.000000000 Z
+  updated_at: 2013-10-05 14:52:29.000000000 Z
+  time: 2013-10-05 14:52:26.000000000 Z
+  user_id: 1
+  speed: 13.7048
+  height: 219.5
+  angle: 329.0
+positions_136:
+  id: 11186
+  longitude: 13.6893
+  latitude: 51.0574
+  track_id: 212
+  created_at: 2013-10-05 14:52:36.000000000 Z
+  updated_at: 2013-10-05 14:52:36.000000000 Z
+  time: 2013-10-05 14:52:32.000000000 Z
+  user_id: 1
+  speed: 12.7788
+  height: 219.5
+  angle: 324.8
+positions_137:
+  id: 11187
+  longitude: 13.6891
+  latitude: 51.0576
+  track_id: 212
+  created_at: 2013-10-05 14:52:42.000000000 Z
+  updated_at: 2013-10-05 14:52:42.000000000 Z
+  time: 2013-10-05 14:52:38.000000000 Z
+  user_id: 1
+  speed: 10.3712
+  height: 219.0
+  angle: 336.8
+positions_138:
+  id: 11188
+  longitude: 13.6891
+  latitude: 51.0577
+  track_id: 212
+  created_at: 2013-10-05 14:52:48.000000000 Z
+  updated_at: 2013-10-05 14:52:48.000000000 Z
+  time: 2013-10-05 14:52:44.000000000 Z
+  user_id: 1
+  speed: 4.4448
+  height: 218.0
+  angle: 336.3
+positions_139:
+  id: 11189
+  longitude: 13.689
+  latitude: 51.0578
+  track_id: 212
+  created_at: 2013-10-05 14:52:54.000000000 Z
+  updated_at: 2013-10-05 14:52:54.000000000 Z
+  time: 2013-10-05 14:52:50.000000000 Z
+  user_id: 1
+  speed: 6.6672
+  height: 218.0
+  angle: 351.9
+positions_140:
+  id: 11190
+  longitude: 13.689
+  latitude: 51.0581
+  track_id: 212
+  created_at: 2013-10-05 14:53:00.000000000 Z
+  updated_at: 2013-10-05 14:53:00.000000000 Z
+  time: 2013-10-05 14:52:57.000000000 Z
+  user_id: 1
+  speed: 18.8904
+  height: 218.5
+  angle: 356.7
+positions_141:
+  id: 11191
+  longitude: 13.6895
+  latitude: 51.0603
+  track_id: 212
+  created_at: 2013-10-05 14:53:16.000000000 Z
+  updated_at: 2013-10-05 14:53:16.000000000 Z
+  time: 2013-10-05 14:53:13.000000000 Z
+  user_id: 1
+  speed: 62.5976
+  height: 219.5
+  angle: 9.6
+positions_142:
+  id: 11192
+  longitude: 13.6898
+  latitude: 51.0612
+  track_id: 212
+  created_at: 2013-10-05 14:53:22.000000000 Z
+  updated_at: 2013-10-05 14:53:22.000000000 Z
+  time: 2013-10-05 14:53:19.000000000 Z
+  user_id: 1
+  speed: 62.042
+  height: 219.5
+  angle: 9.5
+positions_143:
+  id: 11193
+  longitude: 13.6898
+  latitude: 51.064
+  track_id: 212
+  created_at: 2013-10-05 14:53:39.000000000 Z
+  updated_at: 2013-10-05 14:53:39.000000000 Z
+  time: 2013-10-05 14:53:36.000000000 Z
+  user_id: 1
+  speed: 64.0792
+  height: 220.5
+  angle: 352.1
+positions_144:
+  id: 11194
+  longitude: 13.6896
+  latitude: 51.0649
+  track_id: 212
+  created_at: 2013-10-05 14:53:45.000000000 Z
+  updated_at: 2013-10-05 14:53:45.000000000 Z
+  time: 2013-10-05 14:53:42.000000000 Z
+  user_id: 1
+  speed: 64.2644
+  height: 220.5
+  angle: 353.6
+positions_145:
+  id: 11195
+  longitude: 13.6894
+  latitude: 51.066
+  track_id: 212
+  created_at: 2013-10-05 14:53:52.000000000 Z
+  updated_at: 2013-10-05 14:53:52.000000000 Z
+  time: 2013-10-05 14:53:48.000000000 Z
+  user_id: 1
+  speed: 67.0424
+  height: 221.0
+  angle: 355.5
+positions_146:
+  id: 11196
+  longitude: 13.6895
+  latitude: 51.0676
+  track_id: 212
+  created_at: 2013-10-05 14:54:02.000000000 Z
+  updated_at: 2013-10-05 14:54:02.000000000 Z
+  time: 2013-10-05 14:53:57.000000000 Z
+  user_id: 1
+  speed: 60.19
+  height: 220.5
+  angle: 357.4
+positions_147:
+  id: 11197
+  longitude: 13.6898
+  latitude: 51.068
+  track_id: 212
+  created_at: 2013-10-05 14:54:29.000000000 Z
+  updated_at: 2013-10-05 14:54:29.000000000 Z
+  time: 2013-10-05 14:54:04.000000000 Z
+  user_id: 1
+  speed: 29.8172
+  height: 219.5
+  angle: 5.2
+positions_148:
+  id: 11198
+  longitude: 13.6902
+  latitude: 51.0711
+  track_id: 212
+  created_at: 2013-10-05 14:54:38.000000000 Z
+  updated_at: 2013-10-05 14:54:38.000000000 Z
+  time: 2013-10-05 14:54:32.000000000 Z
+  user_id: 1
+  speed: 47.0408
+  height: 213.5
+  angle: 4.8
+positions_149:
+  id: 11199
+  longitude: 13.6903
+  latitude: 51.0721
+  track_id: 212
+  created_at: 2013-10-05 14:54:46.000000000 Z
+  updated_at: 2013-10-05 14:54:46.000000000 Z
+  time: 2013-10-05 14:54:40.000000000 Z
+  user_id: 1
+  speed: 49.8188
+  height: 211.0
+  angle: 4.0
+positions_150:
+  id: 11200
+  longitude: 13.6906
+  latitude: 51.0734
+  track_id: 212
+  created_at: 2013-10-05 14:54:55.000000000 Z
+  updated_at: 2013-10-05 14:54:55.000000000 Z
+  time: 2013-10-05 14:54:49.000000000 Z
+  user_id: 1
+  speed: 55.7452
+  height: 209.0
+  angle: 6.2
+positions_151:
+  id: 11201
+  longitude: 13.6906
+  latitude: 51.0745
+  track_id: 212
+  created_at: 2013-10-05 14:55:04.000000000 Z
+  updated_at: 2013-10-05 14:55:04.000000000 Z
+  time: 2013-10-05 14:54:57.000000000 Z
+  user_id: 1
+  speed: 55.3748
+  height: 208.5
+  angle: 0.0
+positions_152:
+  id: 11202
+  longitude: 13.6906
+  latitude: 51.0757
+  track_id: 212
+  created_at: 2013-10-05 14:55:13.000000000 Z
+  updated_at: 2013-10-05 14:55:13.000000000 Z
+  time: 2013-10-05 14:55:06.000000000 Z
+  user_id: 1
+  speed: 51.856
+  height: 207.5
+  angle: 2.5
+positions_153:
+  id: 11203
+  longitude: 13.6907
+  latitude: 51.0772
+  track_id: 212
+  created_at: 2013-10-05 14:55:21.000000000 Z
+  updated_at: 2013-10-05 14:55:21.000000000 Z
+  time: 2013-10-05 14:55:17.000000000 Z
+  user_id: 1
+  speed: 50.5596
+  height: 205.0
+  angle: 6.0
+positions_154:
+  id: 11204
+  longitude: 13.691
+  latitude: 51.0781
+  track_id: 212
+  created_at: 2013-10-05 14:55:29.000000000 Z
+  updated_at: 2013-10-05 14:55:29.000000000 Z
+  time: 2013-10-05 14:55:24.000000000 Z
+  user_id: 1
+  speed: 55.1896
+  height: 203.5
+  angle: 17.6
+positions_155:
+  id: 11205
+  longitude: 13.6918
+  latitude: 51.0791
+  track_id: 212
+  created_at: 2013-10-05 14:55:39.000000000 Z
+  updated_at: 2013-10-05 14:55:39.000000000 Z
+  time: 2013-10-05 14:55:32.000000000 Z
+  user_id: 1
+  speed: 55.1896
+  height: 204.0
+  angle: 30.6
+positions_156:
+  id: 11206
+  longitude: 13.6925
+  latitude: 51.0796
+  track_id: 212
+  created_at: 2013-10-05 14:55:47.000000000 Z
+  updated_at: 2013-10-05 14:55:47.000000000 Z
+  time: 2013-10-05 14:55:41.000000000 Z
+  user_id: 1
+  speed: 25.928
+  height: 203.5
+  angle: 38.8
+positions_157:
+  id: 11207
+  longitude: 13.6928
+  latitude: 51.0799
+  track_id: 212
+  created_at: 2013-10-05 14:55:56.000000000 Z
+  updated_at: 2013-10-05 14:55:56.000000000 Z
+  time: 2013-10-05 14:55:49.000000000 Z
+  user_id: 1
+  speed: 16.1124
+  height: 202.0
+  angle: 31.6
+positions_158:
+  id: 11208
+  longitude: 13.6931
+  latitude: 51.0803
+  track_id: 212
+  created_at: 2013-10-05 14:56:05.000000000 Z
+  updated_at: 2013-10-05 14:56:05.000000000 Z
+  time: 2013-10-05 14:55:59.000000000 Z
+  user_id: 1
+  speed: 17.594
+  height: 200.5
+  angle: 18.7
+positions_159:
+  id: 11209
+  longitude: 13.6933
+  latitude: 51.0807
+  track_id: 212
+  created_at: 2013-10-05 14:56:14.000000000 Z
+  updated_at: 2013-10-05 14:56:14.000000000 Z
+  time: 2013-10-05 14:56:08.000000000 Z
+  user_id: 1
+  speed: 16.8532
+  height: 200.0
+  angle: 8.6
+positions_160:
+  id: 11210
+  longitude: 13.6935
+  latitude: 51.0808
+  track_id: 212
+  created_at: 2013-10-05 14:56:23.000000000 Z
+  updated_at: 2013-10-05 14:56:23.000000000 Z
+  time: 2013-10-05 14:56:17.000000000 Z
+  user_id: 1
+  speed: 6.6672
+  height: 199.5
+  angle: 50.7
+positions_161:
+  id: 11211
+  longitude: 13.6934
+  latitude: 51.0807
+  track_id: 212
+  created_at: 2013-10-05 14:56:32.000000000 Z
+  updated_at: 2013-10-05 14:56:32.000000000 Z
+  time: 2013-10-05 14:56:26.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 198.5
+  angle: 0.0
+positions_162:
+  id: 11212
+  longitude: 13.6934
+  latitude: 51.0808
+  track_id: 212
+  created_at: 2013-10-05 14:56:40.000000000 Z
+  updated_at: 2013-10-05 14:56:40.000000000 Z
+  time: 2013-10-05 14:56:34.000000000 Z
+  user_id: 1
+  speed: 2.778
+  height: 198.5
+  angle: 324.1
+positions_163:
+  id: 11213
+  longitude: 13.6934
+  latitude: 51.0808
+  track_id: 212
+  created_at: 2013-10-05 14:56:49.000000000 Z
+  updated_at: 2013-10-05 14:56:49.000000000 Z
+  time: 2013-10-05 14:56:42.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 198.5
+  angle: 0.0
+positions_164:
+  id: 11214
+  longitude: 13.6934
+  latitude: 51.0808
+  track_id: 212
+  created_at: 2013-10-05 14:56:56.000000000 Z
+  updated_at: 2013-10-05 14:56:56.000000000 Z
+  time: 2013-10-05 14:56:52.000000000 Z
+  user_id: 1
+  speed: 4.0744
+  height: 198.0
+  angle: 19.9
+positions_165:
+  id: 11215
+  longitude: 13.6933
+  latitude: 51.0812
+  track_id: 212
+  created_at: 2013-10-05 14:57:07.000000000 Z
+  updated_at: 2013-10-05 14:57:07.000000000 Z
+  time: 2013-10-05 14:56:59.000000000 Z
+  user_id: 1
+  speed: 18.7052
+  height: 197.5
+  angle: 355.8
+positions_166:
+  id: 11216
+  longitude: 13.6933
+  latitude: 51.082
+  track_id: 212
+  created_at: 2013-10-05 14:57:16.000000000 Z
+  updated_at: 2013-10-05 14:57:16.000000000 Z
+  time: 2013-10-05 14:57:09.000000000 Z
+  user_id: 1
+  speed: 25.1872
+  height: 196.5
+  angle: 353.2
+positions_167:
+  id: 11217
+  longitude: 13.693
+  latitude: 51.0825
+  track_id: 212
+  created_at: 2013-10-05 14:57:25.000000000 Z
+  updated_at: 2013-10-05 14:57:25.000000000 Z
+  time: 2013-10-05 14:57:18.000000000 Z
+  user_id: 1
+  speed: 28.5208
+  height: 196.5
+  angle: 332.1
+positions_168:
+  id: 11218
+  longitude: 13.6926
+  latitude: 51.0834
+  track_id: 212
+  created_at: 2013-10-05 14:57:34.000000000 Z
+  updated_at: 2013-10-05 14:57:34.000000000 Z
+  time: 2013-10-05 14:57:27.000000000 Z
+  user_id: 1
+  speed: 39.0772
+  height: 195.5
+  angle: 343.9
+positions_169:
+  id: 11219
+  longitude: 13.6924
+  latitude: 51.0842
+  track_id: 212
+  created_at: 2013-10-05 14:57:43.000000000 Z
+  updated_at: 2013-10-05 14:57:43.000000000 Z
+  time: 2013-10-05 14:57:36.000000000 Z
+  user_id: 1
+  speed: 27.2244
+  height: 197.5
+  angle: 351.5
+positions_170:
+  id: 11220
+  longitude: 13.693
+  latitude: 51.0844
+  track_id: 212
+  created_at: 2013-10-05 14:57:52.000000000 Z
+  updated_at: 2013-10-05 14:57:52.000000000 Z
+  time: 2013-10-05 14:57:46.000000000 Z
+  user_id: 1
+  speed: 21.8536
+  height: 192.5
+  angle: 77.7
+positions_171:
+  id: 11221
+  longitude: 13.6933
+  latitude: 51.0848
+  track_id: 212
+  created_at: 2013-10-05 14:58:01.000000000 Z
+  updated_at: 2013-10-05 14:58:01.000000000 Z
+  time: 2013-10-05 14:57:55.000000000 Z
+  user_id: 1
+  speed: 28.706
+  height: 187.5
+  angle: 3.0
+positions_172:
+  id: 11222
+  longitude: 13.6931
+  latitude: 51.0855
+  track_id: 212
+  created_at: 2013-10-05 14:58:10.000000000 Z
+  updated_at: 2013-10-05 14:58:10.000000000 Z
+  time: 2013-10-05 14:58:04.000000000 Z
+  user_id: 1
+  speed: 26.4836
+  height: 187.0
+  angle: 349.2
+positions_173:
+  id: 11223
+  longitude: 13.6928
+  latitude: 51.0864
+  track_id: 212
+  created_at: 2013-10-05 14:58:19.000000000 Z
+  updated_at: 2013-10-05 14:58:19.000000000 Z
+  time: 2013-10-05 14:58:13.000000000 Z
+  user_id: 1
+  speed: 42.2256
+  height: 185.0
+  angle: 358.7
+positions_174:
+  id: 11224
+  longitude: 13.6938
+  latitude: 51.0871
+  track_id: 212
+  created_at: 2013-10-05 14:58:28.000000000 Z
+  updated_at: 2013-10-05 14:58:28.000000000 Z
+  time: 2013-10-05 14:58:22.000000000 Z
+  user_id: 1
+  speed: 45.7444
+  height: 184.5
+  angle: 62.4
+positions_175:
+  id: 11225
+  longitude: 13.6955
+  latitude: 51.0874
+  track_id: 212
+  created_at: 2013-10-05 14:58:37.000000000 Z
+  updated_at: 2013-10-05 14:58:37.000000000 Z
+  time: 2013-10-05 14:58:31.000000000 Z
+  user_id: 1
+  speed: 48.8928
+  height: 181.0
+  angle: 76.9
+positions_176:
+  id: 11226
+  longitude: 13.6968
+  latitude: 51.0876
+  track_id: 212
+  created_at: 2013-10-05 14:58:46.000000000 Z
+  updated_at: 2013-10-05 14:58:46.000000000 Z
+  time: 2013-10-05 14:58:39.000000000 Z
+  user_id: 1
+  speed: 41.1144
+  height: 178.0
+  angle: 74.9
+positions_177:
+  id: 11227
+  longitude: 13.6978
+  latitude: 51.0874
+  track_id: 212
+  created_at: 2013-10-05 14:58:55.000000000 Z
+  updated_at: 2013-10-05 14:58:55.000000000 Z
+  time: 2013-10-05 14:58:48.000000000 Z
+  user_id: 1
+  speed: 35.188
+  height: 178.0
+  angle: 109.8
+positions_178:
+  id: 11228
+  longitude: 13.6977
+  latitude: 51.0869
+  track_id: 212
+  created_at: 2013-10-05 14:59:04.000000000 Z
+  updated_at: 2013-10-05 14:59:04.000000000 Z
+  time: 2013-10-05 14:58:58.000000000 Z
+  user_id: 1
+  speed: 7.0376
+  height: 178.0
+  angle: 169.7
+positions_179:
+  id: 11229
+  longitude: 13.6974
+  latitude: 51.0868
+  track_id: 212
+  created_at: 2013-10-05 14:59:13.000000000 Z
+  updated_at: 2013-10-05 14:59:13.000000000 Z
+  time: 2013-10-05 14:59:07.000000000 Z
+  user_id: 1
+  speed: 9.26
+  height: 178.5
+  angle: 238.4
+positions_180:
+  id: 11230
+  longitude: 13.6972
+  latitude: 51.0868
+  track_id: 212
+  created_at: 2013-10-05 14:59:22.000000000 Z
+  updated_at: 2013-10-05 14:59:22.000000000 Z
+  time: 2013-10-05 14:59:16.000000000 Z
+  user_id: 1
+  speed: 10.186
+  height: 179.5
+  angle: 253.7
+positions_181:
+  id: 11231
+  longitude: 13.6968
+  latitude: 51.0867
+  track_id: 212
+  created_at: 2013-10-05 14:59:31.000000000 Z
+  updated_at: 2013-10-05 14:59:31.000000000 Z
+  time: 2013-10-05 14:59:25.000000000 Z
+  user_id: 1
+  speed: 5.3708
+  height: 179.5
+  angle: 210.3
+positions_182:
+  id: 11232
+  longitude: 13.6972
+  latitude: 51.0863
+  track_id: 213
+  created_at: 2013-10-05 16:54:20.000000000 Z
+  updated_at: 2013-10-05 16:54:20.000000000 Z
+  time: 2013-10-05 16:54:18.000000000 Z
+  user_id: 1
+  speed: 12.964
+  height: 134.0
+  angle: 186.8
+positions_183:
+  id: 11233
+  longitude: 13.6977
+  latitude: 51.0853
+  track_id: 213
+  created_at: 2013-10-05 16:54:29.000000000 Z
+  updated_at: 2013-10-05 16:54:29.000000000 Z
+  time: 2013-10-05 16:54:27.000000000 Z
+  user_id: 1
+  speed: 35.5584
+  height: 113.5
+  angle: 173.0
+positions_184:
+  id: 11234
+  longitude: 13.6978
+  latitude: 51.0847
+  track_id: 213
+  created_at: 2013-10-05 16:54:35.000000000 Z
+  updated_at: 2013-10-05 16:54:35.000000000 Z
+  time: 2013-10-05 16:54:33.000000000 Z
+  user_id: 1
+  speed: 39.4476
+  height: 112.0
+  angle: 177.8
+positions_185:
+  id: 11235
+  longitude: 13.6978
+  latitude: 51.0842
+  track_id: 213
+  created_at: 2013-10-05 16:54:41.000000000 Z
+  updated_at: 2013-10-05 16:54:41.000000000 Z
+  time: 2013-10-05 16:54:38.000000000 Z
+  user_id: 1
+  speed: 39.2624
+  height: 106.5
+  angle: 177.0
+positions_186:
+  id: 11236
+  longitude: 13.6979
+  latitude: 51.0836
+  track_id: 213
+  created_at: 2013-10-05 16:54:47.000000000 Z
+  updated_at: 2013-10-05 16:54:47.000000000 Z
+  time: 2013-10-05 16:54:44.000000000 Z
+  user_id: 1
+  speed: 37.966
+  height: 103.5
+  angle: 174.8
+positions_187:
+  id: 11237
+  longitude: 13.6979
+  latitude: 51.0832
+  track_id: 213
+  created_at: 2013-10-05 16:54:52.000000000 Z
+  updated_at: 2013-10-05 16:54:52.000000000 Z
+  time: 2013-10-05 16:54:50.000000000 Z
+  user_id: 1
+  speed: 32.0396
+  height: 107.0
+  angle: 176.4
+positions_188:
+  id: 11238
+  longitude: 13.6982
+  latitude: 51.0828
+  track_id: 213
+  created_at: 2013-10-05 16:54:58.000000000 Z
+  updated_at: 2013-10-05 16:54:58.000000000 Z
+  time: 2013-10-05 16:54:56.000000000 Z
+  user_id: 1
+  speed: 26.854
+  height: 121.0
+  angle: 169.0
+positions_189:
+  id: 11239
+  longitude: 13.6984
+  latitude: 51.0824
+  track_id: 213
+  created_at: 2013-10-05 16:55:04.000000000 Z
+  updated_at: 2013-10-05 16:55:04.000000000 Z
+  time: 2013-10-05 16:55:01.000000000 Z
+  user_id: 1
+  speed: 29.2616
+  height: 125.0
+  angle: 173.0
+positions_190:
+  id: 11240
+  longitude: 13.6984
+  latitude: 51.0821
+  track_id: 213
+  created_at: 2013-10-05 16:55:10.000000000 Z
+  updated_at: 2013-10-05 16:55:10.000000000 Z
+  time: 2013-10-05 16:55:08.000000000 Z
+  user_id: 1
+  speed: 14.2604
+  height: 134.5
+  angle: 190.6
+positions_191:
+  id: 11241
+  longitude: 13.698
+  latitude: 51.0821
+  track_id: 213
+  created_at: 2013-10-05 16:55:15.000000000 Z
+  updated_at: 2013-10-05 16:55:15.000000000 Z
+  time: 2013-10-05 16:55:13.000000000 Z
+  user_id: 1
+  speed: 13.7048
+  height: 139.0
+  angle: 227.0
+positions_192:
+  id: 11242
+  longitude: 13.698
+  latitude: 51.082
+  track_id: 213
+  created_at: 2013-10-05 16:55:21.000000000 Z
+  updated_at: 2013-10-05 16:55:21.000000000 Z
+  time: 2013-10-05 16:55:19.000000000 Z
+  user_id: 1
+  speed: 4.63
+  height: 145.0
+  angle: 199.7
+positions_193:
+  id: 11243
+  longitude: 13.698
+  latitude: 51.0821
+  track_id: 213
+  created_at: 2013-10-05 16:55:27.000000000 Z
+  updated_at: 2013-10-05 16:55:27.000000000 Z
+  time: 2013-10-05 16:55:25.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 146.5
+  angle: 0.0
+positions_194:
+  id: 11244
+  longitude: 13.6979
+  latitude: 51.0821
+  track_id: 213
+  created_at: 2013-10-05 16:55:35.000000000 Z
+  updated_at: 2013-10-05 16:55:35.000000000 Z
+  time: 2013-10-05 16:55:30.000000000 Z
+  user_id: 1
+  speed: 5.9264
+  height: 148.5
+  angle: 238.9
+positions_195:
+  id: 11245
+  longitude: 13.6974
+  latitude: 51.0816
+  track_id: 213
+  created_at: 2013-10-05 16:55:55.000000000 Z
+  updated_at: 2013-10-05 16:55:55.000000000 Z
+  time: 2013-10-05 16:55:53.000000000 Z
+  user_id: 1
+  speed: 12.964
+  height: 153.0
+  angle: 207.1
+positions_196:
+  id: 11246
+  longitude: 13.6923
+  latitude: 51.0822
+  track_id: 213
+  created_at: 2013-10-05 16:56:14.000000000 Z
+  updated_at: 2013-10-05 16:56:14.000000000 Z
+  time: 2013-10-05 16:56:12.000000000 Z
+  user_id: 1
+  speed: 37.5956
+  height: 158.5
+  angle: 294.8
+positions_197:
+  id: 11247
+  longitude: 13.6914
+  latitude: 51.0825
+  track_id: 213
+  created_at: 2013-10-05 16:56:19.000000000 Z
+  updated_at: 2013-10-05 16:56:19.000000000 Z
+  time: 2013-10-05 16:56:17.000000000 Z
+  user_id: 1
+  speed: 32.41
+  height: 163.0
+  angle: 298.7
+positions_198:
+  id: 11248
+  longitude: 13.6905
+  latitude: 51.0829
+  track_id: 213
+  created_at: 2013-10-05 16:56:25.000000000 Z
+  updated_at: 2013-10-05 16:56:25.000000000 Z
+  time: 2013-10-05 16:56:23.000000000 Z
+  user_id: 1
+  speed: 32.7804
+  height: 160.5
+  angle: 300.3
+positions_199:
+  id: 11249
+  longitude: 13.6894
+  latitude: 51.0833
+  track_id: 213
+  created_at: 2013-10-05 16:56:34.000000000 Z
+  updated_at: 2013-10-05 16:56:34.000000000 Z
+  time: 2013-10-05 16:56:32.000000000 Z
+  user_id: 1
+  speed: 33.8916
+  height: 159.0
+  angle: 297.9
+positions_200:
+  id: 11250
+  longitude: 13.6887
+  latitude: 51.0834
+  track_id: 213
+  created_at: 2013-10-05 16:56:40.000000000 Z
+  updated_at: 2013-10-05 16:56:40.000000000 Z
+  time: 2013-10-05 16:56:38.000000000 Z
+  user_id: 1
+  speed: 22.9648
+  height: 157.0
+  angle: 307.8
+positions_201:
+  id: 11251
+  longitude: 13.6888
+  latitude: 51.0838
+  track_id: 213
+  created_at: 2013-10-05 16:56:47.000000000 Z
+  updated_at: 2013-10-05 16:56:47.000000000 Z
+  time: 2013-10-05 16:56:44.000000000 Z
+  user_id: 1
+  speed: 27.0392
+  height: 157.5
+  angle: 15.9
+positions_202:
+  id: 11252
+  longitude: 13.6894
+  latitude: 51.0839
+  track_id: 213
+  created_at: 2013-10-05 16:56:53.000000000 Z
+  updated_at: 2013-10-05 16:56:53.000000000 Z
+  time: 2013-10-05 16:56:50.000000000 Z
+  user_id: 1
+  speed: 20.5572
+  height: 158.0
+  angle: 97.0
+positions_203:
+  id: 11253
+  longitude: 13.6893
+  latitude: 51.083
+  track_id: 213
+  created_at: 2013-10-05 16:57:01.000000000 Z
+  updated_at: 2013-10-05 16:57:01.000000000 Z
+  time: 2013-10-05 16:56:57.000000000 Z
+  user_id: 1
+  speed: 46.3
+  height: 154.5
+  angle: 194.2
+positions_204:
+  id: 11254
+  longitude: 13.6888
+  latitude: 51.0819
+  track_id: 213
+  created_at: 2013-10-05 16:57:07.000000000 Z
+  updated_at: 2013-10-05 16:57:07.000000000 Z
+  time: 2013-10-05 16:57:04.000000000 Z
+  user_id: 1
+  speed: 65.3756
+  height: 152.0
+  angle: 195.0
+positions_205:
+  id: 11255
+  longitude: 13.6878
+  latitude: 51.0807
+  track_id: 213
+  created_at: 2013-10-05 16:57:13.000000000 Z
+  updated_at: 2013-10-05 16:57:13.000000000 Z
+  time: 2013-10-05 16:57:11.000000000 Z
+  user_id: 1
+  speed: 78.8952
+  height: 150.0
+  angle: 207.7
+positions_206:
+  id: 11256
+  longitude: 13.6864
+  latitude: 51.0795
+  track_id: 213
+  created_at: 2013-10-05 16:57:19.000000000 Z
+  updated_at: 2013-10-05 16:57:19.000000000 Z
+  time: 2013-10-05 16:57:17.000000000 Z
+  user_id: 1
+  speed: 94.6372
+  height: 151.0
+  angle: 216.4
+positions_207:
+  id: 11257
+  longitude: 13.6849
+  latitude: 51.0783
+  track_id: 213
+  created_at: 2013-10-05 16:57:26.000000000 Z
+  updated_at: 2013-10-05 16:57:26.000000000 Z
+  time: 2013-10-05 16:57:23.000000000 Z
+  user_id: 1
+  speed: 96.8596
+  height: 151.5
+  angle: 218.7
+positions_208:
+  id: 11258
+  longitude: 13.6834
+  latitude: 51.0771
+  track_id: 213
+  created_at: 2013-10-05 16:57:31.000000000 Z
+  updated_at: 2013-10-05 16:57:31.000000000 Z
+  time: 2013-10-05 16:57:29.000000000 Z
+  user_id: 1
+  speed: 103.156
+  height: 151.5
+  angle: 218.7
+positions_209:
+  id: 11259
+  longitude: 13.6817
+  latitude: 51.0761
+  track_id: 213
+  created_at: 2013-10-05 16:57:37.000000000 Z
+  updated_at: 2013-10-05 16:57:37.000000000 Z
+  time: 2013-10-05 16:57:35.000000000 Z
+  user_id: 1
+  speed: 96.1188
+  height: 150.5
+  angle: 227.5
+positions_210:
+  id: 11260
+  longitude: 13.6803
+  latitude: 51.0754
+  track_id: 213
+  created_at: 2013-10-05 16:57:43.000000000 Z
+  updated_at: 2013-10-05 16:57:43.000000000 Z
+  time: 2013-10-05 16:57:40.000000000 Z
+  user_id: 1
+  speed: 94.8224
+  height: 151.0
+  angle: 231.7
+positions_211:
+  id: 11261
+  longitude: 13.6778
+  latitude: 51.0746
+  track_id: 213
+  created_at: 2013-10-05 16:57:49.000000000 Z
+  updated_at: 2013-10-05 16:57:49.000000000 Z
+  time: 2013-10-05 16:57:47.000000000 Z
+  user_id: 1
+  speed: 100.193
+  height: 155.0
+  angle: 244.4
+positions_212:
+  id: 11262
+  longitude: 13.6755
+  latitude: 51.0739
+  track_id: 213
+  created_at: 2013-10-05 16:57:56.000000000 Z
+  updated_at: 2013-10-05 16:57:56.000000000 Z
+  time: 2013-10-05 16:57:53.000000000 Z
+  user_id: 1
+  speed: 103.897
+  height: 155.0
+  angle: 246.1
+positions_213:
+  id: 11263
+  longitude: 13.6726
+  latitude: 51.0734
+  track_id: 213
+  created_at: 2013-10-05 16:58:02.000000000 Z
+  updated_at: 2013-10-05 16:58:02.000000000 Z
+  time: 2013-10-05 16:58:00.000000000 Z
+  user_id: 1
+  speed: 107.972
+  height: 155.5
+  angle: 251.0
+positions_214:
+  id: 11264
+  longitude: 13.6701
+  latitude: 51.0728
+  track_id: 213
+  created_at: 2013-10-05 16:58:08.000000000 Z
+  updated_at: 2013-10-05 16:58:08.000000000 Z
+  time: 2013-10-05 16:58:06.000000000 Z
+  user_id: 1
+  speed: 110.379
+  height: 156.0
+  angle: 251.2
+positions_215:
+  id: 11265
+  longitude: 13.6676
+  latitude: 51.0723
+  track_id: 213
+  created_at: 2013-10-05 16:58:15.000000000 Z
+  updated_at: 2013-10-05 16:58:15.000000000 Z
+  time: 2013-10-05 16:58:12.000000000 Z
+  user_id: 1
+  speed: 109.083
+  height: 156.0
+  angle: 252.3
+positions_216:
+  id: 11266
+  longitude: 13.6647
+  latitude: 51.0719
+  track_id: 213
+  created_at: 2013-10-05 16:58:22.000000000 Z
+  updated_at: 2013-10-05 16:58:22.000000000 Z
+  time: 2013-10-05 16:58:19.000000000 Z
+  user_id: 1
+  speed: 106.86
+  height: 156.5
+  angle: 256.7
+positions_217:
+  id: 11267
+  longitude: 13.6621
+  latitude: 51.0717
+  track_id: 213
+  created_at: 2013-10-05 16:58:28.000000000 Z
+  updated_at: 2013-10-05 16:58:28.000000000 Z
+  time: 2013-10-05 16:58:25.000000000 Z
+  user_id: 1
+  speed: 109.638
+  height: 159.5
+  angle: 263.2
+positions_218:
+  id: 11268
+  longitude: 13.659
+  latitude: 51.0718
+  track_id: 213
+  created_at: 2013-10-05 16:58:34.000000000 Z
+  updated_at: 2013-10-05 16:58:34.000000000 Z
+  time: 2013-10-05 16:58:32.000000000 Z
+  user_id: 1
+  speed: 108.342
+  height: 164.0
+  angle: 269.6
+positions_219:
+  id: 11269
+  longitude: 13.6568
+  latitude: 51.0718
+  track_id: 213
+  created_at: 2013-10-05 16:58:41.000000000 Z
+  updated_at: 2013-10-05 16:58:41.000000000 Z
+  time: 2013-10-05 16:58:37.000000000 Z
+  user_id: 1
+  speed: 106.675
+  height: 168.0
+  angle: 270.1
+positions_220:
+  id: 11270
+  longitude: 13.6534
+  latitude: 51.0719
+  track_id: 213
+  created_at: 2013-10-05 16:58:47.000000000 Z
+  updated_at: 2013-10-05 16:58:47.000000000 Z
+  time: 2013-10-05 16:58:45.000000000 Z
+  user_id: 1
+  speed: 107.416
+  height: 171.5
+  angle: 271.5
+positions_221:
+  id: 11271
+  longitude: 13.6509
+  latitude: 51.0719
+  track_id: 213
+  created_at: 2013-10-05 16:58:54.000000000 Z
+  updated_at: 2013-10-05 16:58:54.000000000 Z
+  time: 2013-10-05 16:58:51.000000000 Z
+  user_id: 1
+  speed: 105.749
+  height: 175.0
+  angle: 269.9
+positions_222:
+  id: 11272
+  longitude: 13.6484
+  latitude: 51.0718
+  track_id: 213
+  created_at: 2013-10-05 16:59:00.000000000 Z
+  updated_at: 2013-10-05 16:59:00.000000000 Z
+  time: 2013-10-05 16:58:57.000000000 Z
+  user_id: 1
+  speed: 102.786
+  height: 176.5
+  angle: 267.1
+positions_223:
+  id: 11273
+  longitude: 13.6456
+  latitude: 51.0717
+  track_id: 213
+  created_at: 2013-10-05 16:59:07.000000000 Z
+  updated_at: 2013-10-05 16:59:07.000000000 Z
+  time: 2013-10-05 16:59:04.000000000 Z
+  user_id: 1
+  speed: 102.045
+  height: 177.5
+  angle: 267.3
+positions_224:
+  id: 11274
+  longitude: 13.6427
+  latitude: 51.0715
+  track_id: 213
+  created_at: 2013-10-05 16:59:14.000000000 Z
+  updated_at: 2013-10-05 16:59:14.000000000 Z
+  time: 2013-10-05 16:59:11.000000000 Z
+  user_id: 1
+  speed: 104.082
+  height: 179.5
+  angle: 263.3
+positions_225:
+  id: 11275
+  longitude: 13.64
+  latitude: 51.0712
+  track_id: 213
+  created_at: 2013-10-05 16:59:20.000000000 Z
+  updated_at: 2013-10-05 16:59:20.000000000 Z
+  time: 2013-10-05 16:59:18.000000000 Z
+  user_id: 1
+  speed: 102.23
+  height: 183.0
+  angle: 259.6
+positions_226:
+  id: 11276
+  longitude: 13.638
+  latitude: 51.0708
+  track_id: 213
+  created_at: 2013-10-05 16:59:26.000000000 Z
+  updated_at: 2013-10-05 16:59:26.000000000 Z
+  time: 2013-10-05 16:59:23.000000000 Z
+  user_id: 1
+  speed: 103.342
+  height: 184.0
+  angle: 256.4
+positions_227:
+  id: 11277
+  longitude: 13.6357
+  latitude: 51.0704
+  track_id: 213
+  created_at: 2013-10-05 16:59:32.000000000 Z
+  updated_at: 2013-10-05 16:59:32.000000000 Z
+  time: 2013-10-05 16:59:29.000000000 Z
+  user_id: 1
+  speed: 97.9708
+  height: 186.0
+  angle: 253.9
+positions_228:
+  id: 11278
+  longitude: 13.6334
+  latitude: 51.0699
+  track_id: 213
+  created_at: 2013-10-05 16:59:37.000000000 Z
+  updated_at: 2013-10-05 16:59:37.000000000 Z
+  time: 2013-10-05 16:59:35.000000000 Z
+  user_id: 1
+  speed: 103.712
+  height: 186.0
+  angle: 250.3
+positions_229:
+  id: 11279
+  longitude: 13.6313
+  latitude: 51.0693
+  track_id: 213
+  created_at: 2013-10-05 16:59:44.000000000 Z
+  updated_at: 2013-10-05 16:59:44.000000000 Z
+  time: 2013-10-05 16:59:41.000000000 Z
+  user_id: 1
+  speed: 96.1188
+  height: 188.0
+  angle: 248.6
+positions_230:
+  id: 11280
+  longitude: 13.6291
+  latitude: 51.0688
+  track_id: 213
+  created_at: 2013-10-05 16:59:50.000000000 Z
+  updated_at: 2013-10-05 16:59:50.000000000 Z
+  time: 2013-10-05 16:59:47.000000000 Z
+  user_id: 1
+  speed: 96.8596
+  height: 192.0
+  angle: 249.5
+positions_231:
+  id: 11281
+  longitude: 13.6269
+  latitude: 51.0682
+  track_id: 213
+  created_at: 2013-10-05 16:59:55.000000000 Z
+  updated_at: 2013-10-05 16:59:55.000000000 Z
+  time: 2013-10-05 16:59:53.000000000 Z
+  user_id: 1
+  speed: 97.9708
+  height: 198.0
+  angle: 248.9
+positions_232:
+  id: 11282
+  longitude: 13.6248
+  latitude: 51.0677
+  track_id: 213
+  created_at: 2013-10-05 17:00:01.000000000 Z
+  updated_at: 2013-10-05 17:00:01.000000000 Z
+  time: 2013-10-05 16:59:59.000000000 Z
+  user_id: 1
+  speed: 98.156
+  height: 205.5
+  angle: 249.7
+positions_233:
+  id: 11283
+  longitude: 13.6226
+  latitude: 51.0671
+  track_id: 213
+  created_at: 2013-10-05 17:00:07.000000000 Z
+  updated_at: 2013-10-05 17:00:07.000000000 Z
+  time: 2013-10-05 17:00:05.000000000 Z
+  user_id: 1
+  speed: 101.304
+  height: 210.5
+  angle: 250.8
+positions_234:
+  id: 11284
+  longitude: 13.6203
+  latitude: 51.0666
+  track_id: 213
+  created_at: 2013-10-05 17:00:13.000000000 Z
+  updated_at: 2013-10-05 17:00:13.000000000 Z
+  time: 2013-10-05 17:00:11.000000000 Z
+  user_id: 1
+  speed: 102.416
+  height: 214.0
+  angle: 249.7
+positions_235:
+  id: 11285
+  longitude: 13.6177
+  latitude: 51.0659
+  track_id: 213
+  created_at: 2013-10-05 17:00:20.000000000 Z
+  updated_at: 2013-10-05 17:00:20.000000000 Z
+  time: 2013-10-05 17:00:18.000000000 Z
+  user_id: 1
+  speed: 104.453
+  height: 217.5
+  angle: 249.2
+positions_236:
+  id: 11286
+  longitude: 13.6159
+  latitude: 51.0654
+  track_id: 213
+  created_at: 2013-10-05 17:00:26.000000000 Z
+  updated_at: 2013-10-05 17:00:26.000000000 Z
+  time: 2013-10-05 17:00:23.000000000 Z
+  user_id: 1
+  speed: 102.045
+  height: 219.0
+  angle: 250.8
+positions_237:
+  id: 11287
+  longitude: 13.6136
+  latitude: 51.0649
+  track_id: 213
+  created_at: 2013-10-05 17:00:31.000000000 Z
+  updated_at: 2013-10-05 17:00:31.000000000 Z
+  time: 2013-10-05 17:00:29.000000000 Z
+  user_id: 1
+  speed: 100.749
+  height: 222.0
+  angle: 250.4
+positions_238:
+  id: 11288
+  longitude: 13.6115
+  latitude: 51.0643
+  track_id: 213
+  created_at: 2013-10-05 17:00:44.000000000 Z
+  updated_at: 2013-10-05 17:00:44.000000000 Z
+  time: 2013-10-05 17:00:35.000000000 Z
+  user_id: 1
+  speed: 98.7116
+  height: 226.0
+  angle: 249.4
+positions_239:
+  id: 11289
+  longitude: 13.6051
+  latitude: 51.0632
+  track_id: 213
+  created_at: 2013-10-05 17:00:58.000000000 Z
+  updated_at: 2013-10-05 17:00:58.000000000 Z
+  time: 2013-10-05 17:00:55.000000000 Z
+  user_id: 1
+  speed: 75.006
+  height: 234.5
+  angle: 236.0
+positions_240:
+  id: 11290
+  longitude: 13.6045
+  latitude: 51.0615
+  track_id: 213
+  created_at: 2013-10-05 17:01:05.000000000 Z
+  updated_at: 2013-10-05 17:01:05.000000000 Z
+  time: 2013-10-05 17:01:02.000000000 Z
+  user_id: 1
+  speed: 77.784
+  height: 241.5
+  angle: 202.0
+positions_241:
+  id: 11291
+  longitude: 13.6054
+  latitude: 51.0594
+  track_id: 213
+  created_at: 2013-10-05 17:01:12.000000000 Z
+  updated_at: 2013-10-05 17:01:12.000000000 Z
+  time: 2013-10-05 17:01:10.000000000 Z
+  user_id: 1
+  speed: 82.9696
+  height: 249.0
+  angle: 182.3
+positions_242:
+  id: 11292
+  longitude: 13.6053
+  latitude: 51.0584
+  track_id: 213
+  created_at: 2013-10-05 17:01:18.000000000 Z
+  updated_at: 2013-10-05 17:01:18.000000000 Z
+  time: 2013-10-05 17:01:15.000000000 Z
+  user_id: 1
+  speed: 82.0436
+  height: 251.5
+  angle: 185.8
+positions_243:
+  id: 11293
+  longitude: 13.6049
+  latitude: 51.0571
+  track_id: 213
+  created_at: 2013-10-05 17:01:24.000000000 Z
+  updated_at: 2013-10-05 17:01:24.000000000 Z
+  time: 2013-10-05 17:01:21.000000000 Z
+  user_id: 1
+  speed: 87.044
+  height: 255.5
+  angle: 189.9
+positions_244:
+  id: 11294
+  longitude: 13.6044
+  latitude: 51.0555
+  track_id: 213
+  created_at: 2013-10-05 17:01:30.000000000 Z
+  updated_at: 2013-10-05 17:01:30.000000000 Z
+  time: 2013-10-05 17:01:28.000000000 Z
+  user_id: 1
+  speed: 89.6368
+  height: 260.5
+  angle: 190.5
+positions_245:
+  id: 11295
+  longitude: 13.604
+  latitude: 51.0542
+  track_id: 213
+  created_at: 2013-10-05 17:01:36.000000000 Z
+  updated_at: 2013-10-05 17:01:36.000000000 Z
+  time: 2013-10-05 17:01:34.000000000 Z
+  user_id: 1
+  speed: 90.0072
+  height: 263.0
+  angle: 189.2
+positions_246:
+  id: 11296
+  longitude: 13.6039
+  latitude: 51.0528
+  track_id: 213
+  created_at: 2013-10-05 17:01:42.000000000 Z
+  updated_at: 2013-10-05 17:01:42.000000000 Z
+  time: 2013-10-05 17:01:40.000000000 Z
+  user_id: 1
+  speed: 91.8592
+  height: 263.5
+  angle: 178.9
+positions_247:
+  id: 11297
+  longitude: 13.6043
+  latitude: 51.0516
+  track_id: 213
+  created_at: 2013-10-05 17:01:48.000000000 Z
+  updated_at: 2013-10-05 17:01:48.000000000 Z
+  time: 2013-10-05 17:01:46.000000000 Z
+  user_id: 1
+  speed: 84.6364
+  height: 263.5
+  angle: 170.1
+positions_248:
+  id: 11298
+  longitude: 13.6049
+  latitude: 51.0503
+  track_id: 213
+  created_at: 2013-10-05 17:01:54.000000000 Z
+  updated_at: 2013-10-05 17:01:54.000000000 Z
+  time: 2013-10-05 17:01:52.000000000 Z
+  user_id: 1
+  speed: 91.4888
+  height: 264.5
+  angle: 160.9
+positions_249:
+  id: 11299
+  longitude: 13.6059
+  latitude: 51.049
+  track_id: 213
+  created_at: 2013-10-05 17:02:00.000000000 Z
+  updated_at: 2013-10-05 17:02:00.000000000 Z
+  time: 2013-10-05 17:01:58.000000000 Z
+  user_id: 1
+  speed: 95.5632
+  height: 265.5
+  angle: 154.1
+positions_250:
+  id: 11300
+  longitude: 13.6068
+  latitude: 51.0479
+  track_id: 213
+  created_at: 2013-10-05 17:02:06.000000000 Z
+  updated_at: 2013-10-05 17:02:06.000000000 Z
+  time: 2013-10-05 17:02:03.000000000 Z
+  user_id: 1
+  speed: 96.4892
+  height: 265.5
+  angle: 152.9
+positions_251:
+  id: 11301
+  longitude: 13.6073
+  latitude: 51.0465
+  track_id: 213
+  created_at: 2013-10-05 17:02:12.000000000 Z
+  updated_at: 2013-10-05 17:02:12.000000000 Z
+  time: 2013-10-05 17:02:09.000000000 Z
+  user_id: 1
+  speed: 98.7116
+  height: 265.5
+  angle: 167.8
+positions_252:
+  id: 11302
+  longitude: 13.6075
+  latitude: 51.045
+  track_id: 213
+  created_at: 2013-10-05 17:02:18.000000000 Z
+  updated_at: 2013-10-05 17:02:18.000000000 Z
+  time: 2013-10-05 17:02:15.000000000 Z
+  user_id: 1
+  speed: 94.8224
+  height: 271.0
+  angle: 184.7
+positions_253:
+  id: 11303
+  longitude: 13.6074
+  latitude: 51.0434
+  track_id: 213
+  created_at: 2013-10-05 17:02:24.000000000 Z
+  updated_at: 2013-10-05 17:02:24.000000000 Z
+  time: 2013-10-05 17:02:22.000000000 Z
+  user_id: 1
+  speed: 95.7484
+  height: 275.0
+  angle: 181.1
+positions_254:
+  id: 11304
+  longitude: 13.6076
+  latitude: 51.0422
+  track_id: 213
+  created_at: 2013-10-05 17:02:30.000000000 Z
+  updated_at: 2013-10-05 17:02:30.000000000 Z
+  time: 2013-10-05 17:02:27.000000000 Z
+  user_id: 1
+  speed: 96.304
+  height: 275.5
+  angle: 172.5
+positions_255:
+  id: 11305
+  longitude: 13.6117
+  latitude: 51.0381
+  track_id: 213
+  created_at: 2013-10-05 17:02:49.000000000 Z
+  updated_at: 2013-10-05 17:02:49.000000000 Z
+  time: 2013-10-05 17:02:47.000000000 Z
+  user_id: 1
+  speed: 97.9708
+  height: 275.0
+  angle: 131.1
+positions_256:
+  id: 11306
+  longitude: 13.6137
+  latitude: 51.0372
+  track_id: 213
+  created_at: 2013-10-05 17:02:55.000000000 Z
+  updated_at: 2013-10-05 17:02:55.000000000 Z
+  time: 2013-10-05 17:02:53.000000000 Z
+  user_id: 1
+  speed: 99.082
+  height: 276.0
+  angle: 120.0
+positions_257:
+  id: 11307
+  longitude: 13.6161
+  latitude: 51.0368
+  track_id: 213
+  created_at: 2013-10-05 17:03:01.000000000 Z
+  updated_at: 2013-10-05 17:03:01.000000000 Z
+  time: 2013-10-05 17:02:59.000000000 Z
+  user_id: 1
+  speed: 100.934
+  height: 278.0
+  angle: 103.6
+positions_258:
+  id: 11308
+  longitude: 13.6181
+  latitude: 51.0367
+  track_id: 213
+  created_at: 2013-10-05 17:03:07.000000000 Z
+  updated_at: 2013-10-05 17:03:07.000000000 Z
+  time: 2013-10-05 17:03:04.000000000 Z
+  user_id: 1
+  speed: 102.045
+  height: 278.5
+  angle: 95.7
+positions_259:
+  id: 11309
+  longitude: 13.6205
+  latitude: 51.0367
+  track_id: 213
+  created_at: 2013-10-05 17:03:12.000000000 Z
+  updated_at: 2013-10-05 17:03:12.000000000 Z
+  time: 2013-10-05 17:03:10.000000000 Z
+  user_id: 1
+  speed: 99.6376
+  height: 278.0
+  angle: 89.5
+positions_260:
+  id: 11310
+  longitude: 13.623
+  latitude: 51.0368
+  track_id: 213
+  created_at: 2013-10-05 17:03:18.000000000 Z
+  updated_at: 2013-10-05 17:03:18.000000000 Z
+  time: 2013-10-05 17:03:16.000000000 Z
+  user_id: 1
+  speed: 107.231
+  height: 280.0
+  angle: 89.6
+positions_261:
+  id: 11311
+  longitude: 13.6257
+  latitude: 51.0367
+  track_id: 213
+  created_at: 2013-10-05 17:03:24.000000000 Z
+  updated_at: 2013-10-05 17:03:24.000000000 Z
+  time: 2013-10-05 17:03:22.000000000 Z
+  user_id: 1
+  speed: 108.342
+  height: 280.5
+  angle: 95.5
+positions_262:
+  id: 11312
+  longitude: 13.6283
+  latitude: 51.0365
+  track_id: 213
+  created_at: 2013-10-05 17:03:30.000000000 Z
+  updated_at: 2013-10-05 17:03:30.000000000 Z
+  time: 2013-10-05 17:03:28.000000000 Z
+  user_id: 1
+  speed: 113.157
+  height: 284.0
+  angle: 98.8
+positions_263:
+  id: 11313
+  longitude: 13.6305
+  latitude: 51.0361
+  track_id: 213
+  created_at: 2013-10-05 17:03:36.000000000 Z
+  updated_at: 2013-10-05 17:03:36.000000000 Z
+  time: 2013-10-05 17:03:33.000000000 Z
+  user_id: 1
+  speed: 112.046
+  height: 285.0
+  angle: 104.6
+positions_264:
+  id: 11314
+  longitude: 13.633
+  latitude: 51.0356
+  track_id: 213
+  created_at: 2013-10-05 17:03:41.000000000 Z
+  updated_at: 2013-10-05 17:03:41.000000000 Z
+  time: 2013-10-05 17:03:39.000000000 Z
+  user_id: 1
+  speed: 109.638
+  height: 285.5
+  angle: 107.5
+positions_265:
+  id: 11315
+  longitude: 13.6356
+  latitude: 51.035
+  track_id: 213
+  created_at: 2013-10-05 17:03:48.000000000 Z
+  updated_at: 2013-10-05 17:03:48.000000000 Z
+  time: 2013-10-05 17:03:45.000000000 Z
+  user_id: 1
+  speed: 116.306
+  height: 285.5
+  angle: 107.3
+positions_266:
+  id: 11316
+  longitude: 13.6383
+  latitude: 51.0349
+  track_id: 213
+  created_at: 2013-10-05 17:03:53.000000000 Z
+  updated_at: 2013-10-05 17:03:53.000000000 Z
+  time: 2013-10-05 17:03:51.000000000 Z
+  user_id: 1
+  speed: 113.342
+  height: 285.5
+  angle: 95.8
+positions_267:
+  id: 11317
+  longitude: 13.6409
+  latitude: 51.0349
+  track_id: 213
+  created_at: 2013-10-05 17:03:59.000000000 Z
+  updated_at: 2013-10-05 17:03:59.000000000 Z
+  time: 2013-10-05 17:03:57.000000000 Z
+  user_id: 1
+  speed: 111.305
+  height: 285.5
+  angle: 87.0
+positions_268:
+  id: 11318
+  longitude: 13.6433
+  latitude: 51.0351
+  track_id: 213
+  created_at: 2013-10-05 17:04:12.000000000 Z
+  updated_at: 2013-10-05 17:04:12.000000000 Z
+  time: 2013-10-05 17:04:03.000000000 Z
+  user_id: 1
+  speed: 100.193
+  height: 287.0
+  angle: 82.0
+positions_269:
+  id: 11319
+  longitude: 13.6523
+  latitude: 51.0361
+  track_id: 213
+  created_at: 2013-10-05 17:04:29.000000000 Z
+  updated_at: 2013-10-05 17:04:29.000000000 Z
+  time: 2013-10-05 17:04:27.000000000 Z
+  user_id: 1
+  speed: 99.6376
+  height: 288.0
+  angle: 80.1
+positions_270:
+  id: 11320
+  longitude: 13.7195
+  latitude: 51.0117
+  track_id: 213
+  created_at: 2013-10-05 17:08:31.000000000 Z
+  updated_at: 2013-10-05 17:08:31.000000000 Z
+  time: 2013-10-05 17:08:28.000000000 Z
+  user_id: 1
+  speed: 87.97
+  height: 234.0
+  angle: 127.2
+positions_271:
+  id: 11321
+  longitude: 13.7226
+  latitude: 51.0101
+  track_id: 213
+  created_at: 2013-10-05 17:08:41.000000000 Z
+  updated_at: 2013-10-05 17:08:41.000000000 Z
+  time: 2013-10-05 17:08:39.000000000 Z
+  user_id: 1
+  speed: 87.4144
+  height: 232.0
+  angle: 132.9
+positions_272:
+  id: 11322
+  longitude: 13.7241
+  latitude: 51.0093
+  track_id: 213
+  created_at: 2013-10-05 17:08:47.000000000 Z
+  updated_at: 2013-10-05 17:08:47.000000000 Z
+  time: 2013-10-05 17:08:45.000000000 Z
+  user_id: 1
+  speed: 78.8952
+  height: 218.0
+  angle: 128.8
+positions_273:
+  id: 11323
+  longitude: 13.7255
+  latitude: 51.0088
+  track_id: 213
+  created_at: 2013-10-05 17:08:54.000000000 Z
+  updated_at: 2013-10-05 17:08:54.000000000 Z
+  time: 2013-10-05 17:08:51.000000000 Z
+  user_id: 1
+  speed: 65.1904
+  height: 225.5
+  angle: 120.1
+positions_274:
+  id: 11324
+  longitude: 13.7268
+  latitude: 51.0084
+  track_id: 213
+  created_at: 2013-10-05 17:08:59.000000000 Z
+  updated_at: 2013-10-05 17:08:59.000000000 Z
+  time: 2013-10-05 17:08:57.000000000 Z
+  user_id: 1
+  speed: 57.2268
+  height: 227.5
+  angle: 117.1
+positions_275:
+  id: 11325
+  longitude: 13.7279
+  latitude: 51.008
+  track_id: 213
+  created_at: 2013-10-05 17:09:07.000000000 Z
+  updated_at: 2013-10-05 17:09:07.000000000 Z
+  time: 2013-10-05 17:09:04.000000000 Z
+  user_id: 1
+  speed: 39.2624
+  height: 234.5
+  angle: 125.7
+positions_276:
+  id: 11326
+  longitude: 13.7279
+  latitude: 51.0073
+  track_id: 213
+  created_at: 2013-10-05 17:09:13.000000000 Z
+  updated_at: 2013-10-05 17:09:13.000000000 Z
+  time: 2013-10-05 17:09:10.000000000 Z
+  user_id: 1
+  speed: 40.9292
+  height: 237.5
+  angle: 165.3
+positions_277:
+  id: 11327
+  longitude: 13.7286
+  latitude: 51.0068
+  track_id: 213
+  created_at: 2013-10-05 17:09:19.000000000 Z
+  updated_at: 2013-10-05 17:09:19.000000000 Z
+  time: 2013-10-05 17:09:16.000000000 Z
+  user_id: 1
+  speed: 46.3
+  height: 242.5
+  angle: 136.8
+positions_278:
+  id: 11328
+  longitude: 13.7297
+  latitude: 51.0066
+  track_id: 213
+  created_at: 2013-10-05 17:09:29.000000000 Z
+  updated_at: 2013-10-05 17:09:29.000000000 Z
+  time: 2013-10-05 17:09:25.000000000 Z
+  user_id: 1
+  speed: 27.78
+  height: 249.0
+  angle: 132.6
+positions_279:
+  id: 11329
+  longitude: 13.7296
+  latitude: 51.0059
+  track_id: 213
+  created_at: 2013-10-05 17:09:35.000000000 Z
+  updated_at: 2013-10-05 17:09:35.000000000 Z
+  time: 2013-10-05 17:09:32.000000000 Z
+  user_id: 1
+  speed: 46.8556
+  height: 248.5
+  angle: 191.6
+positions_280:
+  id: 11330
+  longitude: 13.7289
+  latitude: 51.005
+  track_id: 213
+  created_at: 2013-10-05 17:09:42.000000000 Z
+  updated_at: 2013-10-05 17:09:42.000000000 Z
+  time: 2013-10-05 17:09:39.000000000 Z
+  user_id: 1
+  speed: 58.5232
+  height: 249.5
+  angle: 209.9
+positions_281:
+  id: 11331
+  longitude: 13.7276
+  latitude: 51.0041
+  track_id: 213
+  created_at: 2013-10-05 17:09:49.000000000 Z
+  updated_at: 2013-10-05 17:09:49.000000000 Z
+  time: 2013-10-05 17:09:46.000000000 Z
+  user_id: 1
+  speed: 70.376
+  height: 252.0
+  angle: 227.1
+positions_282:
+  id: 11332
+  longitude: 13.7256
+  latitude: 51.0033
+  track_id: 213
+  created_at: 2013-10-05 17:09:58.000000000 Z
+  updated_at: 2013-10-05 17:09:58.000000000 Z
+  time: 2013-10-05 17:09:54.000000000 Z
+  user_id: 1
+  speed: 77.0432
+  height: 252.5
+  angle: 237.2
+positions_283:
+  id: 11333
+  longitude: 13.724
+  latitude: 51.0021
+  track_id: 213
+  created_at: 2013-10-05 17:10:04.000000000 Z
+  updated_at: 2013-10-05 17:10:04.000000000 Z
+  time: 2013-10-05 17:10:02.000000000 Z
+  user_id: 1
+  speed: 79.8212
+  height: 254.0
+  angle: 211.0
+positions_284:
+  id: 11334
+  longitude: 13.7232
+  latitude: 51.0012
+  track_id: 213
+  created_at: 2013-10-05 17:10:09.000000000 Z
+  updated_at: 2013-10-05 17:10:09.000000000 Z
+  time: 2013-10-05 17:10:07.000000000 Z
+  user_id: 1
+  speed: 82.0436
+  height: 257.0
+  angle: 209.9
+positions_285:
+  id: 11335
+  longitude: 13.7221
+  latitude: 51.0002
+  track_id: 213
+  created_at: 2013-10-05 17:10:16.000000000 Z
+  updated_at: 2013-10-05 17:10:16.000000000 Z
+  time: 2013-10-05 17:10:13.000000000 Z
+  user_id: 1
+  speed: 80.562
+  height: 259.0
+  angle: 214.4
+positions_286:
+  id: 11336
+  longitude: 13.7209
+  latitude: 50.9992
+  track_id: 213
+  created_at: 2013-10-05 17:10:22.000000000 Z
+  updated_at: 2013-10-05 17:10:22.000000000 Z
+  time: 2013-10-05 17:10:20.000000000 Z
+  user_id: 1
+  speed: 63.1532
+  height: 263.5
+  angle: 216.8
+positions_287:
+  id: 11337
+  longitude: 13.7201
+  latitude: 50.9985
+  track_id: 213
+  created_at: 2013-10-05 17:10:28.000000000 Z
+  updated_at: 2013-10-05 17:10:28.000000000 Z
+  time: 2013-10-05 17:10:26.000000000 Z
+  user_id: 1
+  speed: 49.6336
+  height: 266.0
+  angle: 217.0
+positions_288:
+  id: 11338
+  longitude: 13.7195
+  latitude: 50.998
+  track_id: 213
+  created_at: 2013-10-05 17:10:34.000000000 Z
+  updated_at: 2013-10-05 17:10:34.000000000 Z
+  time: 2013-10-05 17:10:32.000000000 Z
+  user_id: 1
+  speed: 29.632
+  height: 268.5
+  angle: 219.2
+positions_289:
+  id: 11339
+  longitude: 13.719
+  latitude: 50.998
+  track_id: 213
+  created_at: 2013-10-05 17:10:40.000000000 Z
+  updated_at: 2013-10-05 17:10:40.000000000 Z
+  time: 2013-10-05 17:10:38.000000000 Z
+  user_id: 1
+  speed: 19.0756
+  height: 272.5
+  angle: 268.4
+positions_290:
+  id: 11340
+  longitude: 13.7186
+  latitude: 50.9983
+  track_id: 213
+  created_at: 2013-10-05 17:10:46.000000000 Z
+  updated_at: 2013-10-05 17:10:46.000000000 Z
+  time: 2013-10-05 17:10:43.000000000 Z
+  user_id: 1
+  speed: 27.5948
+  height: 280.0
+  angle: 320.4
+positions_291:
+  id: 11341
+  longitude: 13.7185
+  latitude: 50.9986
+  track_id: 213
+  created_at: 2013-10-05 17:10:52.000000000 Z
+  updated_at: 2013-10-05 17:10:52.000000000 Z
+  time: 2013-10-05 17:10:49.000000000 Z
+  user_id: 1
+  speed: 8.334
+  height: 284.5
+  angle: 23.5
+positions_292:
+  id: 11342
+  longitude: 13.7188
+  latitude: 50.9985
+  track_id: 213
+  created_at: 2013-10-05 17:10:58.000000000 Z
+  updated_at: 2013-10-05 17:10:58.000000000 Z
+  time: 2013-10-05 17:10:55.000000000 Z
+  user_id: 1
+  speed: 12.7788
+  height: 287.0
+  angle: 87.1
+positions_293:
+  id: 11343
+  longitude: 13.7189
+  latitude: 50.9986
+  track_id: 213
+  created_at: 2013-10-05 17:11:04.000000000 Z
+  updated_at: 2013-10-05 17:11:04.000000000 Z
+  time: 2013-10-05 17:11:01.000000000 Z
+  user_id: 1
+  speed: 3.5188
+  height: 287.0
+  angle: 354.6
+positions_294:
+  id: 11344
+  longitude: 13.7189
+  latitude: 50.9987
+  track_id: 213
+  created_at: 2013-10-05 17:11:09.000000000 Z
+  updated_at: 2013-10-05 17:11:09.000000000 Z
+  time: 2013-10-05 17:11:07.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 288.0
+  angle: 0.0
+positions_295:
+  id: 11345
+  longitude: 13.7189
+  latitude: 50.9987
+  track_id: 213
+  created_at: 2013-10-05 17:11:15.000000000 Z
+  updated_at: 2013-10-05 17:11:15.000000000 Z
+  time: 2013-10-05 17:11:13.000000000 Z
+  user_id: 1
+  speed: 3.1484
+  height: 288.0
+  angle: 290.3
+positions_296:
+  id: 11346
+  longitude: 13.7189
+  latitude: 50.9987
+  track_id: 213
+  created_at: 2013-10-05 17:11:21.000000000 Z
+  updated_at: 2013-10-05 17:11:21.000000000 Z
+  time: 2013-10-05 17:11:19.000000000 Z
+  user_id: 1
+  speed: 2.9632
+  height: 289.0
+  angle: 1.0
+positions_297:
+  id: 11347
+  longitude: 13.7189
+  latitude: 50.9987
+  track_id: 213
+  created_at: 2013-10-05 17:11:27.000000000 Z
+  updated_at: 2013-10-05 17:11:27.000000000 Z
+  time: 2013-10-05 17:11:25.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 289.0
+  angle: 0.0
+positions_298:
+  id: 11348
+  longitude: 13.7189
+  latitude: 50.9987
+  track_id: 213
+  created_at: 2013-10-05 17:11:33.000000000 Z
+  updated_at: 2013-10-05 17:11:33.000000000 Z
+  time: 2013-10-05 17:11:31.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 289.0
+  angle: 0.0
+positions_299:
+  id: 11349
+  longitude: 13.7188
+  latitude: 50.9987
+  track_id: 213
+  created_at: 2013-10-05 17:11:40.000000000 Z
+  updated_at: 2013-10-05 17:11:40.000000000 Z
+  time: 2013-10-05 17:11:37.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 289.5
+  angle: 0.0
+positions_300:
+  id: 11350
+  longitude: 13.7188
+  latitude: 50.9987
+  track_id: 213
+  created_at: 2013-10-05 17:11:46.000000000 Z
+  updated_at: 2013-10-05 17:11:46.000000000 Z
+  time: 2013-10-05 17:11:43.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 290.0
+  angle: 0.0
+positions_301:
+  id: 11351
+  longitude: 13.7189
+  latitude: 50.9987
+  track_id: 213
+  created_at: 2013-10-05 17:11:55.000000000 Z
+  updated_at: 2013-10-05 17:11:55.000000000 Z
+  time: 2013-10-05 17:11:52.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 290.0
+  angle: 0.0
+positions_302:
+  id: 11352
+  longitude: 13.7189
+  latitude: 50.9987
+  track_id: 213
+  created_at: 2013-10-05 17:12:01.000000000 Z
+  updated_at: 2013-10-05 17:12:01.000000000 Z
+  time: 2013-10-05 17:11:58.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 290.0
+  angle: 0.0
+positions_303:
+  id: 11353
+  longitude: 13.7188
+  latitude: 50.9988
+  track_id: 213
+  created_at: 2013-10-05 17:12:06.000000000 Z
+  updated_at: 2013-10-05 17:12:06.000000000 Z
+  time: 2013-10-05 17:12:04.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 290.5
+  angle: 0.0
+positions_304:
+  id: 11354
+  longitude: 13.7189
+  latitude: 50.9988
+  track_id: 213
+  created_at: 2013-10-05 17:12:12.000000000 Z
+  updated_at: 2013-10-05 17:12:12.000000000 Z
+  time: 2013-10-05 17:12:10.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 291.0
+  angle: 0.0
+positions_305:
+  id: 11355
+  longitude: 13.7189
+  latitude: 50.9988
+  track_id: 213
+  created_at: 2013-10-05 17:12:18.000000000 Z
+  updated_at: 2013-10-05 17:12:18.000000000 Z
+  time: 2013-10-05 17:12:15.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 291.0
+  angle: 0.0
+positions_306:
+  id: 11356
+  longitude: 13.7189
+  latitude: 50.9988
+  track_id: 213
+  created_at: 2013-10-05 17:12:24.000000000 Z
+  updated_at: 2013-10-05 17:12:24.000000000 Z
+  time: 2013-10-05 17:12:21.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 292.0
+  angle: 0.0
+positions_307:
+  id: 11357
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:12:30.000000000 Z
+  updated_at: 2013-10-05 17:12:30.000000000 Z
+  time: 2013-10-05 17:12:27.000000000 Z
+  user_id: 1
+  speed: 2.778
+  height: 292.0
+  angle: 62.4
+positions_308:
+  id: 11358
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:12:36.000000000 Z
+  updated_at: 2013-10-05 17:12:36.000000000 Z
+  time: 2013-10-05 17:12:33.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 292.5
+  angle: 0.0
+positions_309:
+  id: 11359
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:12:42.000000000 Z
+  updated_at: 2013-10-05 17:12:42.000000000 Z
+  time: 2013-10-05 17:12:39.000000000 Z
+  user_id: 1
+  speed: 3.1484
+  height: 292.5
+  angle: 15.5
+positions_310:
+  id: 11360
+  longitude: 13.719
+  latitude: 50.9988
+  track_id: 213
+  created_at: 2013-10-05 17:12:48.000000000 Z
+  updated_at: 2013-10-05 17:12:48.000000000 Z
+  time: 2013-10-05 17:12:45.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 293.0
+  angle: 0.0
+positions_311:
+  id: 11361
+  longitude: 13.7189
+  latitude: 50.9988
+  track_id: 213
+  created_at: 2013-10-05 17:12:53.000000000 Z
+  updated_at: 2013-10-05 17:12:53.000000000 Z
+  time: 2013-10-05 17:12:51.000000000 Z
+  user_id: 1
+  speed: 2.4076
+  height: 293.0
+  angle: 200.6
+positions_312:
+  id: 11362
+  longitude: 13.7189
+  latitude: 50.9988
+  track_id: 213
+  created_at: 2013-10-05 17:13:00.000000000 Z
+  updated_at: 2013-10-05 17:13:00.000000000 Z
+  time: 2013-10-05 17:12:57.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 293.0
+  angle: 0.0
+positions_313:
+  id: 11363
+  longitude: 13.7189
+  latitude: 50.9988
+  track_id: 213
+  created_at: 2013-10-05 17:13:06.000000000 Z
+  updated_at: 2013-10-05 17:13:06.000000000 Z
+  time: 2013-10-05 17:13:03.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 294.0
+  angle: 0.0
+positions_314:
+  id: 11364
+  longitude: 13.719
+  latitude: 50.9988
+  track_id: 213
+  created_at: 2013-10-05 17:13:11.000000000 Z
+  updated_at: 2013-10-05 17:13:11.000000000 Z
+  time: 2013-10-05 17:13:09.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 294.5
+  angle: 0.0
+positions_315:
+  id: 11365
+  longitude: 13.719
+  latitude: 50.9988
+  track_id: 213
+  created_at: 2013-10-05 17:13:17.000000000 Z
+  updated_at: 2013-10-05 17:13:17.000000000 Z
+  time: 2013-10-05 17:13:15.000000000 Z
+  user_id: 1
+  speed: 2.4076
+  height: 296.0
+  angle: 202.0
+positions_316:
+  id: 11366
+  longitude: 13.7191
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:13:23.000000000 Z
+  updated_at: 2013-10-05 17:13:23.000000000 Z
+  time: 2013-10-05 17:13:21.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.5
+  angle: 0.0
+positions_317:
+  id: 11367
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:13:29.000000000 Z
+  updated_at: 2013-10-05 17:13:29.000000000 Z
+  time: 2013-10-05 17:13:26.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 298.0
+  angle: 0.0
+positions_318:
+  id: 11368
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:13:34.000000000 Z
+  updated_at: 2013-10-05 17:13:34.000000000 Z
+  time: 2013-10-05 17:13:32.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 298.0
+  angle: 0.0
+positions_319:
+  id: 11369
+  longitude: 13.7191
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:13:40.000000000 Z
+  updated_at: 2013-10-05 17:13:40.000000000 Z
+  time: 2013-10-05 17:13:38.000000000 Z
+  user_id: 1
+  speed: 2.9632
+  height: 298.0
+  angle: 17.7
+positions_320:
+  id: 11370
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:13:46.000000000 Z
+  updated_at: 2013-10-05 17:13:46.000000000 Z
+  time: 2013-10-05 17:13:44.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 298.5
+  angle: 0.0
+positions_321:
+  id: 11371
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:13:54.000000000 Z
+  updated_at: 2013-10-05 17:13:54.000000000 Z
+  time: 2013-10-05 17:13:49.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 298.5
+  angle: 0.0
+positions_322:
+  id: 11372
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:14:00.000000000 Z
+  updated_at: 2013-10-05 17:14:00.000000000 Z
+  time: 2013-10-05 17:13:58.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 298.5
+  angle: 0.0
+positions_323:
+  id: 11373
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:14:06.000000000 Z
+  updated_at: 2013-10-05 17:14:06.000000000 Z
+  time: 2013-10-05 17:14:04.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 298.0
+  angle: 0.0
+positions_324:
+  id: 11374
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:14:12.000000000 Z
+  updated_at: 2013-10-05 17:14:12.000000000 Z
+  time: 2013-10-05 17:14:10.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.0
+  angle: 0.0
+positions_325:
+  id: 11375
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:14:18.000000000 Z
+  updated_at: 2013-10-05 17:14:18.000000000 Z
+  time: 2013-10-05 17:14:15.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.0
+  angle: 0.0
+positions_326:
+  id: 11376
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:14:24.000000000 Z
+  updated_at: 2013-10-05 17:14:24.000000000 Z
+  time: 2013-10-05 17:14:22.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.0
+  angle: 0.0
+positions_327:
+  id: 11377
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:14:30.000000000 Z
+  updated_at: 2013-10-05 17:14:30.000000000 Z
+  time: 2013-10-05 17:14:28.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.0
+  angle: 0.0
+positions_328:
+  id: 11378
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:14:37.000000000 Z
+  updated_at: 2013-10-05 17:14:37.000000000 Z
+  time: 2013-10-05 17:14:34.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.0
+  angle: 0.0
+positions_329:
+  id: 11379
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:14:42.000000000 Z
+  updated_at: 2013-10-05 17:14:42.000000000 Z
+  time: 2013-10-05 17:14:40.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.0
+  angle: 0.0
+positions_330:
+  id: 11380
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:14:49.000000000 Z
+  updated_at: 2013-10-05 17:14:49.000000000 Z
+  time: 2013-10-05 17:14:46.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.0
+  angle: 0.0
+positions_331:
+  id: 11381
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:14:54.000000000 Z
+  updated_at: 2013-10-05 17:14:54.000000000 Z
+  time: 2013-10-05 17:14:52.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.0
+  angle: 0.0
+positions_332:
+  id: 11382
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:15:00.000000000 Z
+  updated_at: 2013-10-05 17:15:00.000000000 Z
+  time: 2013-10-05 17:14:58.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.0
+  angle: 0.0
+positions_333:
+  id: 11383
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:15:06.000000000 Z
+  updated_at: 2013-10-05 17:15:06.000000000 Z
+  time: 2013-10-05 17:15:04.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.0
+  angle: 0.0
+positions_334:
+  id: 11384
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:15:12.000000000 Z
+  updated_at: 2013-10-05 17:15:12.000000000 Z
+  time: 2013-10-05 17:15:10.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.5
+  angle: 0.0
+positions_335:
+  id: 11385
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:15:18.000000000 Z
+  updated_at: 2013-10-05 17:15:18.000000000 Z
+  time: 2013-10-05 17:15:15.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.5
+  angle: 0.0
+positions_336:
+  id: 11386
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:15:24.000000000 Z
+  updated_at: 2013-10-05 17:15:24.000000000 Z
+  time: 2013-10-05 17:15:21.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.5
+  angle: 0.0
+positions_337:
+  id: 11387
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:15:30.000000000 Z
+  updated_at: 2013-10-05 17:15:30.000000000 Z
+  time: 2013-10-05 17:15:27.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.5
+  angle: 0.0
+positions_338:
+  id: 11388
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:15:36.000000000 Z
+  updated_at: 2013-10-05 17:15:36.000000000 Z
+  time: 2013-10-05 17:15:33.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.5
+  angle: 0.0
+positions_339:
+  id: 11389
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:15:41.000000000 Z
+  updated_at: 2013-10-05 17:15:41.000000000 Z
+  time: 2013-10-05 17:15:39.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.5
+  angle: 0.0
+positions_340:
+  id: 11390
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:15:47.000000000 Z
+  updated_at: 2013-10-05 17:15:47.000000000 Z
+  time: 2013-10-05 17:15:45.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.5
+  angle: 0.0
+positions_341:
+  id: 11391
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:15:53.000000000 Z
+  updated_at: 2013-10-05 17:15:53.000000000 Z
+  time: 2013-10-05 17:15:51.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 297.5
+  angle: 0.0
+positions_342:
+  id: 11392
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:15:59.000000000 Z
+  updated_at: 2013-10-05 17:15:59.000000000 Z
+  time: 2013-10-05 17:15:57.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 298.0
+  angle: 0.0
+positions_343:
+  id: 11393
+  longitude: 13.719
+  latitude: 50.9989
+  track_id: 213
+  created_at: 2013-10-05 17:16:05.000000000 Z
+  updated_at: 2013-10-05 17:16:05.000000000 Z
+  time: 2013-10-05 17:16:03.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 298.0
+  angle: 0.0
+positions_344:
+  id: 11394
+  longitude: 13.719
+  latitude: 50.999
+  track_id: 213
+  created_at: 2013-10-05 17:16:11.000000000 Z
+  updated_at: 2013-10-05 17:16:11.000000000 Z
+  time: 2013-10-05 17:16:09.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 298.0
+  angle: 0.0
+positions_345:
+  id: 11395
+  longitude: 13.7187
+  latitude: 50.9993
+  track_id: 213
+  created_at: 2013-10-05 17:16:17.000000000 Z
+  updated_at: 2013-10-05 17:16:17.000000000 Z
+  time: 2013-10-05 17:16:15.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 301.5
+  angle: 0.0
+positions_346:
+  id: 11396
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:16:23.000000000 Z
+  updated_at: 2013-10-05 17:16:23.000000000 Z
+  time: 2013-10-05 17:16:21.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_347:
+  id: 11397
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:16:29.000000000 Z
+  updated_at: 2013-10-05 17:16:29.000000000 Z
+  time: 2013-10-05 17:16:26.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_348:
+  id: 11398
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:16:35.000000000 Z
+  updated_at: 2013-10-05 17:16:35.000000000 Z
+  time: 2013-10-05 17:16:33.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_349:
+  id: 11399
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:16:41.000000000 Z
+  updated_at: 2013-10-05 17:16:41.000000000 Z
+  time: 2013-10-05 17:16:39.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_350:
+  id: 11400
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:16:49.000000000 Z
+  updated_at: 2013-10-05 17:16:49.000000000 Z
+  time: 2013-10-05 17:16:44.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_351:
+  id: 11401
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:16:55.000000000 Z
+  updated_at: 2013-10-05 17:16:55.000000000 Z
+  time: 2013-10-05 17:16:52.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_352:
+  id: 11402
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:17:01.000000000 Z
+  updated_at: 2013-10-05 17:17:01.000000000 Z
+  time: 2013-10-05 17:16:58.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_353:
+  id: 11403
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:17:06.000000000 Z
+  updated_at: 2013-10-05 17:17:06.000000000 Z
+  time: 2013-10-05 17:17:04.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_354:
+  id: 11404
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:17:12.000000000 Z
+  updated_at: 2013-10-05 17:17:12.000000000 Z
+  time: 2013-10-05 17:17:10.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.0
+  angle: 0.0
+positions_355:
+  id: 11405
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:17:18.000000000 Z
+  updated_at: 2013-10-05 17:17:18.000000000 Z
+  time: 2013-10-05 17:17:16.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.0
+  angle: 0.0
+positions_356:
+  id: 11406
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:17:24.000000000 Z
+  updated_at: 2013-10-05 17:17:24.000000000 Z
+  time: 2013-10-05 17:17:22.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.0
+  angle: 0.0
+positions_357:
+  id: 11407
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:17:30.000000000 Z
+  updated_at: 2013-10-05 17:17:30.000000000 Z
+  time: 2013-10-05 17:17:28.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.0
+  angle: 0.0
+positions_358:
+  id: 11408
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:17:36.000000000 Z
+  updated_at: 2013-10-05 17:17:36.000000000 Z
+  time: 2013-10-05 17:17:34.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.0
+  angle: 0.0
+positions_359:
+  id: 11409
+  longitude: 13.7187
+  latitude: 50.9994
+  track_id: 213
+  created_at: 2013-10-05 17:17:42.000000000 Z
+  updated_at: 2013-10-05 17:17:42.000000000 Z
+  time: 2013-10-05 17:17:40.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.0
+  angle: 0.0
+positions_360:
+  id: 11410
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:17:48.000000000 Z
+  updated_at: 2013-10-05 17:17:48.000000000 Z
+  time: 2013-10-05 17:17:45.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 302.5
+  angle: 0.0
+positions_361:
+  id: 11411
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:17:54.000000000 Z
+  updated_at: 2013-10-05 17:17:54.000000000 Z
+  time: 2013-10-05 17:17:51.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 302.5
+  angle: 0.0
+positions_362:
+  id: 11412
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:17:59.000000000 Z
+  updated_at: 2013-10-05 17:17:59.000000000 Z
+  time: 2013-10-05 17:17:57.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 302.5
+  angle: 0.0
+positions_363:
+  id: 11413
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:18:06.000000000 Z
+  updated_at: 2013-10-05 17:18:06.000000000 Z
+  time: 2013-10-05 17:18:03.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 302.5
+  angle: 0.0
+positions_364:
+  id: 11414
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:18:12.000000000 Z
+  updated_at: 2013-10-05 17:18:12.000000000 Z
+  time: 2013-10-05 17:18:09.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 302.5
+  angle: 0.0
+positions_365:
+  id: 11415
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:18:17.000000000 Z
+  updated_at: 2013-10-05 17:18:17.000000000 Z
+  time: 2013-10-05 17:18:15.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 303.5
+  angle: 0.0
+positions_366:
+  id: 11416
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:18:23.000000000 Z
+  updated_at: 2013-10-05 17:18:23.000000000 Z
+  time: 2013-10-05 17:18:21.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 303.5
+  angle: 0.0
+positions_367:
+  id: 11417
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:18:29.000000000 Z
+  updated_at: 2013-10-05 17:18:29.000000000 Z
+  time: 2013-10-05 17:18:27.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 303.5
+  angle: 0.0
+positions_368:
+  id: 11418
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:18:35.000000000 Z
+  updated_at: 2013-10-05 17:18:35.000000000 Z
+  time: 2013-10-05 17:18:32.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 303.5
+  angle: 0.0
+positions_369:
+  id: 11419
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:18:41.000000000 Z
+  updated_at: 2013-10-05 17:18:41.000000000 Z
+  time: 2013-10-05 17:18:38.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 303.5
+  angle: 0.0
+positions_370:
+  id: 11420
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:18:47.000000000 Z
+  updated_at: 2013-10-05 17:18:47.000000000 Z
+  time: 2013-10-05 17:18:44.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 303.5
+  angle: 0.0
+positions_371:
+  id: 11421
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:18:52.000000000 Z
+  updated_at: 2013-10-05 17:18:52.000000000 Z
+  time: 2013-10-05 17:18:50.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 303.5
+  angle: 0.0
+positions_372:
+  id: 11422
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:18:58.000000000 Z
+  updated_at: 2013-10-05 17:18:58.000000000 Z
+  time: 2013-10-05 17:18:56.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 303.5
+  angle: 0.0
+positions_373:
+  id: 11423
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:19:04.000000000 Z
+  updated_at: 2013-10-05 17:19:04.000000000 Z
+  time: 2013-10-05 17:19:02.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 303.5
+  angle: 0.0
+positions_374:
+  id: 11424
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:19:10.000000000 Z
+  updated_at: 2013-10-05 17:19:10.000000000 Z
+  time: 2013-10-05 17:19:08.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 303.5
+  angle: 0.0
+positions_375:
+  id: 11425
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:19:17.000000000 Z
+  updated_at: 2013-10-05 17:19:17.000000000 Z
+  time: 2013-10-05 17:19:14.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 303.5
+  angle: 0.0
+positions_376:
+  id: 11426
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:19:22.000000000 Z
+  updated_at: 2013-10-05 17:19:22.000000000 Z
+  time: 2013-10-05 17:19:20.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.0
+  angle: 0.0
+positions_377:
+  id: 11427
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:19:28.000000000 Z
+  updated_at: 2013-10-05 17:19:28.000000000 Z
+  time: 2013-10-05 17:19:26.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.0
+  angle: 0.0
+positions_378:
+  id: 11428
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:19:34.000000000 Z
+  updated_at: 2013-10-05 17:19:34.000000000 Z
+  time: 2013-10-05 17:19:32.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_379:
+  id: 11429
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:19:40.000000000 Z
+  updated_at: 2013-10-05 17:19:40.000000000 Z
+  time: 2013-10-05 17:19:38.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_380:
+  id: 11430
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:19:46.000000000 Z
+  updated_at: 2013-10-05 17:19:46.000000000 Z
+  time: 2013-10-05 17:19:44.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_381:
+  id: 11431
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:19:52.000000000 Z
+  updated_at: 2013-10-05 17:19:52.000000000 Z
+  time: 2013-10-05 17:19:49.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_382:
+  id: 11432
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:19:58.000000000 Z
+  updated_at: 2013-10-05 17:19:58.000000000 Z
+  time: 2013-10-05 17:19:56.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_383:
+  id: 11433
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:20:04.000000000 Z
+  updated_at: 2013-10-05 17:20:04.000000000 Z
+  time: 2013-10-05 17:20:02.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_384:
+  id: 11434
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:20:10.000000000 Z
+  updated_at: 2013-10-05 17:20:10.000000000 Z
+  time: 2013-10-05 17:20:08.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_385:
+  id: 11435
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:20:16.000000000 Z
+  updated_at: 2013-10-05 17:20:16.000000000 Z
+  time: 2013-10-05 17:20:14.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_386:
+  id: 11436
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:20:22.000000000 Z
+  updated_at: 2013-10-05 17:20:22.000000000 Z
+  time: 2013-10-05 17:20:20.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_387:
+  id: 11437
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:20:28.000000000 Z
+  updated_at: 2013-10-05 17:20:28.000000000 Z
+  time: 2013-10-05 17:20:26.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_388:
+  id: 11438
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:20:34.000000000 Z
+  updated_at: 2013-10-05 17:20:34.000000000 Z
+  time: 2013-10-05 17:20:32.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_389:
+  id: 11439
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:20:40.000000000 Z
+  updated_at: 2013-10-05 17:20:40.000000000 Z
+  time: 2013-10-05 17:20:38.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_390:
+  id: 11440
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:20:46.000000000 Z
+  updated_at: 2013-10-05 17:20:46.000000000 Z
+  time: 2013-10-05 17:20:43.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_391:
+  id: 11441
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:20:52.000000000 Z
+  updated_at: 2013-10-05 17:20:52.000000000 Z
+  time: 2013-10-05 17:20:49.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_392:
+  id: 11442
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:20:58.000000000 Z
+  updated_at: 2013-10-05 17:20:58.000000000 Z
+  time: 2013-10-05 17:20:55.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_393:
+  id: 11443
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:21:04.000000000 Z
+  updated_at: 2013-10-05 17:21:04.000000000 Z
+  time: 2013-10-05 17:21:02.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_394:
+  id: 11444
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:21:10.000000000 Z
+  updated_at: 2013-10-05 17:21:10.000000000 Z
+  time: 2013-10-05 17:21:07.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_395:
+  id: 11445
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:21:16.000000000 Z
+  updated_at: 2013-10-05 17:21:16.000000000 Z
+  time: 2013-10-05 17:21:13.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_396:
+  id: 11446
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:21:22.000000000 Z
+  updated_at: 2013-10-05 17:21:22.000000000 Z
+  time: 2013-10-05 17:21:19.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_397:
+  id: 11447
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:21:28.000000000 Z
+  updated_at: 2013-10-05 17:21:28.000000000 Z
+  time: 2013-10-05 17:21:25.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_398:
+  id: 11448
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:21:33.000000000 Z
+  updated_at: 2013-10-05 17:21:33.000000000 Z
+  time: 2013-10-05 17:21:31.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_399:
+  id: 11449
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:21:39.000000000 Z
+  updated_at: 2013-10-05 17:21:39.000000000 Z
+  time: 2013-10-05 17:21:37.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_400:
+  id: 11450
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:21:45.000000000 Z
+  updated_at: 2013-10-05 17:21:45.000000000 Z
+  time: 2013-10-05 17:21:43.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_401:
+  id: 11451
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:21:51.000000000 Z
+  updated_at: 2013-10-05 17:21:51.000000000 Z
+  time: 2013-10-05 17:21:49.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_402:
+  id: 11452
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:21:57.000000000 Z
+  updated_at: 2013-10-05 17:21:57.000000000 Z
+  time: 2013-10-05 17:21:54.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_403:
+  id: 11453
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:22:03.000000000 Z
+  updated_at: 2013-10-05 17:22:03.000000000 Z
+  time: 2013-10-05 17:22:00.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_404:
+  id: 11454
+  longitude: 13.7186
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:22:09.000000000 Z
+  updated_at: 2013-10-05 17:22:09.000000000 Z
+  time: 2013-10-05 17:22:06.000000000 Z
+  user_id: 1
+  speed: 0.0
+  height: 304.5
+  angle: 0.0
+positions_405:
+  id: 11455
+  longitude: 13.7185
+  latitude: 50.9996
+  track_id: 213
+  created_at: 2013-10-05 17:22:15.000000000 Z
+  updated_at: 2013-10-05 17:22:15.000000000 Z
+  time: 2013-10-05 17:22:12.000000000 Z
+  user_id: 1
+  speed: 4.63
+  height: 304.5
+  angle: 281.9
+positions_406:
+  id: 11456
+  longitude: 13.7176
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:22:21.000000000 Z
+  updated_at: 2013-10-05 17:22:21.000000000 Z
+  time: 2013-10-05 17:22:19.000000000 Z
+  user_id: 1
+  speed: 25.3724
+  height: 305.5
+  angle: 264.4
+positions_407:
+  id: 11457
+  longitude: 13.7167
+  latitude: 50.9993
+  track_id: 213
+  created_at: 2013-10-05 17:22:27.000000000 Z
+  updated_at: 2013-10-05 17:22:27.000000000 Z
+  time: 2013-10-05 17:22:25.000000000 Z
+  user_id: 1
+  speed: 31.1136
+  height: 306.0
+  angle: 254.4
+positions_408:
+  id: 11458
+  longitude: 13.7156
+  latitude: 50.9998
+  track_id: 213
+  created_at: 2013-10-05 17:22:34.000000000 Z
+  updated_at: 2013-10-05 17:22:34.000000000 Z
+  time: 2013-10-05 17:22:31.000000000 Z
+  user_id: 1
+  speed: 28.5208
+  height: 304.0
+  angle: 305.0
+positions_409:
+  id: 11459
+  longitude: 13.7149
+  latitude: 51.0003
+  track_id: 213
+  created_at: 2013-10-05 17:22:40.000000000 Z
+  updated_at: 2013-10-05 17:22:40.000000000 Z
+  time: 2013-10-05 17:22:37.000000000 Z
+  user_id: 1
+  speed: 24.4464
+  height: 302.5
+  angle: 324.3
+positions_410:
+  id: 11460
+  longitude: 13.7145
+  latitude: 51.0005
+  track_id: 213
+  created_at: 2013-10-05 17:22:46.000000000 Z
+  updated_at: 2013-10-05 17:22:46.000000000 Z
+  time: 2013-10-05 17:22:43.000000000 Z
+  user_id: 1
+  speed: 21.298
+  height: 302.5
+  angle: 312.6
+positions_411:
+  id: 11461
+  longitude: 13.7127
+  latitude: 51.0
+  track_id: 213
+  created_at: 2013-10-05 17:23:04.000000000 Z
+  updated_at: 2013-10-05 17:23:04.000000000 Z
+  time: 2013-10-05 17:23:01.000000000 Z
+  user_id: 1
+  speed: 30.1876
+  height: 302.0
+  angle: 249.1
+positions_412:
+  id: 11462
+  longitude: 13.7109
+  latitude: 50.9995
+  track_id: 213
+  created_at: 2013-10-05 17:23:14.000000000 Z
+  updated_at: 2013-10-05 17:23:14.000000000 Z
+  time: 2013-10-05 17:23:10.000000000 Z
+  user_id: 1
+  speed: 22.7796
+  height: 299.0
+  angle: 246.7
+positions_413:
+  id: 11463
+  longitude: 13.7096
+  latitude: 50.999
+  track_id: 213
+  created_at: 2013-10-05 17:23:24.000000000 Z
+  updated_at: 2013-10-05 17:23:24.000000000 Z
+  time: 2013-10-05 17:23:22.000000000 Z
+  user_id: 1
+  speed: 31.2988
+  height: 298.5
+  angle: 238.1
+positions_414:
+  id: 11464
+  longitude: 13.7087
+  latitude: 50.9984
+  track_id: 213
+  created_at: 2013-10-05 17:23:36.000000000 Z
+  updated_at: 2013-10-05 17:23:36.000000000 Z
+  time: 2013-10-05 17:23:28.000000000 Z
+  user_id: 1
+  speed: 39.2624
+  height: 297.5
+  angle: 233.0
+positions_415:
+  id: 11465
+  longitude: 13.7058
+  latitude: 50.9972
+  track_id: 213
+  created_at: 2013-10-05 17:23:46.000000000 Z
+  updated_at: 2013-10-05 17:23:46.000000000 Z
+  time: 2013-10-05 17:23:40.000000000 Z
+  user_id: 1
+  speed: 53.708
+  height: 300.5
+  angle: 238.1
+positions_416:
+  id: 11466
+  longitude: 13.6996
+  latitude: 50.9943
+  track_id: 213
+  created_at: 2013-10-05 17:24:20.000000000 Z
+  updated_at: 2013-10-05 17:24:20.000000000 Z
+  time: 2013-10-05 17:24:15.000000000 Z
+  user_id: 1
+  speed: 52.4116
+  height: 305.0
+  angle: 217.2

@@ -1,13 +1,23 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
-
-one:
-  speed: 1.5
-  name: MyString
-  description: MyText
-  distance: 1.5
-
-two:
-  speed: 1.5
-  name: MyString
-  description: MyText
-  distance: 1.5
+---
+tracks_001:
+  id: 212
+  name: 
+  description: 
+  distance: 14.634
+  created_at: 2013-10-05 14:38:58.000000000 Z
+  updated_at: 2013-10-05 14:59:31.000000000 Z
+  vehicle_id: 1
+  user_id: 1
+  avg_speed: 40.8345
+  height_difference: 304.0
+tracks_002:
+  id: 213
+  name: 
+  description: 
+  distance: 23.4125
+  created_at: 2013-10-05 16:54:20.000000000 Z
+  updated_at: 2013-10-05 17:24:20.000000000 Z
+  vehicle_id: 1
+  user_id: 1
+  avg_speed: 37.1283
+  height_difference: 429.0
