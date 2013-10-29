@@ -46,7 +46,8 @@ function draw_track(positions) {
             position: latLon,
             map: map,
             title: position.lat + " " + position.lon,
-            position_data: position
+            position_data: position,
+            visible:false
         });
         marker.position_data = position;
         google.maps.event.addListener(marker,'click',show_position_data);
