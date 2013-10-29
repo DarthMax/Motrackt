@@ -11,7 +11,7 @@
     %tbody
       - tracks.each do |track|
         %tr
-          %td= check_box_tag "track_ids[]",track.id,{}
+          %td= check_box_tag "track_ids[]",track.id,false
           %td= link_to track.name, track_path(track)
           %td= track.vehicle ? track.vehicle.name : ""
           %td= truncate track.description, :length => 40
