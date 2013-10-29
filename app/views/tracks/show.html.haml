@@ -20,7 +20,7 @@
     .row{:style => "margin-bottom:20px"}
       .col-md-12
         #map
-        =link_to_function "Toggle way points", "toggle_marker()", :class => "btn btn-primary"
+        =link_to_function "Toggle way points", "map.toggle_marker()", :class => "btn btn-primary"
 
     .row
       .col-md-12
@@ -75,7 +75,6 @@
       var list= [];
       -@track.positions.each do |pos|
         ="list.push({lat:#{pos.latitude},lon:#{pos.longitude},id:#{pos.id},speed:#{pos.speed},height:#{pos.height},time:'#{l pos.time,:format => :short}'});"
-      draw_map();
-      draw_track(list);
+      window.map=new TrackMap(list);
       ="initTrackChart(#{@track.id});"
       });
