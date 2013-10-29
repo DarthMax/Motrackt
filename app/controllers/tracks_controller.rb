@@ -14,7 +14,7 @@ class TracksController < ApplicationController
   # GET /tracks/1
   # GET /tracks/1.json
   def show
-    @track = current_user.tracks.find(params[:id])
+    @track = current_user.tracks.includes(:positions).find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
