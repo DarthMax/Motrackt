@@ -43,7 +43,8 @@ class PositionsController < ApplicationController
 
     if !position or position.created_at < lease_time
       track= current_user.tracks.new
-      track.vehicle = Vehicle.find_by_id params[:vehicle_id] if Vehicle.exists? params[:vehicle_id]
+      vehicle_id = params[:vehicle_id].to_i
+      track.vehicle = Vehicle.find_by_id vehicle_id if Vehicle.exists? vehicle_id
       track
     else
       position.track
