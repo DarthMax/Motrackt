@@ -36,7 +36,8 @@ class Track < ActiveRecord::Base
   end
 
   def as_chart_data
-    pos=positions.reverse
+    pos = []
+    positions.reverse.each_with_index {|current_position,i| pos << current_position if i%5 == 0}
 
     dataset_height = {
     :fillColor => "rgba(151,187,205,0.5)",
